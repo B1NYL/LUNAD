@@ -11,6 +11,7 @@ dependencies = [
     "notebook>=7.6.1",
     "numpy>=2.5.1",
     "opencv-python>=5.0.0.93",
+    "pathlib>=1.0.1",
     "pymodi-plus>=0.4.2",
     "tensorflow>=2.21.0",
     "torch>=2.13.0",

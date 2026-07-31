@@ -25,6 +25,10 @@
           stdenv.cc.cc.lib
           zlib
           mecab
+          xorg.libX11
+          xorg.libxcb
+          glib
+          libGL
         ];
       in
       {
