@@ -1,0 +1,21 @@
+[project]
+name = "swai2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.2",
+    "notebook>=7.6.1",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "pymodi-plus>=0.4.2",
+    "tensorflow>=2.21.0",
+    "torch>=2.13.0",
+]
+
+[tool.uv]
+override-dependencies = [
+    "websocket-client>=1.7"
+]
