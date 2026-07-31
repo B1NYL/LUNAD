@@ -29,6 +29,7 @@
           xorg.libxcb
           glib
           libGL
+          portaudio
         ];
       in
       {
@@ -39,6 +40,7 @@
             uv
             python312
             mecab
+            ffmpeg
           ];
 
           shellHook = ''
