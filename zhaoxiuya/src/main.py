@@ -3,8 +3,7 @@ import os
 import dotenv
 import sob
 from logger import printf
-from sob import listen
-from gigi import arm_ctrl, check_fall, joystick_ctrl
+from gigi import arm_ctrl, check_fall, joystick_ctrl, listen
 
 lunad_lang = "영어"
 
