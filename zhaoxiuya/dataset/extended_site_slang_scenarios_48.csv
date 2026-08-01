@@ -1,0 +1,49 @@
+id,domain,risk_level,slang_sentence_ko,normalized_ko,term_refs,translation_note,output_channels,status
+SS001,construction,high,데스라 먼저 설치하고 올라가세요.,난간 또는 가드레일을 먼저 설치한 뒤 올라가세요.,SL001,추락 방지 맥락에서는 데스라를 가드레일로 번역,subtitle|audio,seed_needs_field_review
+SS002,construction,high,데스리 없는 쪽으로 가지 마세요.,난간이 없는 쪽으로 가지 마세요.,SL001,없는 쪽/가까이 가지 말라는 금지 지시,subtitle|audio,seed_needs_field_review
+SS003,construction,normal,스미마끼 끝나면 철근 배근 시작하세요.,기준선 표시가 끝나면 철근 배근을 시작하세요.,SL002,스미마끼를 layout marking으로 번역,subtitle|audio,seed_needs_field_review
+SS004,construction,normal,먹 놓은 선 밖으로 나가면 안 됩니다.,먹줄로 표시한 기준선 밖으로 나가면 안 됩니다.,SL037,먹놓다와 스미마끼를 같은 계열로 연결,subtitle|audio,seed_needs_field_review
+SS005,construction,normal,바닥 나라시 다시 해 주세요.,바닥 면을 다시 평평하게 고르세요.,SL003,나라시를 leveling/smoothing으로 번역,subtitle|audio,seed_needs_field_review
+SS006,construction,normal,콘크리트 타설 후 나라시 잘 봐 주세요.,콘크리트를 부은 뒤 표면 평탄화를 잘 확인하세요.,SL003|SL017,콘크리트 문맥,subtitle|audio,seed_needs_field_review
+SS007,construction,high,거푸집 바라시할 때 밑에 사람 있는지 확인하세요.,거푸집 해체 전에 아래에 사람이 있는지 확인하세요.,SL004,해체 작업 안전,subtitle|audio,seed_needs_field_review
+SS008,construction,high,비계 바라시 중에는 접근하지 마세요.,비계 해체 중에는 가까이 가지 마세요.,SL004|SL007,해체와 접근금지,subtitle|audio,seed_needs_field_review
+SS009,construction,high,하스리 작업이라 보안경과 마스크 꼭 착용하세요.,콘크리트 깨기 작업이니 보안경과 마스크를 반드시 착용하세요.,SL005,분진/비산 위험,subtitle|audio,seed_needs_field_review
+SS010,construction,high,기리바리 빼기 전에 관리자에게 확인받으세요.,임시 버팀대를 제거하기 전에 관리자 확인을 받으세요.,SL006|SL050,구조 지지 해제 위험,subtitle|audio,seed_needs_field_review
+SS011,construction,critical,아시바 위에서는 안전대를 걸고 작업하세요.,비계 위에서는 안전대를 연결하고 작업하세요.,SL007|SL047,비계+안전대,subtitle|audio|speaker,seed_needs_field_review
+SS012,general,normal,오야지한테 먼저 보고하고 시작하세요.,현장 반장에게 먼저 보고하고 시작하세요.,SL008,비공식 호칭을 중립 번역,subtitle|audio,seed_needs_field_review
+SS013,general,normal,데모도 한 명 더 붙여 주세요.,보조 작업자 한 명을 더 배치해 주세요.,SL009,비하감 없이 helper로 번역,subtitle|audio,seed_needs_field_review
+SS014,construction,high,곰방할 때 허리 조심하고 둘이 들어요.,인력 운반할 때 허리를 조심하고 두 사람이 함께 드세요.,SL010,중량물 수작업,subtitle|audio,seed_needs_field_review
+SS015,general,normal,작업 전에 단도리부터 하세요.,작업 전에 준비부터 하세요.,SL011,준비/세팅,subtitle|audio,seed_needs_field_review
+SS016,general,normal,오늘은 여기까지 시마이합시다.,오늘은 여기까지 작업을 마무리합시다.,SL012,작업 종료,subtitle|audio,seed_needs_field_review
+SS017,construction,normal,치수에 유도리 조금 주세요.,치수에 약간의 여유를 주세요.,SL013,허용오차/여유,subtitle|audio,seed_needs_field_review
+SS018,logistics,high,구루마에 너무 많이 싣지 마세요.,손수레에 물건을 너무 많이 싣지 마세요.,SL014,운반 안전,subtitle|audio,seed_needs_field_review
+SS019,construction,high,빠루 쓸 때 손 끼임 조심하세요.,쇠지렛대를 사용할 때 손이 끼이지 않게 조심하세요.,SL015,공구 사용 위험,subtitle|audio,seed_needs_field_review
+SS020,logistics,high,빠렛트 깨진 건 쓰지 마세요.,깨진 팔레트는 사용하지 마세요.,SL016,팔레트 안전,subtitle|audio,seed_needs_field_review
+SS021,construction,normal,오후에 공구리 칩니다.,오후에 콘크리트를 타설합니다.,SL017,콘크리트 타설,subtitle|audio,seed_needs_field_review
+SS022,construction,normal,타일 메지 간격 맞춰 주세요.,타일 줄눈 간격을 맞춰 주세요.,SL018,줄눈 간격,subtitle|audio,seed_needs_field_review
+SS023,construction,normal,화장실 바닥 고바이 잘 잡아야 합니다.,화장실 바닥의 배수 경사를 잘 맞춰야 합니다.,SL019|SL035,배수 구배,subtitle|audio,seed_needs_field_review
+SS024,construction,normal,다데 방향으로 먼저 붙이세요.,세로 방향으로 먼저 붙이세요.,SL020,방향 지시,subtitle|audio,seed_needs_field_review
+SS025,construction,normal,요코 방향은 나중에 맞춥니다.,가로 방향은 나중에 맞춥니다.,SL021,방향 지시,subtitle|audio,seed_needs_field_review
+SS026,construction,high,하리 밑에 서 있지 마세요.,보 아래에 서 있지 마세요.,SL022,구조물 하부 위험,subtitle|audio,seed_needs_field_review
+SS027,construction,high,기소 작업 구역에는 안전화 신고 들어가세요.,기초 작업 구역에는 안전화를 신고 들어가세요.,SL023,기초 작업,subtitle|audio,seed_needs_field_review
+SS028,manufacturing,normal,가다대로 맞춰서 잘라 주세요.,기준 틀에 맞춰서 잘라 주세요.,SL024,template/form ambiguity,subtitle|audio,seed_needs_field_review
+SS029,quality,normal,기스 난 제품은 따로 빼세요.,긁힌 제품은 따로 분리하세요.,SL025|SL050,품질 결함,subtitle|audio,seed_needs_field_review
+SS030,general,normal,오늘 인원 빵꾸 났습니다.,오늘 필요한 인원이 부족합니다.,SL026,인원 누락 맥락,subtitle|audio,seed_needs_field_review
+SS031,quality,normal,불량 나면 빠꾸됩니다.,불량이 있으면 반품 또는 재작업 처리됩니다.,SL027,반품/재작업 맥락,subtitle|audio,seed_needs_field_review
+SS032,general,normal,내일 오전만 땜빵으로 들어가 주세요.,내일 오전만 임시 대체 인력으로 들어가 주세요.,SL028,대체 투입,subtitle|audio,seed_needs_field_review
+SS033,general,normal,오늘 이 물량은 야리끼리입니다.,오늘 이 작업량을 끝내면 작업을 마칩니다.,SL029,작업량 완료 후 종료,subtitle|audio,seed_needs_field_review
+SS034,general,normal,점심은 함바에서 먹습니다.,점심은 현장 식당에서 먹습니다.,SL030,현장 식당,subtitle|audio,seed_needs_field_review
+SS035,construction,high,배관 자리 아나방 해야 합니다.,배관 위치에 구멍을 뚫어야 합니다.,SL031,천공/코어 작업,subtitle|audio,seed_needs_field_review
+SS036,construction,normal,이 구멍은 메꾸라로 막아 주세요.,이 구멍은 마개로 막아 주세요.,SL032,막음/마개,subtitle|audio,seed_needs_field_review
+SS037,construction,high,오함마질할 때 주변 사람 빼세요.,대형 망치를 사용할 때 주변 사람을 떨어뜨리세요.,SL033|SL050,타격 위험,subtitle|audio,seed_needs_field_review
+SS038,construction,high,함마드릴 쓸 때 귀마개 착용하세요.,해머드릴을 사용할 때 귀마개를 착용하세요.,SL034,소음 위험,subtitle|audio,seed_needs_field_review
+SS039,construction,normal,레벨 보고 다시 나라시 하세요.,수평을 확인하고 다시 평탄화하세요.,SL036|SL003,레벨+평탄화,subtitle|audio,seed_needs_field_review
+SS040,manufacturing,high,기리 바꿀 때 전원 먼저 내리세요.,드릴 비트를 교체할 때 먼저 전원을 차단하세요.,SL043,기계 교체 안전,subtitle|audio,seed_needs_field_review
+SS041,maintenance,normal,쪼인트 부분에서 물이 샙니다.,이음부에서 물이 새고 있습니다.,SL040,연결부 누수,subtitle|audio,seed_needs_field_review
+SS042,construction,normal,벽면 빠데질 끝나면 샌딩하세요.,벽면 퍼티 작업이 끝나면 사포질하세요.,SL041|SL042,마감 작업,subtitle|audio,seed_needs_field_review
+SS043,rigging,critical,도비 작업 중에는 작업 반경 밖에 있으세요.,중량물 운반/설치 작업 중에는 작업 반경 밖에 있으세요.,SL045,중량물 위험,subtitle|audio|speaker,seed_needs_field_review
+SS044,rigging,critical,양중 중에는 밑으로 지나가지 마세요.,물건을 들어 올리는 중에는 아래로 지나가지 마세요.,SL046,양중 하부 통행 금지,subtitle|audio|speaker,seed_needs_field_review
+SS045,safety,high,안전고리 걸었는지 다시 확인하세요.,안전고리를 연결했는지 다시 확인하세요.,SL047,안전대 연결,subtitle|audio,seed_needs_field_review
+SS046,rigging,critical,줄 풀기 전에 하중이 걸려 있는지 확인하세요.,줄을 해제하기 전에 무게가 걸려 있는지 확인하세요.,SL048,체결 해제 위험,subtitle|audio|speaker,seed_needs_field_review
+SS047,electrical,critical,전선 따는 작업은 전기 담당자만 하세요.,전선 분기 작업은 전기 담당자만 하세요.,SL049,전기 작업 제한,subtitle|audio|speaker,seed_needs_field_review
+SS048,manufacturing,critical,제품 빼기 전에 기계 멈추세요.,제품을 꺼내기 전에 기계를 멈추세요.,SL050,기계 끼임 위험,subtitle|audio|speaker,seed_needs_field_review
