@@ -14,8 +14,8 @@ import json
 import os
 dotenv.load_dotenv()
 GROUP_CHAT_ID = os.environ["GROUP_CHAT_ID"]
-inputs_path = pathlib.Path("../inputs")
-outputs_path = pathlib.Path("../outputs")
+inputs_path = pathlib.Path("./inputs")
+outputs_path = pathlib.Path("./outputs")
 mike_path = outputs_path / "mike"
 
 def get_client():
@@ -33,7 +33,8 @@ def rec(sec):
     sd.wait()
     ret_path = mike_path / f"{time.time_ns()}.wav"
     scipy.io.wavfile.write(ret_path, fs, audio_data)
-    return ret_path.absolute()
+    print(f">>> ret_path.absol = {ret_path.absolute()}")
+    return ret_path
 
 def s2t(path):
     client = get_client()

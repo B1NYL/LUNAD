@@ -19,7 +19,7 @@ async def main():
     
     # 병렬로 실행할 태스크들
     await asyncio.gather(
-        listen(receiver_token),
+        # listen(receiver_token),
         arm_ctrl(sender_token),
         check_fall(sender_token),
         joystick_ctrl(sender_token)
