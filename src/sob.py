@@ -7,6 +7,11 @@ import io
 import scipy
 import time
 import pathlib
+from telegram import Bot
+import dotenv
+import os
+dotenv.load_dotenv()
+GROUP_CHAT_ID = os.environ["GROUP_CHAT_ID"]
 inputs_path = pathlib.Path("../inputs")
 outputs_path = pathlib.Path("../outputs")
 mike_path = outputs_path / "mike"
@@ -121,3 +126,30 @@ def translate(text, domain_lang, codomain_lang):
       input=text,
     )
     return ret.output_text
+
+async def send(token, text) -> None:
+    bot = Bot(token)
+    async with bot:
+        await bot.send_message(
+            chat_id=GROUP_CHAT_ID,
+            text=text,
+        )
+
+async def receive(token, offset=None, timeout=20):
+    bot = Bot(token)
+    async with bot:
+        updates = await bot.get_updates(
+            offset=offset,
+            timeout=timeout,
+            allowed_updates=[],
+        )
+        return updates
+
+async def listen(token):
+    offset = None
+    while True:
+        updates = await receive(token, offset=offset, timeout=20)
+        for u in updates:
+            if u.message and u.message.text:
+                print(u.message.text)
+            offset = u.update_id + 1
