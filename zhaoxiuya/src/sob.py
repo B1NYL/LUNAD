@@ -207,8 +207,17 @@ async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
                 for u in updates:
                     if u.message and u.message.text:
                         printf(f"관리자 메세지: {u.message.text}")
-                        print("번역을 시도하겠읍니다")
-                        trans_text = translate(u.message.text, domain_lang, codomain_lang)
+                        text = u.message.text
+                        try:
+                          data_json = json.loads(u.message.text)
+                          if data_json.get("id") != str(uuid.getnode()):
+                              printf(f"메세지 id 불일치: {data_json.get('id')} != {str(uuid.getnode())}")
+                              continue
+                          text = data_json.get("data")
+                        except json.JSONDecodeError as e:
+                          printf(f"JSON 형식이 맞지 아니함: {e}")
+                        printf("번역을 시도하겠읍니다")
+                        trans_text = translate(text, domain_lang, codomain_lang)
                         printf(f"번역된 메세지: {trans_text}")
                         audio = t2s(trans_text)
                         printf(f"음성 파일 생성 시작")
