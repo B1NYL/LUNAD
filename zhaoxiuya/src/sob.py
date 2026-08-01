@@ -9,6 +9,8 @@ import time
 import pathlib
 from telegram import Bot
 import dotenv
+import uuid
+import json
 import os
 dotenv.load_dotenv()
 GROUP_CHAT_ID = os.environ["GROUP_CHAT_ID"]
@@ -127,12 +129,18 @@ def translate(text, domain_lang, codomain_lang):
     )
     return ret.output_text
 
-async def send(token, text) -> None:
+async def send(token, data) -> None:
     bot = Bot(token)
+    data = {
+      "time": time.time(),
+      "id": uuid.getnode(),
+      "data": data
+    }
+    data = json.dumps(data, ensure_ascii=False, indent=4)
     async with bot:
         await bot.send_message(
             chat_id=GROUP_CHAT_ID,
-            text=text,
+            text=data,
         )
 
 async def receive(token, offset=None, timeout=20):

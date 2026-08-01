@@ -15,13 +15,19 @@ function App() {
   const [transcribedText, setTranscribedText] = useState('');
   const [toast, setToast] = useState({ show: false, message: '', type: 'success' });
   
+  const [alerts, setAlerts] = useState([]);
+  
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
 
   useEffect(() => {
     fetchWorkers();
-    // Poll for updates every 5 seconds
-    const interval = setInterval(fetchWorkers, 5000);
+    fetchAlerts();
+    
+    const interval = setInterval(() => {
+      fetchWorkers();
+      fetchAlerts();
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -32,6 +38,29 @@ function App() {
       setWorkers(data);
     } catch (err) {
       console.error("Failed to fetch workers", err);
+    }
+  };
+
+  const fetchAlerts = async () => {
+    try {
+      const res = await fetch(`${API_BASE}/alerts`);
+      const data = await res.json();
+      setAlerts(data);
+    } catch (err) {
+      console.error("Failed to fetch alerts", err);
+    }
+  };
+
+  const resolveAlert = async (alertId) => {
+    try {
+      await fetch(`${API_BASE}/alerts/${alertId}/resolve`, {
+        method: 'POST'
+      });
+      // Fetch alerts immediately after resolving
+      fetchAlerts();
+      fetchWorkers();
+    } catch (err) {
+      console.error("Failed to resolve alert", err);
     }
   };
 
@@ -236,6 +265,31 @@ function App() {
         {toast.type === 'error' ? <AlertTriangle size={20} /> : <Send size={20} />}
         {toast.message}
       </div>
+
+      {/* 긴급 낙상 팝업 오버레이 */}
+      {alerts.length > 0 && (
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(239, 68, 68, 0.4)', backdropFilter: 'blur(4px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 9999 }}>
+          <div style={{ background: 'white', padding: '3rem', borderRadius: '24px', boxShadow: '0 25px 50px -12px rgba(239, 68, 68, 0.5)', maxWidth: '500px', width: '90%', textAlign: 'center', animation: 'pulse 2s infinite' }}>
+            <AlertTriangle size={80} color="#ef4444" style={{ margin: '0 auto 1.5rem auto' }} />
+            <h2 style={{ color: '#ef4444', fontSize: '2rem', marginBottom: '1rem', fontWeight: '800' }}>긴급: 낙상 발생!</h2>
+            <p style={{ fontSize: '1.2rem', color: '#334155', marginBottom: '2rem' }}>
+              <strong>{workers.find(w => w.id === alerts[0].worker_id)?.name || '알 수 없는 노동자'}</strong>님의 기기에서 <strong>"{alerts[0].message}"</strong>(이)가 보고되었습니다. 신속한 확인이 필요합니다!
+            </p>
+            <button 
+              style={{ background: '#ef4444', color: 'white', border: 'none', padding: '1rem 2rem', fontSize: '1.1rem', borderRadius: '12px', fontWeight: 'bold', cursor: 'pointer', width: '100%', boxShadow: '0 4px 14px 0 rgba(239, 68, 68, 0.39)' }}
+              onClick={() => resolveAlert(alerts[0].id)}
+            >
+              상황 확인 및 알림 닫기
+            </button>
+          </div>
+          <style>{`
+            @keyframes pulse {
+              0%, 100% { transform: scale(1); }
+              50% { transform: scale(1.02); }
+            }
+          `}</style>
+        </div>
+      )}
     </div>
   );
 }
