@@ -14,8 +14,8 @@ import json
 import os
 dotenv.load_dotenv()
 GROUP_CHAT_ID = os.environ["GROUP_CHAT_ID"]
-inputs_path = pathlib.Path("../inputs")
-outputs_path = pathlib.Path("../outputs")
+inputs_path = pathlib.Path("./inputs")
+outputs_path = pathlib.Path("./outputs")
 mike_path = outputs_path / "mike"
 
 def get_client():
@@ -33,7 +33,8 @@ def rec(sec):
     sd.wait()
     ret_path = mike_path / f"{time.time_ns()}.wav"
     scipy.io.wavfile.write(ret_path, fs, audio_data)
-    return ret_path.absolute()
+    print(f">>> ret_path.absol = {ret_path.absolute()}")
+    return ret_path
 
 def s2t(path):
     client = get_client()
@@ -52,7 +53,9 @@ def t2s(text):
         input=text,
         response_format="wav",
     ) as response:
-        response.stream_to_file(mike_path / f"{time.time_ns()}.wav")
+        file_path = mike_path / f"{time.time_ns()}.wav"
+        response.stream_to_file(file_path)
+        return file_path
 
 def translate(text, domain_lang, codomain_lang):
     client = get_client()
@@ -153,11 +156,19 @@ async def receive(token, offset=None, timeout=20):
         )
         return updates
 
-async def listen(token):
-    offset = None
+async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
+    init_updates = await receive(token, offset=None, timeout=0)
+    offset = init_updates[-1].update_id + 1 if init_updates else None
+    
     while True:
         updates = await receive(token, offset=offset, timeout=20)
         for u in updates:
             if u.message and u.message.text:
                 print(u.message.text)
+                trans_text = translate(u.message.text, domain_lang, codomain_lang)
+                print(f"번역 >> {trans_text}")
+                audio = t2s(trans_text)
+                spr, audio = scipy.io.wavfile.read(str(audio))
+                sd.play(audio, spr)
+                sd.wait()
             offset = u.update_id + 1

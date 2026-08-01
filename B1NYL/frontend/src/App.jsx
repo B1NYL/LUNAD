@@ -117,6 +117,19 @@ function App() {
     }
   };
 
+  const resetStatus = async () => {
+    try {
+      await fetch(`${API_BASE}/workers/reset_status`, {
+        method: 'POST'
+      });
+      fetchWorkers();
+      showToast("모든 사고 상태가 초기화되었습니다.", "success");
+    } catch (err) {
+      console.error("Failed to reset status", err);
+      showToast("상태 초기화 실패", "error");
+    }
+  };
+
   const startRecording = async () => {
     if (selectedIds.size === 0) {
       showToast("먼저 지시를 전달할 노동자를 선택해주세요.", "error");
@@ -191,6 +204,9 @@ function App() {
           <p>현장 인력 모니터링 및 실시간 지시 대시보드</p>
         </div>
         <div className="btn-group">
+          <button className="btn" onClick={resetStatus} style={{ marginRight: '8px', background: '#ef4444' }}>
+            🚨 상태 초기화
+          </button>
           <button className="btn" onClick={resetPositions} style={{ marginRight: '8px' }}>
             🔄 1층으로 초기화
           </button>
