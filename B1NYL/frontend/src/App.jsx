@@ -5,7 +5,10 @@ import { OrbitControls, Environment } from '@react-three/drei';
 import Building3D from './components/Building3D';
 import WorkerDot from './components/WorkerDot';
 
-const API_BASE = 'http://localhost:8000/api';
+const hostname = window.location.hostname;
+// 깃허브 페이지에서 접속할 경우를 대비해 고정 IP 폴백 설정
+const backendIP = hostname.includes('github.io') ? '192.168.10.140' : hostname;
+const API_BASE = `http://${backendIP}:8000/api`;
 
 function App() {
   const [workers, setWorkers] = useState([]);
