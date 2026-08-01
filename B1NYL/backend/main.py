@@ -32,12 +32,11 @@ class PositionUpdate(BaseModel):
 # Dummy data for workers with 3D coordinates (x, y, z)
 # y=0: 1층, y=4: 2층, y=8: 3층
 workers_data = [
-    {"id": "1", "name": "조수아", "status": "normal", "position": {"x": 2, "y": 0, "z": -3}},
+    {"id": "156243137817562", "name": "조수아", "status": "normal", "position": {"x": 2, "y": 0, "z": -3}},
     {"id": "2", "name": "황정빈", "status": "normal", "position": {"x": -4, "y": 0, "z": 2}},
 ]
 
 alerts_queue = []
-device_to_worker = {}
 
 async def telegram_listener():
     token = os.getenv("SOLAD_TOKEN") or os.getenv("RECEIVER_BOT_TOKEN")
@@ -61,22 +60,19 @@ async def telegram_listener():
                                 data = json.loads(text)
                                 msg_content = data.get("data", "")
                                 device_id = str(data.get("id", "unknown"))
-                                
-                                # 매핑 로직: 새 기기면 조수아(1)에 매핑, 그 다음은 황정빈(2)
-                                if device_id not in device_to_worker:
-                                    device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
-                                    
-                                worker_id = device_to_worker[device_id]
+                                worker_id = device_id
 
                                 if "낙상 발생" in msg_content or "아파요" in msg_content or "도와주세요" in msg_content:
                                     is_already_accident = False
+                                    worker_exists = False
                                     for w in workers_data:
                                         if w["id"] == worker_id:
+                                            worker_exists = True
                                             if w["status"] == "accident":
                                                 is_already_accident = True
                                             w["status"] = "accident"
                                     
-                                    if not is_already_accident:
+                                    if worker_exists and not is_already_accident:
                                         alerts_queue.append({
                                             "id": str(uuid.uuid4()),
                                             "device_id": device_id,
@@ -143,21 +139,19 @@ async def get_messages():
 async def receive_webhook(payload: dict):
     msg_content = payload.get("data", "")
     device_id = str(payload.get("id", "unknown"))
-    
-    if device_id not in device_to_worker:
-        device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
-        
-    worker_id = device_to_worker[device_id]
+    worker_id = device_id
 
     if "낙상 발생" in msg_content or "아파요" in msg_content or "도와주세요" in msg_content:
         is_already_accident = False
+        worker_exists = False
         for w in workers_data:
             if w["id"] == worker_id:
+                worker_exists = True
                 if w["status"] == "accident":
                     is_already_accident = True
                 w["status"] = "accident"
         
-        if not is_already_accident:
+        if worker_exists and not is_already_accident:
             alerts_queue.append({
                 "id": str(uuid.uuid4()),
                 "device_id": device_id,
@@ -203,7 +197,7 @@ async def broadcast(
         
     try:
         transcribed_text = await s2t(file_path)
-        token = os.getenv("LUNAD_TOKEN") or os.getenv("SENDER_BOT_TOKEN")
+        token = os.getenv("SOLAD_TOKEN") or os.getenv("SENDER_BOT_TOKEN")
         if token:
             worker_ids = [w.strip() for w in selected_workers.split(',') if w.strip()]
             for w_id in worker_ids:
