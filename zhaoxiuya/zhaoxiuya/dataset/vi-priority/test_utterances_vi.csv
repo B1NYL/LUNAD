@@ -1,0 +1,741 @@
+id,source,ko,vi,expected_normalized_ko,direction,tags,status
+VIU0001,common_sentence,프레스 확인하고 시작하세요.,Hãy kiểm tra máy dập rồi bắt đầu.,프레스 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0002,common_sentence,프레스 문제 있으면 바로 말하세요.,"Nếu máy dập có vấn đề, hãy báo ngay.",프레스 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0003,common_sentence,프레스 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy dập, hãy kiểm tra tình trạng an toàn.",프레스 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0004,common_sentence,프레스 끝나면 관리자에게 보고하세요.,"Khi xong máy dập, hãy báo cho quản lý.",프레스 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0005,common_sentence,프레스는 따로 보관하세요.,Hãy bảo quản riêng máy dập.,프레스는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0006,common_sentence,프레스 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy dập.,프레스 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0007,common_sentence,사출기 확인하고 시작하세요.,Hãy kiểm tra máy ép nhựa rồi bắt đầu.,사출기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0008,common_sentence,사출기 문제 있으면 바로 말하세요.,"Nếu máy ép nhựa có vấn đề, hãy báo ngay.",사출기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0009,common_sentence,사출기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy ép nhựa, hãy kiểm tra tình trạng an toàn.",사출기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0010,common_sentence,사출기 끝나면 관리자에게 보고하세요.,"Khi xong máy ép nhựa, hãy báo cho quản lý.",사출기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0011,common_sentence,사출기는 따로 보관하세요.,Hãy bảo quản riêng máy ép nhựa.,사출기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0012,common_sentence,사출기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy ép nhựa.,사출기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0013,common_sentence,컨베이어 확인하고 시작하세요.,Hãy kiểm tra băng tải rồi bắt đầu.,컨베이어 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0014,common_sentence,컨베이어 문제 있으면 바로 말하세요.,"Nếu băng tải có vấn đề, hãy báo ngay.",컨베이어 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0015,common_sentence,컨베이어 작업 전 안전 상태를 확인하세요.,"Trước khi làm băng tải, hãy kiểm tra tình trạng an toàn.",컨베이어 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0016,common_sentence,컨베이어 끝나면 관리자에게 보고하세요.,"Khi xong băng tải, hãy báo cho quản lý.",컨베이어 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0017,common_sentence,컨베이어는 따로 보관하세요.,Hãy bảo quản riêng băng tải.,컨베이어는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0018,common_sentence,컨베이어 주변을 정리하세요.,Hãy dọn dẹp xung quanh băng tải.,컨베이어 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0019,common_sentence,롤러 확인하고 시작하세요.,Hãy kiểm tra con lăn rồi bắt đầu.,롤러 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0020,common_sentence,롤러 문제 있으면 바로 말하세요.,"Nếu con lăn có vấn đề, hãy báo ngay.",롤러 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0021,common_sentence,롤러 작업 전 안전 상태를 확인하세요.,"Trước khi làm con lăn, hãy kiểm tra tình trạng an toàn.",롤러 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0022,common_sentence,롤러 끝나면 관리자에게 보고하세요.,"Khi xong con lăn, hãy báo cho quản lý.",롤러 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0023,common_sentence,롤러는 따로 보관하세요.,Hãy bảo quản riêng con lăn.,롤러는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0024,common_sentence,롤러 주변을 정리하세요.,Hãy dọn dẹp xung quanh con lăn.,롤러 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0025,common_sentence,절단기 확인하고 시작하세요.,Hãy kiểm tra máy cắt rồi bắt đầu.,절단기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0026,common_sentence,절단기 문제 있으면 바로 말하세요.,"Nếu máy cắt có vấn đề, hãy báo ngay.",절단기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0027,common_sentence,절단기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy cắt, hãy kiểm tra tình trạng an toàn.",절단기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0028,common_sentence,절단기 끝나면 관리자에게 보고하세요.,"Khi xong máy cắt, hãy báo cho quản lý.",절단기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0029,common_sentence,절단기는 따로 보관하세요.,Hãy bảo quản riêng máy cắt.,절단기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0030,common_sentence,절단기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy cắt.,절단기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0031,common_sentence,파쇄기 확인하고 시작하세요.,Hãy kiểm tra máy nghiền rồi bắt đầu.,파쇄기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0032,common_sentence,파쇄기 문제 있으면 바로 말하세요.,"Nếu máy nghiền có vấn đề, hãy báo ngay.",파쇄기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0033,common_sentence,파쇄기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy nghiền, hãy kiểm tra tình trạng an toàn.",파쇄기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0034,common_sentence,파쇄기 끝나면 관리자에게 보고하세요.,"Khi xong máy nghiền, hãy báo cho quản lý.",파쇄기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0035,common_sentence,파쇄기는 따로 보관하세요.,Hãy bảo quản riêng máy nghiền.,파쇄기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0036,common_sentence,파쇄기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy nghiền.,파쇄기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0037,common_sentence,압축기 확인하고 시작하세요.,Hãy kiểm tra máy ép nén rồi bắt đầu.,압축기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0038,common_sentence,압축기 문제 있으면 바로 말하세요.,"Nếu máy ép nén có vấn đề, hãy báo ngay.",압축기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0039,common_sentence,압축기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy ép nén, hãy kiểm tra tình trạng an toàn.",압축기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0040,common_sentence,압축기 끝나면 관리자에게 보고하세요.,"Khi xong máy ép nén, hãy báo cho quản lý.",압축기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0041,common_sentence,압축기는 따로 보관하세요.,Hãy bảo quản riêng máy ép nén.,압축기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0042,common_sentence,압축기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy ép nén.,압축기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0043,common_sentence,혼합기 확인하고 시작하세요.,Hãy kiểm tra máy trộn rồi bắt đầu.,혼합기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0044,common_sentence,혼합기 문제 있으면 바로 말하세요.,"Nếu máy trộn có vấn đề, hãy báo ngay.",혼합기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0045,common_sentence,혼합기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy trộn, hãy kiểm tra tình trạng an toàn.",혼합기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0046,common_sentence,혼합기 끝나면 관리자에게 보고하세요.,"Khi xong máy trộn, hãy báo cho quản lý.",혼합기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0047,common_sentence,혼합기는 따로 보관하세요.,Hãy bảo quản riêng máy trộn.,혼합기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0048,common_sentence,혼합기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy trộn.,혼합기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0049,common_sentence,포장기 확인하고 시작하세요.,Hãy kiểm tra máy đóng gói rồi bắt đầu.,포장기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0050,common_sentence,포장기 문제 있으면 바로 말하세요.,"Nếu máy đóng gói có vấn đề, hãy báo ngay.",포장기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0051,common_sentence,포장기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy đóng gói, hãy kiểm tra tình trạng an toàn.",포장기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0052,common_sentence,포장기 끝나면 관리자에게 보고하세요.,"Khi xong máy đóng gói, hãy báo cho quản lý.",포장기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0053,common_sentence,포장기는 따로 보관하세요.,Hãy bảo quản riêng máy đóng gói.,포장기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0054,common_sentence,포장기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy đóng gói.,포장기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0055,common_sentence,선반 확인하고 시작하세요.,Hãy kiểm tra máy tiện rồi bắt đầu.,선반 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0056,common_sentence,선반 문제 있으면 바로 말하세요.,"Nếu máy tiện có vấn đề, hãy báo ngay.",선반 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0057,common_sentence,선반 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy tiện, hãy kiểm tra tình trạng an toàn.",선반 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0058,common_sentence,선반 끝나면 관리자에게 보고하세요.,"Khi xong máy tiện, hãy báo cho quản lý.",선반 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0059,common_sentence,선반는 따로 보관하세요.,Hãy bảo quản riêng máy tiện.,선반는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0060,common_sentence,선반 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy tiện.,선반 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0061,common_sentence,밀링기 확인하고 시작하세요.,Hãy kiểm tra máy phay rồi bắt đầu.,밀링기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0062,common_sentence,밀링기 문제 있으면 바로 말하세요.,"Nếu máy phay có vấn đề, hãy báo ngay.",밀링기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0063,common_sentence,밀링기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy phay, hãy kiểm tra tình trạng an toàn.",밀링기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0064,common_sentence,밀링기 끝나면 관리자에게 보고하세요.,"Khi xong máy phay, hãy báo cho quản lý.",밀링기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0065,common_sentence,밀링기는 따로 보관하세요.,Hãy bảo quản riêng máy phay.,밀링기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0066,common_sentence,밀링기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy phay.,밀링기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0067,common_sentence,드릴 확인하고 시작하세요.,Hãy kiểm tra máy khoan rồi bắt đầu.,드릴 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0068,common_sentence,드릴 문제 있으면 바로 말하세요.,"Nếu máy khoan có vấn đề, hãy báo ngay.",드릴 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0069,common_sentence,드릴 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy khoan, hãy kiểm tra tình trạng an toàn.",드릴 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0070,common_sentence,드릴 끝나면 관리자에게 보고하세요.,"Khi xong máy khoan, hãy báo cho quản lý.",드릴 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0071,common_sentence,드릴는 따로 보관하세요.,Hãy bảo quản riêng máy khoan.,드릴는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0072,common_sentence,드릴 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy khoan.,드릴 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0073,common_sentence,그라인더 확인하고 시작하세요.,Hãy kiểm tra máy mài rồi bắt đầu.,그라인더 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0074,common_sentence,그라인더 문제 있으면 바로 말하세요.,"Nếu máy mài có vấn đề, hãy báo ngay.",그라인더 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0075,common_sentence,그라인더 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy mài, hãy kiểm tra tình trạng an toàn.",그라인더 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0076,common_sentence,그라인더 끝나면 관리자에게 보고하세요.,"Khi xong máy mài, hãy báo cho quản lý.",그라인더 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0077,common_sentence,그라인더는 따로 보관하세요.,Hãy bảo quản riêng máy mài.,그라인더는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0078,common_sentence,그라인더 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy mài.,그라인더 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0079,common_sentence,용접기 확인하고 시작하세요.,Hãy kiểm tra máy hàn rồi bắt đầu.,용접기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0080,common_sentence,용접기 문제 있으면 바로 말하세요.,"Nếu máy hàn có vấn đề, hãy báo ngay.",용접기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0081,common_sentence,용접기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy hàn, hãy kiểm tra tình trạng an toàn.",용접기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0082,common_sentence,용접기 끝나면 관리자에게 보고하세요.,"Khi xong máy hàn, hãy báo cho quản lý.",용접기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0083,common_sentence,용접기는 따로 보관하세요.,Hãy bảo quản riêng máy hàn.,용접기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0084,common_sentence,용접기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy hàn.,용접기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0085,common_sentence,에어건 확인하고 시작하세요.,Hãy kiểm tra súng hơi rồi bắt đầu.,에어건 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0086,common_sentence,에어건 문제 있으면 바로 말하세요.,"Nếu súng hơi có vấn đề, hãy báo ngay.",에어건 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0087,common_sentence,에어건 작업 전 안전 상태를 확인하세요.,"Trước khi làm súng hơi, hãy kiểm tra tình trạng an toàn.",에어건 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0088,common_sentence,에어건 끝나면 관리자에게 보고하세요.,"Khi xong súng hơi, hãy báo cho quản lý.",에어건 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0089,common_sentence,에어건는 따로 보관하세요.,Hãy bảo quản riêng súng hơi.,에어건는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0090,common_sentence,에어건 주변을 정리하세요.,Hãy dọn dẹp xung quanh súng hơi.,에어건 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0091,common_sentence,콤프레서 확인하고 시작하세요.,Hãy kiểm tra máy nén khí rồi bắt đầu.,콤프레서 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0092,common_sentence,콤프레서 문제 있으면 바로 말하세요.,"Nếu máy nén khí có vấn đề, hãy báo ngay.",콤프레서 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0093,common_sentence,콤프레서 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy nén khí, hãy kiểm tra tình trạng an toàn.",콤프레서 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0094,common_sentence,콤프레서 끝나면 관리자에게 보고하세요.,"Khi xong máy nén khí, hãy báo cho quản lý.",콤프레서 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0095,common_sentence,콤프레서는 따로 보관하세요.,Hãy bảo quản riêng máy nén khí.,콤프레서는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0096,common_sentence,콤프레서 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy nén khí.,콤프레서 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0097,common_sentence,지그 확인하고 시작하세요.,Hãy kiểm tra đồ gá rồi bắt đầu.,지그 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0098,common_sentence,지그 문제 있으면 바로 말하세요.,"Nếu đồ gá có vấn đề, hãy báo ngay.",지그 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0099,common_sentence,지그 작업 전 안전 상태를 확인하세요.,"Trước khi làm đồ gá, hãy kiểm tra tình trạng an toàn.",지그 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0100,common_sentence,지그 끝나면 관리자에게 보고하세요.,"Khi xong đồ gá, hãy báo cho quản lý.",지그 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0101,common_sentence,지그는 따로 보관하세요.,Hãy bảo quản riêng đồ gá.,지그는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0102,common_sentence,지그 주변을 정리하세요.,Hãy dọn dẹp xung quanh đồ gá.,지그 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0103,common_sentence,금형 확인하고 시작하세요.,Hãy kiểm tra khuôn rồi bắt đầu.,금형 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0104,common_sentence,금형 문제 있으면 바로 말하세요.,"Nếu khuôn có vấn đề, hãy báo ngay.",금형 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0105,common_sentence,금형 작업 전 안전 상태를 확인하세요.,"Trước khi làm khuôn, hãy kiểm tra tình trạng an toàn.",금형 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0106,common_sentence,금형 끝나면 관리자에게 보고하세요.,"Khi xong khuôn, hãy báo cho quản lý.",금형 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0107,common_sentence,금형는 따로 보관하세요.,Hãy bảo quản riêng khuôn.,금형는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0108,common_sentence,금형 주변을 정리하세요.,Hãy dọn dẹp xung quanh khuôn.,금형 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0109,common_sentence,로봇암 확인하고 시작하세요.,Hãy kiểm tra cánh tay robot rồi bắt đầu.,로봇암 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0110,common_sentence,로봇암 문제 있으면 바로 말하세요.,"Nếu cánh tay robot có vấn đề, hãy báo ngay.",로봇암 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0111,common_sentence,로봇암 작업 전 안전 상태를 확인하세요.,"Trước khi làm cánh tay robot, hãy kiểm tra tình trạng an toàn.",로봇암 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0112,common_sentence,로봇암 끝나면 관리자에게 보고하세요.,"Khi xong cánh tay robot, hãy báo cho quản lý.",로봇암 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0113,common_sentence,로봇암는 따로 보관하세요.,Hãy bảo quản riêng cánh tay robot.,로봇암는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0114,common_sentence,로봇암 주변을 정리하세요.,Hãy dọn dẹp xung quanh cánh tay robot.,로봇암 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0115,common_sentence,CNC 확인하고 시작하세요.,Hãy kiểm tra máy CNC rồi bắt đầu.,CNC 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0116,common_sentence,CNC 문제 있으면 바로 말하세요.,"Nếu máy CNC có vấn đề, hãy báo ngay.",CNC 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0117,common_sentence,CNC 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy CNC, hãy kiểm tra tình trạng an toàn.",CNC 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0118,common_sentence,CNC 끝나면 관리자에게 보고하세요.,"Khi xong máy CNC, hãy báo cho quản lý.",CNC 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0119,common_sentence,CNC는 따로 보관하세요.,Hãy bảo quản riêng máy CNC.,CNC는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0120,common_sentence,CNC 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy CNC.,CNC 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0121,common_sentence,호이스트 확인하고 시작하세요.,Hãy kiểm tra pa lăng rồi bắt đầu.,호이스트 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0122,common_sentence,호이스트 문제 있으면 바로 말하세요.,"Nếu pa lăng có vấn đề, hãy báo ngay.",호이스트 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0123,common_sentence,호이스트 작업 전 안전 상태를 확인하세요.,"Trước khi làm pa lăng, hãy kiểm tra tình trạng an toàn.",호이스트 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0124,common_sentence,호이스트 끝나면 관리자에게 보고하세요.,"Khi xong pa lăng, hãy báo cho quản lý.",호이스트 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0125,common_sentence,호이스트는 따로 보관하세요.,Hãy bảo quản riêng pa lăng.,호이스트는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0126,common_sentence,호이스트 주변을 정리하세요.,Hãy dọn dẹp xung quanh pa lăng.,호이스트 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0127,common_sentence,전동공구 확인하고 시작하세요.,Hãy kiểm tra dụng cụ điện rồi bắt đầu.,전동공구 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0128,common_sentence,전동공구 문제 있으면 바로 말하세요.,"Nếu dụng cụ điện có vấn đề, hãy báo ngay.",전동공구 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0129,common_sentence,전동공구 작업 전 안전 상태를 확인하세요.,"Trước khi làm dụng cụ điện, hãy kiểm tra tình trạng an toàn.",전동공구 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0130,common_sentence,전동공구 끝나면 관리자에게 보고하세요.,"Khi xong dụng cụ điện, hãy báo cho quản lý.",전동공구 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0131,common_sentence,전동공구는 따로 보관하세요.,Hãy bảo quản riêng dụng cụ điện.,전동공구는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0132,common_sentence,전동공구 주변을 정리하세요.,Hãy dọn dẹp xung quanh dụng cụ điện.,전동공구 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0133,common_sentence,작업대 확인하고 시작하세요.,Hãy kiểm tra bàn làm việc rồi bắt đầu.,작업대 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0134,common_sentence,작업대 문제 있으면 바로 말하세요.,"Nếu bàn làm việc có vấn đề, hãy báo ngay.",작업대 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0135,common_sentence,작업대 작업 전 안전 상태를 확인하세요.,"Trước khi làm bàn làm việc, hãy kiểm tra tình trạng an toàn.",작업대 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0136,common_sentence,작업대 끝나면 관리자에게 보고하세요.,"Khi xong bàn làm việc, hãy báo cho quản lý.",작업대 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0137,common_sentence,작업대는 따로 보관하세요.,Hãy bảo quản riêng bàn làm việc.,작업대는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0138,common_sentence,작업대 주변을 정리하세요.,Hãy dọn dẹp xung quanh bàn làm việc.,작업대 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0139,common_sentence,공구함 확인하고 시작하세요.,Hãy kiểm tra hộp dụng cụ rồi bắt đầu.,공구함 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0140,common_sentence,공구함 문제 있으면 바로 말하세요.,"Nếu hộp dụng cụ có vấn đề, hãy báo ngay.",공구함 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0141,common_sentence,공구함 작업 전 안전 상태를 확인하세요.,"Trước khi làm hộp dụng cụ, hãy kiểm tra tình trạng an toàn.",공구함 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0142,common_sentence,공구함 끝나면 관리자에게 보고하세요.,"Khi xong hộp dụng cụ, hãy báo cho quản lý.",공구함 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0143,common_sentence,공구함는 따로 보관하세요.,Hãy bảo quản riêng hộp dụng cụ.,공구함는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0144,common_sentence,공구함 주변을 정리하세요.,Hãy dọn dẹp xung quanh hộp dụng cụ.,공구함 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0145,common_sentence,톱날 확인하고 시작하세요.,Hãy kiểm tra lưỡi cưa rồi bắt đầu.,톱날 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0146,common_sentence,톱날 문제 있으면 바로 말하세요.,"Nếu lưỡi cưa có vấn đề, hãy báo ngay.",톱날 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0147,common_sentence,톱날 작업 전 안전 상태를 확인하세요.,"Trước khi làm lưỡi cưa, hãy kiểm tra tình trạng an toàn.",톱날 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0148,common_sentence,톱날 끝나면 관리자에게 보고하세요.,"Khi xong lưỡi cưa, hãy báo cho quản lý.",톱날 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0149,common_sentence,톱날는 따로 보관하세요.,Hãy bảo quản riêng lưỡi cưa.,톱날는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0150,common_sentence,톱날 주변을 정리하세요.,Hãy dọn dẹp xung quanh lưỡi cưa.,톱날 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0151,common_sentence,칼날 확인하고 시작하세요.,Hãy kiểm tra lưỡi dao rồi bắt đầu.,칼날 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0152,common_sentence,칼날 문제 있으면 바로 말하세요.,"Nếu lưỡi dao có vấn đề, hãy báo ngay.",칼날 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0153,common_sentence,칼날 작업 전 안전 상태를 확인하세요.,"Trước khi làm lưỡi dao, hãy kiểm tra tình trạng an toàn.",칼날 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0154,common_sentence,칼날 끝나면 관리자에게 보고하세요.,"Khi xong lưỡi dao, hãy báo cho quản lý.",칼날 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0155,common_sentence,칼날는 따로 보관하세요.,Hãy bảo quản riêng lưỡi dao.,칼날는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0156,common_sentence,칼날 주변을 정리하세요.,Hãy dọn dẹp xung quanh lưỡi dao.,칼날 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0157,common_sentence,드릴 비트 확인하고 시작하세요.,Hãy kiểm tra mũi khoan rồi bắt đầu.,드릴 비트 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0158,common_sentence,드릴 비트 문제 있으면 바로 말하세요.,"Nếu mũi khoan có vấn đề, hãy báo ngay.",드릴 비트 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0159,common_sentence,드릴 비트 작업 전 안전 상태를 확인하세요.,"Trước khi làm mũi khoan, hãy kiểm tra tình trạng an toàn.",드릴 비트 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0160,common_sentence,드릴 비트 끝나면 관리자에게 보고하세요.,"Khi xong mũi khoan, hãy báo cho quản lý.",드릴 비트 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0161,common_sentence,드릴 비트는 따로 보관하세요.,Hãy bảo quản riêng mũi khoan.,드릴 비트는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0162,common_sentence,드릴 비트 주변을 정리하세요.,Hãy dọn dẹp xung quanh mũi khoan.,드릴 비트 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0163,common_sentence,기리 확인하고 시작하세요.,Hãy kiểm tra mũi khoan rồi bắt đầu.,기리 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0164,common_sentence,기리 문제 있으면 바로 말하세요.,"Nếu mũi khoan có vấn đề, hãy báo ngay.",기리 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0165,common_sentence,기리 작업 전 안전 상태를 확인하세요.,"Trước khi làm mũi khoan, hãy kiểm tra tình trạng an toàn.",기리 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0166,common_sentence,기리 끝나면 관리자에게 보고하세요.,"Khi xong mũi khoan, hãy báo cho quản lý.",기리 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0167,common_sentence,기리는 따로 보관하세요.,Hãy bảo quản riêng mũi khoan.,기리는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0168,common_sentence,기리 주변을 정리하세요.,Hãy dọn dẹp xung quanh mũi khoan.,기리 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0169,common_sentence,방호덮개 확인하고 시작하세요.,Hãy kiểm tra nắp che bảo vệ rồi bắt đầu.,방호덮개 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0170,common_sentence,방호덮개 문제 있으면 바로 말하세요.,"Nếu nắp che bảo vệ có vấn đề, hãy báo ngay.",방호덮개 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0171,common_sentence,방호덮개 작업 전 안전 상태를 확인하세요.,"Trước khi làm nắp che bảo vệ, hãy kiểm tra tình trạng an toàn.",방호덮개 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0172,common_sentence,방호덮개 끝나면 관리자에게 보고하세요.,"Khi xong nắp che bảo vệ, hãy báo cho quản lý.",방호덮개 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0173,common_sentence,방호덮개는 따로 보관하세요.,Hãy bảo quản riêng nắp che bảo vệ.,방호덮개는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0174,common_sentence,방호덮개 주변을 정리하세요.,Hãy dọn dẹp xung quanh nắp che bảo vệ.,방호덮개 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0175,common_sentence,인터록 확인하고 시작하세요.,Hãy kiểm tra khóa liên động an toàn rồi bắt đầu.,인터록 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0176,common_sentence,인터록 문제 있으면 바로 말하세요.,"Nếu khóa liên động an toàn có vấn đề, hãy báo ngay.",인터록 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0177,common_sentence,인터록 작업 전 안전 상태를 확인하세요.,"Trước khi làm khóa liên động an toàn, hãy kiểm tra tình trạng an toàn.",인터록 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0178,common_sentence,인터록 끝나면 관리자에게 보고하세요.,"Khi xong khóa liên động an toàn, hãy báo cho quản lý.",인터록 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0179,common_sentence,인터록는 따로 보관하세요.,Hãy bảo quản riêng khóa liên động an toàn.,인터록는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0180,common_sentence,인터록 주변을 정리하세요.,Hãy dọn dẹp xung quanh khóa liên động an toàn.,인터록 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0181,common_sentence,센서 확인하고 시작하세요.,Hãy kiểm tra cảm biến rồi bắt đầu.,센서 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0182,common_sentence,센서 문제 있으면 바로 말하세요.,"Nếu cảm biến có vấn đề, hãy báo ngay.",센서 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0183,common_sentence,센서 작업 전 안전 상태를 확인하세요.,"Trước khi làm cảm biến, hãy kiểm tra tình trạng an toàn.",센서 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0184,common_sentence,센서 끝나면 관리자에게 보고하세요.,"Khi xong cảm biến, hãy báo cho quản lý.",센서 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0185,common_sentence,센서는 따로 보관하세요.,Hãy bảo quản riêng cảm biến.,센서는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0186,common_sentence,센서 주변을 정리하세요.,Hãy dọn dẹp xung quanh cảm biến.,센서 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0187,common_sentence,비상정지버튼 확인하고 시작하세요.,Hãy kiểm tra nút dừng khẩn cấp rồi bắt đầu.,비상정지버튼 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0188,common_sentence,비상정지버튼 문제 있으면 바로 말하세요.,"Nếu nút dừng khẩn cấp có vấn đề, hãy báo ngay.",비상정지버튼 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0189,common_sentence,비상정지버튼 작업 전 안전 상태를 확인하세요.,"Trước khi làm nút dừng khẩn cấp, hãy kiểm tra tình trạng an toàn.",비상정지버튼 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0190,common_sentence,비상정지버튼 끝나면 관리자에게 보고하세요.,"Khi xong nút dừng khẩn cấp, hãy báo cho quản lý.",비상정지버튼 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0191,common_sentence,비상정지버튼는 따로 보관하세요.,Hãy bảo quản riêng nút dừng khẩn cấp.,비상정지버튼는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0192,common_sentence,비상정지버튼 주변을 정리하세요.,Hãy dọn dẹp xung quanh nút dừng khẩn cấp.,비상정지버튼 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0193,common_sentence,회전체 확인하고 시작하세요.,Hãy kiểm tra bộ phận quay rồi bắt đầu.,회전체 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0194,common_sentence,회전체 문제 있으면 바로 말하세요.,"Nếu bộ phận quay có vấn đề, hãy báo ngay.",회전체 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0195,common_sentence,회전체 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ phận quay, hãy kiểm tra tình trạng an toàn.",회전체 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0196,common_sentence,회전체 끝나면 관리자에게 보고하세요.,"Khi xong bộ phận quay, hãy báo cho quản lý.",회전체 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0197,common_sentence,회전체는 따로 보관하세요.,Hãy bảo quản riêng bộ phận quay.,회전체는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0198,common_sentence,회전체 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ phận quay.,회전체 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0199,common_sentence,동력전달부 확인하고 시작하세요.,Hãy kiểm tra bộ phận truyền động rồi bắt đầu.,동력전달부 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0200,common_sentence,동력전달부 문제 있으면 바로 말하세요.,"Nếu bộ phận truyền động có vấn đề, hãy báo ngay.",동력전달부 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0201,common_sentence,동력전달부 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ phận truyền động, hãy kiểm tra tình trạng an toàn.",동력전달부 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0202,common_sentence,동력전달부 끝나면 관리자에게 보고하세요.,"Khi xong bộ phận truyền động, hãy báo cho quản lý.",동력전달부 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0203,common_sentence,동력전달부는 따로 보관하세요.,Hãy bảo quản riêng bộ phận truyền động.,동력전달부는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0204,common_sentence,동력전달부 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ phận truyền động.,동력전달부 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0205,common_sentence,끼임점 확인하고 시작하세요.,Hãy kiểm tra điểm kẹp rồi bắt đầu.,끼임점 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0206,common_sentence,끼임점 문제 있으면 바로 말하세요.,"Nếu điểm kẹp có vấn đề, hãy báo ngay.",끼임점 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0207,common_sentence,끼임점 작업 전 안전 상태를 확인하세요.,"Trước khi làm điểm kẹp, hãy kiểm tra tình trạng an toàn.",끼임점 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0208,common_sentence,끼임점 끝나면 관리자에게 보고하세요.,"Khi xong điểm kẹp, hãy báo cho quản lý.",끼임점 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0209,common_sentence,끼임점는 따로 보관하세요.,Hãy bảo quản riêng điểm kẹp.,끼임점는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0210,common_sentence,끼임점 주변을 정리하세요.,Hãy dọn dẹp xung quanh điểm kẹp.,끼임점 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0211,common_sentence,공압 확인하고 시작하세요.,Hãy kiểm tra khí nén rồi bắt đầu.,공압 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0212,common_sentence,공압 문제 있으면 바로 말하세요.,"Nếu khí nén có vấn đề, hãy báo ngay.",공압 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0213,common_sentence,공압 작업 전 안전 상태를 확인하세요.,"Trước khi làm khí nén, hãy kiểm tra tình trạng an toàn.",공압 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0214,common_sentence,공압 끝나면 관리자에게 보고하세요.,"Khi xong khí nén, hãy báo cho quản lý.",공압 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0215,common_sentence,공압는 따로 보관하세요.,Hãy bảo quản riêng khí nén.,공압는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0216,common_sentence,공압 주변을 정리하세요.,Hãy dọn dẹp xung quanh khí nén.,공압 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0217,common_sentence,유압 확인하고 시작하세요.,Hãy kiểm tra thủy lực rồi bắt đầu.,유압 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0218,common_sentence,유압 문제 있으면 바로 말하세요.,"Nếu thủy lực có vấn đề, hãy báo ngay.",유압 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0219,common_sentence,유압 작업 전 안전 상태를 확인하세요.,"Trước khi làm thủy lực, hãy kiểm tra tình trạng an toàn.",유압 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0220,common_sentence,유압 끝나면 관리자에게 보고하세요.,"Khi xong thủy lực, hãy báo cho quản lý.",유압 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0221,common_sentence,유압는 따로 보관하세요.,Hãy bảo quản riêng thủy lực.,유압는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0222,common_sentence,유압 주변을 정리하세요.,Hãy dọn dẹp xung quanh thủy lực.,유압 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0223,common_sentence,윤활유 확인하고 시작하세요.,Hãy kiểm tra dầu bôi trơn rồi bắt đầu.,윤활유 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0224,common_sentence,윤활유 문제 있으면 바로 말하세요.,"Nếu dầu bôi trơn có vấn đề, hãy báo ngay.",윤활유 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0225,common_sentence,윤활유 작업 전 안전 상태를 확인하세요.,"Trước khi làm dầu bôi trơn, hãy kiểm tra tình trạng an toàn.",윤활유 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0226,common_sentence,윤활유 끝나면 관리자에게 보고하세요.,"Khi xong dầu bôi trơn, hãy báo cho quản lý.",윤활유 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0227,common_sentence,윤활유는 따로 보관하세요.,Hãy bảo quản riêng dầu bôi trơn.,윤활유는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0228,common_sentence,윤활유 주변을 정리하세요.,Hãy dọn dẹp xung quanh dầu bôi trơn.,윤활유 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0229,common_sentence,냉각수 확인하고 시작하세요.,Hãy kiểm tra nước làm mát rồi bắt đầu.,냉각수 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0230,common_sentence,냉각수 문제 있으면 바로 말하세요.,"Nếu nước làm mát có vấn đề, hãy báo ngay.",냉각수 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0231,common_sentence,냉각수 작업 전 안전 상태를 확인하세요.,"Trước khi làm nước làm mát, hãy kiểm tra tình trạng an toàn.",냉각수 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0232,common_sentence,냉각수 끝나면 관리자에게 보고하세요.,"Khi xong nước làm mát, hãy báo cho quản lý.",냉각수 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0233,common_sentence,냉각수는 따로 보관하세요.,Hãy bảo quản riêng nước làm mát.,냉각수는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0234,common_sentence,냉각수 주변을 정리하세요.,Hãy dọn dẹp xung quanh nước làm mát.,냉각수 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0235,common_sentence,필터 확인하고 시작하세요.,Hãy kiểm tra bộ lọc rồi bắt đầu.,필터 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0236,common_sentence,필터 문제 있으면 바로 말하세요.,"Nếu bộ lọc có vấn đề, hãy báo ngay.",필터 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0237,common_sentence,필터 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ lọc, hãy kiểm tra tình trạng an toàn.",필터 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0238,common_sentence,필터 끝나면 관리자에게 보고하세요.,"Khi xong bộ lọc, hãy báo cho quản lý.",필터 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0239,common_sentence,필터는 따로 보관하세요.,Hãy bảo quản riêng bộ lọc.,필터는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0240,common_sentence,필터 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ lọc.,필터 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0241,common_sentence,노즐 확인하고 시작하세요.,Hãy kiểm tra vòi phun rồi bắt đầu.,노즐 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0242,common_sentence,노즐 문제 있으면 바로 말하세요.,"Nếu vòi phun có vấn đề, hãy báo ngay.",노즐 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0243,common_sentence,노즐 작업 전 안전 상태를 확인하세요.,"Trước khi làm vòi phun, hãy kiểm tra tình trạng an toàn.",노즐 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0244,common_sentence,노즐 끝나면 관리자에게 보고하세요.,"Khi xong vòi phun, hãy báo cho quản lý.",노즐 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0245,common_sentence,노즐는 따로 보관하세요.,Hãy bảo quản riêng vòi phun.,노즐는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0246,common_sentence,노즐 주변을 정리하세요.,Hãy dọn dẹp xung quanh vòi phun.,노즐 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0247,common_sentence,베어링 확인하고 시작하세요.,Hãy kiểm tra vòng bi rồi bắt đầu.,베어링 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0248,common_sentence,베어링 문제 있으면 바로 말하세요.,"Nếu vòng bi có vấn đề, hãy báo ngay.",베어링 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0249,common_sentence,베어링 작업 전 안전 상태를 확인하세요.,"Trước khi làm vòng bi, hãy kiểm tra tình trạng an toàn.",베어링 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0250,common_sentence,베어링 끝나면 관리자에게 보고하세요.,"Khi xong vòng bi, hãy báo cho quản lý.",베어링 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0251,common_sentence,베어링는 따로 보관하세요.,Hãy bảo quản riêng vòng bi.,베어링는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0252,common_sentence,베어링 주변을 정리하세요.,Hãy dọn dẹp xung quanh vòng bi.,베어링 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0253,common_sentence,벨트 확인하고 시작하세요.,Hãy kiểm tra dây đai rồi bắt đầu.,벨트 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0254,common_sentence,벨트 문제 있으면 바로 말하세요.,"Nếu dây đai có vấn đề, hãy báo ngay.",벨트 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0255,common_sentence,벨트 작업 전 안전 상태를 확인하세요.,"Trước khi làm dây đai, hãy kiểm tra tình trạng an toàn.",벨트 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0256,common_sentence,벨트 끝나면 관리자에게 보고하세요.,"Khi xong dây đai, hãy báo cho quản lý.",벨트 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0257,common_sentence,벨트는 따로 보관하세요.,Hãy bảo quản riêng dây đai.,벨트는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0258,common_sentence,벨트 주변을 정리하세요.,Hãy dọn dẹp xung quanh dây đai.,벨트 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0259,common_sentence,체인 확인하고 시작하세요.,Hãy kiểm tra xích rồi bắt đầu.,체인 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0260,common_sentence,체인 문제 있으면 바로 말하세요.,"Nếu xích có vấn đề, hãy báo ngay.",체인 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0261,common_sentence,체인 작업 전 안전 상태를 확인하세요.,"Trước khi làm xích, hãy kiểm tra tình trạng an toàn.",체인 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0262,common_sentence,체인 끝나면 관리자에게 보고하세요.,"Khi xong xích, hãy báo cho quản lý.",체인 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0263,common_sentence,체인는 따로 보관하세요.,Hãy bảo quản riêng xích.,체인는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0264,common_sentence,체인 주변을 정리하세요.,Hãy dọn dẹp xung quanh xích.,체인 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0265,common_sentence,기어 확인하고 시작하세요.,Hãy kiểm tra bánh răng rồi bắt đầu.,기어 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0266,common_sentence,기어 문제 있으면 바로 말하세요.,"Nếu bánh răng có vấn đề, hãy báo ngay.",기어 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0267,common_sentence,기어 작업 전 안전 상태를 확인하세요.,"Trước khi làm bánh răng, hãy kiểm tra tình trạng an toàn.",기어 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0268,common_sentence,기어 끝나면 관리자에게 보고하세요.,"Khi xong bánh răng, hãy báo cho quản lý.",기어 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0269,common_sentence,기어는 따로 보관하세요.,Hãy bảo quản riêng bánh răng.,기어는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0270,common_sentence,기어 주변을 정리하세요.,Hãy dọn dẹp xung quanh bánh răng.,기어 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0271,common_sentence,모터 확인하고 시작하세요.,Hãy kiểm tra động cơ rồi bắt đầu.,모터 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0272,common_sentence,모터 문제 있으면 바로 말하세요.,"Nếu động cơ có vấn đề, hãy báo ngay.",모터 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0273,common_sentence,모터 작업 전 안전 상태를 확인하세요.,"Trước khi làm động cơ, hãy kiểm tra tình trạng an toàn.",모터 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0274,common_sentence,모터 끝나면 관리자에게 보고하세요.,"Khi xong động cơ, hãy báo cho quản lý.",모터 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0275,common_sentence,모터는 따로 보관하세요.,Hãy bảo quản riêng động cơ.,모터는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0276,common_sentence,모터 주변을 정리하세요.,Hãy dọn dẹp xung quanh động cơ.,모터 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0277,common_sentence,제어반 확인하고 시작하세요.,Hãy kiểm tra tủ điều khiển rồi bắt đầu.,제어반 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0278,common_sentence,제어반 문제 있으면 바로 말하세요.,"Nếu tủ điều khiển có vấn đề, hãy báo ngay.",제어반 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0279,common_sentence,제어반 작업 전 안전 상태를 확인하세요.,"Trước khi làm tủ điều khiển, hãy kiểm tra tình trạng an toàn.",제어반 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0280,common_sentence,제어반 끝나면 관리자에게 보고하세요.,"Khi xong tủ điều khiển, hãy báo cho quản lý.",제어반 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0281,common_sentence,제어반는 따로 보관하세요.,Hãy bảo quản riêng tủ điều khiển.,제어반는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0282,common_sentence,제어반 주변을 정리하세요.,Hãy dọn dẹp xung quanh tủ điều khiển.,제어반 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0283,common_sentence,분전반 확인하고 시작하세요.,Hãy kiểm tra tủ điện phân phối rồi bắt đầu.,분전반 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0284,common_sentence,분전반 문제 있으면 바로 말하세요.,"Nếu tủ điện phân phối có vấn đề, hãy báo ngay.",분전반 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0285,common_sentence,분전반 작업 전 안전 상태를 확인하세요.,"Trước khi làm tủ điện phân phối, hãy kiểm tra tình trạng an toàn.",분전반 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0286,common_sentence,분전반 끝나면 관리자에게 보고하세요.,"Khi xong tủ điện phân phối, hãy báo cho quản lý.",분전반 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0287,common_sentence,분전반는 따로 보관하세요.,Hãy bảo quản riêng tủ điện phân phối.,분전반는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0288,common_sentence,분전반 주변을 정리하세요.,Hãy dọn dẹp xung quanh tủ điện phân phối.,분전반 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_machine,seed_needs_native_field_review
+VIU0289,common_sentence,불량 확인하고 시작하세요.,Hãy kiểm tra hàng lỗi rồi bắt đầu.,불량 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0290,common_sentence,불량 문제 있으면 바로 말하세요.,"Nếu hàng lỗi có vấn đề, hãy báo ngay.",불량 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0291,common_sentence,불량 작업 전 안전 상태를 확인하세요.,"Trước khi làm hàng lỗi, hãy kiểm tra tình trạng an toàn.",불량 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0292,common_sentence,불량 끝나면 관리자에게 보고하세요.,"Khi xong hàng lỗi, hãy báo cho quản lý.",불량 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0293,common_sentence,불량는 따로 보관하세요.,Hãy bảo quản riêng hàng lỗi.,불량는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0294,common_sentence,불량 주변을 정리하세요.,Hãy dọn dẹp xung quanh hàng lỗi.,불량 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0295,common_sentence,양품 확인하고 시작하세요.,Hãy kiểm tra hàng đạt chuẩn rồi bắt đầu.,양품 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0296,common_sentence,양품 문제 있으면 바로 말하세요.,"Nếu hàng đạt chuẩn có vấn đề, hãy báo ngay.",양품 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0297,common_sentence,양품 작업 전 안전 상태를 확인하세요.,"Trước khi làm hàng đạt chuẩn, hãy kiểm tra tình trạng an toàn.",양품 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0298,common_sentence,양품 끝나면 관리자에게 보고하세요.,"Khi xong hàng đạt chuẩn, hãy báo cho quản lý.",양품 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0299,common_sentence,양품는 따로 보관하세요.,Hãy bảo quản riêng hàng đạt chuẩn.,양품는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0300,common_sentence,양품 주변을 정리하세요.,Hãy dọn dẹp xung quanh hàng đạt chuẩn.,양품 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0301,common_sentence,찍힘 확인하고 시작하세요.,Hãy kiểm tra vết lõm rồi bắt đầu.,찍힘 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0302,common_sentence,찍힘 문제 있으면 바로 말하세요.,"Nếu vết lõm có vấn đề, hãy báo ngay.",찍힘 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0303,common_sentence,찍힘 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết lõm, hãy kiểm tra tình trạng an toàn.",찍힘 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0304,common_sentence,찍힘 끝나면 관리자에게 보고하세요.,"Khi xong vết lõm, hãy báo cho quản lý.",찍힘 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0305,common_sentence,찍힘는 따로 보관하세요.,Hãy bảo quản riêng vết lõm.,찍힘는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0306,common_sentence,찍힘 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết lõm.,찍힘 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0307,common_sentence,긁힘 확인하고 시작하세요.,Hãy kiểm tra vết xước rồi bắt đầu.,긁힘 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0308,common_sentence,긁힘 문제 있으면 바로 말하세요.,"Nếu vết xước có vấn đề, hãy báo ngay.",긁힘 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0309,common_sentence,긁힘 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết xước, hãy kiểm tra tình trạng an toàn.",긁힘 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0310,common_sentence,긁힘 끝나면 관리자에게 보고하세요.,"Khi xong vết xước, hãy báo cho quản lý.",긁힘 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0311,common_sentence,긁힘는 따로 보관하세요.,Hãy bảo quản riêng vết xước.,긁힘는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0312,common_sentence,긁힘 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết xước.,긁힘 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0313,common_sentence,기스 확인하고 시작하세요.,Hãy kiểm tra vết xước rồi bắt đầu.,기스 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0314,common_sentence,기스 문제 있으면 바로 말하세요.,"Nếu vết xước có vấn đề, hãy báo ngay.",기스 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0315,common_sentence,기스 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết xước, hãy kiểm tra tình trạng an toàn.",기스 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0316,common_sentence,기스 끝나면 관리자에게 보고하세요.,"Khi xong vết xước, hãy báo cho quản lý.",기스 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0317,common_sentence,기스는 따로 보관하세요.,Hãy bảo quản riêng vết xước.,기스는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0318,common_sentence,기스 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết xước.,기스 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0319,common_sentence,깨짐 확인하고 시작하세요.,Hãy kiểm tra bị vỡ rồi bắt đầu.,깨짐 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0320,common_sentence,깨짐 문제 있으면 바로 말하세요.,"Nếu bị vỡ có vấn đề, hãy báo ngay.",깨짐 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0321,common_sentence,깨짐 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị vỡ, hãy kiểm tra tình trạng an toàn.",깨짐 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0322,common_sentence,깨짐 끝나면 관리자에게 보고하세요.,"Khi xong bị vỡ, hãy báo cho quản lý.",깨짐 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0323,common_sentence,깨짐는 따로 보관하세요.,Hãy bảo quản riêng bị vỡ.,깨짐는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0324,common_sentence,깨짐 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị vỡ.,깨짐 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0325,common_sentence,누락 확인하고 시작하세요.,Hãy kiểm tra thiếu rồi bắt đầu.,누락 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0326,common_sentence,누락 문제 있으면 바로 말하세요.,"Nếu thiếu có vấn đề, hãy báo ngay.",누락 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0327,common_sentence,누락 작업 전 안전 상태를 확인하세요.,"Trước khi làm thiếu, hãy kiểm tra tình trạng an toàn.",누락 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0328,common_sentence,누락 끝나면 관리자에게 보고하세요.,"Khi xong thiếu, hãy báo cho quản lý.",누락 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0329,common_sentence,누락는 따로 보관하세요.,Hãy bảo quản riêng thiếu.,누락는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0330,common_sentence,누락 주변을 정리하세요.,Hãy dọn dẹp xung quanh thiếu.,누락 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0331,common_sentence,오염 확인하고 시작하세요.,Hãy kiểm tra bị bẩn rồi bắt đầu.,오염 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0332,common_sentence,오염 문제 있으면 바로 말하세요.,"Nếu bị bẩn có vấn đề, hãy báo ngay.",오염 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0333,common_sentence,오염 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị bẩn, hãy kiểm tra tình trạng an toàn.",오염 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0334,common_sentence,오염 끝나면 관리자에게 보고하세요.,"Khi xong bị bẩn, hãy báo cho quản lý.",오염 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0335,common_sentence,오염는 따로 보관하세요.,Hãy bảo quản riêng bị bẩn.,오염는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0336,common_sentence,오염 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị bẩn.,오염 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0337,common_sentence,변색 확인하고 시작하세요.,Hãy kiểm tra đổi màu rồi bắt đầu.,변색 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0338,common_sentence,변색 문제 있으면 바로 말하세요.,"Nếu đổi màu có vấn đề, hãy báo ngay.",변색 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0339,common_sentence,변색 작업 전 안전 상태를 확인하세요.,"Trước khi làm đổi màu, hãy kiểm tra tình trạng an toàn.",변색 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0340,common_sentence,변색 끝나면 관리자에게 보고하세요.,"Khi xong đổi màu, hãy báo cho quản lý.",변색 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0341,common_sentence,변색는 따로 보관하세요.,Hãy bảo quản riêng đổi màu.,변색는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0342,common_sentence,변색 주변을 정리하세요.,Hãy dọn dẹp xung quanh đổi màu.,변색 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0343,common_sentence,수량부족 확인하고 시작하세요.,Hãy kiểm tra thiếu số lượng rồi bắt đầu.,수량부족 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0344,common_sentence,수량부족 문제 있으면 바로 말하세요.,"Nếu thiếu số lượng có vấn đề, hãy báo ngay.",수량부족 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0345,common_sentence,수량부족 작업 전 안전 상태를 확인하세요.,"Trước khi làm thiếu số lượng, hãy kiểm tra tình trạng an toàn.",수량부족 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0346,common_sentence,수량부족 끝나면 관리자에게 보고하세요.,"Khi xong thiếu số lượng, hãy báo cho quản lý.",수량부족 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0347,common_sentence,수량부족는 따로 보관하세요.,Hãy bảo quản riêng thiếu số lượng.,수량부족는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0348,common_sentence,수량부족 주변을 정리하세요.,Hãy dọn dẹp xung quanh thiếu số lượng.,수량부족 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0349,common_sentence,재작업 확인하고 시작하세요.,Hãy kiểm tra làm lại rồi bắt đầu.,재작업 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0350,common_sentence,재작업 문제 있으면 바로 말하세요.,"Nếu làm lại có vấn đề, hãy báo ngay.",재작업 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0351,common_sentence,재작업 작업 전 안전 상태를 확인하세요.,"Trước khi làm làm lại, hãy kiểm tra tình trạng an toàn.",재작업 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0352,common_sentence,재작업 끝나면 관리자에게 보고하세요.,"Khi xong làm lại, hãy báo cho quản lý.",재작업 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0353,common_sentence,재작업는 따로 보관하세요.,Hãy bảo quản riêng làm lại.,재작업는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0354,common_sentence,재작업 주변을 정리하세요.,Hãy dọn dẹp xung quanh làm lại.,재작업 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0355,common_sentence,폐기 확인하고 시작하세요.,Hãy kiểm tra loại bỏ rồi bắt đầu.,폐기 확인하고 시작하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0356,common_sentence,폐기 문제 있으면 바로 말하세요.,"Nếu loại bỏ có vấn đề, hãy báo ngay.",폐기 문제 있으면 바로 말하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0357,common_sentence,폐기 작업 전 안전 상태를 확인하세요.,"Trước khi làm loại bỏ, hãy kiểm tra tình trạng an toàn.",폐기 작업 전 안전 상태를 확인하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0358,common_sentence,폐기 끝나면 관리자에게 보고하세요.,"Khi xong loại bỏ, hãy báo cho quản lý.",폐기 끝나면 관리자에게 보고하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0359,common_sentence,폐기는 따로 보관하세요.,Hãy bảo quản riêng loại bỏ.,폐기는 따로 보관하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0360,common_sentence,폐기 주변을 정리하세요.,Hãy dọn dẹp xung quanh loại bỏ.,폐기 주변을 정리하세요,ko_to_vi_and_vi_to_ko,manufacturing_quality,seed_needs_native_field_review
+VIU0361,emergency_sentence,멈춰!,Dừng lại ngay!,멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0362,emergency_sentence,손 빼!,Rút tay ra ngay!,손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0363,emergency_sentence,뒤로 물러나!,Lùi lại ngay!,뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0364,emergency_sentence,가까이 가지 마세요!,Không được lại gần!,가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0365,emergency_sentence,지금 대피하세요!,Sơ tán ngay bây giờ!,지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0366,emergency_sentence,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0367,emergency_sentence,전원을 내리세요!,Ngắt nguồn điện!,전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0368,emergency_sentence,119에 신고하세요!,Gọi 119!,119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0369,emergency_sentence,불이 났습니다!,Có cháy!,불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0370,emergency_sentence,사람이 다쳤습니다!,Có người bị thương!,사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0371,emergency_sentence,지게차 지나갑니다!,Xe nâng đang đi qua!,지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0372,emergency_sentence,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0373,emergency_sentence,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0374,emergency_sentence,전기 만지지 마세요!,Không chạm vào điện!,전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0375,emergency_sentence,가스 냄새가 납니다!,Có mùi gas!,가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0376,emergency_sentence,환기하세요!,Hãy thông gió!,환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0377,emergency_sentence,마스크 착용하세요!,Đeo khẩu trang!,마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0378,emergency_sentence,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0379,emergency_sentence,낙하물 조심하세요!,Cẩn thận vật rơi!,낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0380,emergency_sentence,바닥이 미끄럽습니다!,Sàn trơn!,바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0381,emergency_sentence,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,긴급 상황입니다. 멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0382,emergency_sentence,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,긴급 상황입니다. 손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0383,emergency_sentence,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,긴급 상황입니다. 뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0384,emergency_sentence,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,긴급 상황입니다. 가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0385,emergency_sentence,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,긴급 상황입니다. 지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0386,emergency_sentence,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,긴급 상황입니다. 비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0387,emergency_sentence,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,긴급 상황입니다. 전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0388,emergency_sentence,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,긴급 상황입니다. 119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0389,emergency_sentence,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,긴급 상황입니다. 불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0390,emergency_sentence,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,긴급 상황입니다. 사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0391,emergency_sentence,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,긴급 상황입니다. 지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0392,emergency_sentence,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,긴급 상황입니다. 크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0393,emergency_sentence,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,긴급 상황입니다. 기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0394,emergency_sentence,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,긴급 상황입니다. 전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0395,emergency_sentence,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,긴급 상황입니다. 가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0396,emergency_sentence,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,긴급 상황입니다. 환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0397,emergency_sentence,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,긴급 상황입니다. 마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0398,emergency_sentence,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,긴급 상황입니다. 안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0399,emergency_sentence,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,긴급 상황입니다. 낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0400,emergency_sentence,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,긴급 상황입니다. 바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0401,emergency_sentence,멈춰!,Dừng lại ngay!,멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0402,emergency_sentence,손 빼!,Rút tay ra ngay!,손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0403,emergency_sentence,뒤로 물러나!,Lùi lại ngay!,뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0404,emergency_sentence,가까이 가지 마세요!,Không được lại gần!,가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0405,emergency_sentence,지금 대피하세요!,Sơ tán ngay bây giờ!,지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0406,emergency_sentence,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0407,emergency_sentence,전원을 내리세요!,Ngắt nguồn điện!,전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0408,emergency_sentence,119에 신고하세요!,Gọi 119!,119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0409,emergency_sentence,불이 났습니다!,Có cháy!,불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0410,emergency_sentence,사람이 다쳤습니다!,Có người bị thương!,사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0411,emergency_sentence,지게차 지나갑니다!,Xe nâng đang đi qua!,지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0412,emergency_sentence,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0413,emergency_sentence,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0414,emergency_sentence,전기 만지지 마세요!,Không chạm vào điện!,전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0415,emergency_sentence,가스 냄새가 납니다!,Có mùi gas!,가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0416,emergency_sentence,환기하세요!,Hãy thông gió!,환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0417,emergency_sentence,마스크 착용하세요!,Đeo khẩu trang!,마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0418,emergency_sentence,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0419,emergency_sentence,낙하물 조심하세요!,Cẩn thận vật rơi!,낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0420,emergency_sentence,바닥이 미끄럽습니다!,Sàn trơn!,바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0421,emergency_sentence,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,긴급 상황입니다. 멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0422,emergency_sentence,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,긴급 상황입니다. 손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0423,emergency_sentence,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,긴급 상황입니다. 뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0424,emergency_sentence,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,긴급 상황입니다. 가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0425,emergency_sentence,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,긴급 상황입니다. 지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0426,emergency_sentence,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,긴급 상황입니다. 비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0427,emergency_sentence,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,긴급 상황입니다. 전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0428,emergency_sentence,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,긴급 상황입니다. 119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0429,emergency_sentence,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,긴급 상황입니다. 불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0430,emergency_sentence,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,긴급 상황입니다. 사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0431,emergency_sentence,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,긴급 상황입니다. 지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0432,emergency_sentence,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,긴급 상황입니다. 크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0433,emergency_sentence,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,긴급 상황입니다. 기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0434,emergency_sentence,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,긴급 상황입니다. 전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0435,emergency_sentence,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,긴급 상황입니다. 가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0436,emergency_sentence,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,긴급 상황입니다. 환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0437,emergency_sentence,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,긴급 상황입니다. 마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0438,emergency_sentence,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,긴급 상황입니다. 안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0439,emergency_sentence,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,긴급 상황입니다. 낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0440,emergency_sentence,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,긴급 상황입니다. 바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0441,emergency_sentence,멈춰!,Dừng lại ngay!,멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0442,emergency_sentence,손 빼!,Rút tay ra ngay!,손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0443,emergency_sentence,뒤로 물러나!,Lùi lại ngay!,뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0444,emergency_sentence,가까이 가지 마세요!,Không được lại gần!,가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0445,emergency_sentence,지금 대피하세요!,Sơ tán ngay bây giờ!,지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0446,emergency_sentence,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0447,emergency_sentence,전원을 내리세요!,Ngắt nguồn điện!,전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0448,emergency_sentence,119에 신고하세요!,Gọi 119!,119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0449,emergency_sentence,불이 났습니다!,Có cháy!,불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0450,emergency_sentence,사람이 다쳤습니다!,Có người bị thương!,사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0451,emergency_sentence,지게차 지나갑니다!,Xe nâng đang đi qua!,지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0452,emergency_sentence,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0453,emergency_sentence,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0454,emergency_sentence,전기 만지지 마세요!,Không chạm vào điện!,전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0455,emergency_sentence,가스 냄새가 납니다!,Có mùi gas!,가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0456,emergency_sentence,환기하세요!,Hãy thông gió!,환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0457,emergency_sentence,마스크 착용하세요!,Đeo khẩu trang!,마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0458,emergency_sentence,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0459,emergency_sentence,낙하물 조심하세요!,Cẩn thận vật rơi!,낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0460,emergency_sentence,바닥이 미끄럽습니다!,Sàn trơn!,바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0461,emergency_sentence,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,긴급 상황입니다. 멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0462,emergency_sentence,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,긴급 상황입니다. 손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0463,emergency_sentence,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,긴급 상황입니다. 뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0464,emergency_sentence,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,긴급 상황입니다. 가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0465,emergency_sentence,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,긴급 상황입니다. 지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0466,emergency_sentence,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,긴급 상황입니다. 비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0467,emergency_sentence,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,긴급 상황입니다. 전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0468,emergency_sentence,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,긴급 상황입니다. 119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0469,emergency_sentence,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,긴급 상황입니다. 불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0470,emergency_sentence,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,긴급 상황입니다. 사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0471,emergency_sentence,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,긴급 상황입니다. 지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0472,emergency_sentence,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,긴급 상황입니다. 크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0473,emergency_sentence,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,긴급 상황입니다. 기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0474,emergency_sentence,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,긴급 상황입니다. 전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0475,emergency_sentence,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,긴급 상황입니다. 가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0476,emergency_sentence,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,긴급 상황입니다. 환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0477,emergency_sentence,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,긴급 상황입니다. 마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0478,emergency_sentence,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,긴급 상황입니다. 안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0479,emergency_sentence,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,긴급 상황입니다. 낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0480,emergency_sentence,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,긴급 상황입니다. 바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0481,emergency_sentence,멈춰!,Dừng lại ngay!,멈춰,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0482,emergency_sentence,손 빼!,Rút tay ra ngay!,손 빼,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0483,emergency_sentence,뒤로 물러나!,Lùi lại ngay!,뒤로 물러나,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0484,emergency_sentence,가까이 가지 마세요!,Không được lại gần!,가까이 가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0485,emergency_sentence,지금 대피하세요!,Sơ tán ngay bây giờ!,지금 대피하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0486,emergency_sentence,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,비상정지 버튼을 누르세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0487,emergency_sentence,전원을 내리세요!,Ngắt nguồn điện!,전원을 내리세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0488,emergency_sentence,119에 신고하세요!,Gọi 119!,119에 신고하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0489,emergency_sentence,불이 났습니다!,Có cháy!,불이 났습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0490,emergency_sentence,사람이 다쳤습니다!,Có người bị thương!,사람이 다쳤습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0491,emergency_sentence,지게차 지나갑니다!,Xe nâng đang đi qua!,지게차 지나갑니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0492,emergency_sentence,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,크레인 아래로 지나가지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0493,emergency_sentence,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,기계 안에 손 넣지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0494,emergency_sentence,전기 만지지 마세요!,Không chạm vào điện!,전기 만지지 마세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0495,emergency_sentence,가스 냄새가 납니다!,Có mùi gas!,가스 냄새가 납니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0496,emergency_sentence,환기하세요!,Hãy thông gió!,환기하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0497,emergency_sentence,마스크 착용하세요!,Đeo khẩu trang!,마스크 착용하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0498,emergency_sentence,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,안전대 걸고 올라가세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0499,emergency_sentence,낙하물 조심하세요!,Cẩn thận vật rơi!,낙하물 조심하세요,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0500,emergency_sentence,바닥이 미끄럽습니다!,Sàn trơn!,바닥이 미끄럽습니다,ko_to_vi_and_vi_to_ko,emergency|critical,seed_needs_native_field_review
+VIU0501,slang_variant,오야지,tổ trưởng/giám sát hiện trường,오야지,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0502,slang_variant,오야지해,tổ trưởng/giám sát hiện trường,오야지해,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0503,slang_variant,데모도,thợ phụ,데모도,ko_to_vi_and_vi_to_ko,slang|데모도,seed_needs_native_field_review
+VIU0504,slang_variant,데모도해,thợ phụ,데모도해,ko_to_vi_and_vi_to_ko,slang|데모도,seed_needs_native_field_review
+VIU0505,slang_variant,곰방,vận chuyển thủ công,곰방,ko_to_vi_and_vi_to_ko,slang|곰방,seed_needs_native_field_review
+VIU0506,slang_variant,곰방해,vận chuyển thủ công,곰방해,ko_to_vi_and_vi_to_ko,slang|곰방,seed_needs_native_field_review
+VIU0507,slang_variant,단도리,chuẩn bị công việc,단도리,ko_to_vi_and_vi_to_ko,slang|단도리,seed_needs_native_field_review
+VIU0508,slang_variant,단도리해,chuẩn bị công việc,단도리해,ko_to_vi_and_vi_to_ko,slang|단도리,seed_needs_native_field_review
+VIU0509,slang_variant,시마이,kết thúc công việc,시마이,ko_to_vi_and_vi_to_ko,slang|시마이,seed_needs_native_field_review
+VIU0510,slang_variant,시마이해,kết thúc công việc,시마이해,ko_to_vi_and_vi_to_ko,slang|시마이,seed_needs_native_field_review
+VIU0511,slang_variant,유도리,khoảng dư hoặc linh hoạt,유도리,ko_to_vi_and_vi_to_ko,slang|유도리,seed_needs_native_field_review
+VIU0512,slang_variant,유도리해,khoảng dư hoặc linh hoạt,유도리해,ko_to_vi_and_vi_to_ko,slang|유도리,seed_needs_native_field_review
+VIU0513,slang_variant,빠루,xà beng,빠루,ko_to_vi_and_vi_to_ko,slang|빠루,seed_needs_native_field_review
+VIU0514,slang_variant,빠루해,xà beng,빠루해,ko_to_vi_and_vi_to_ko,slang|빠루,seed_needs_native_field_review
+VIU0515,slang_variant,가다,khuôn mẫu/mẫu chuẩn,가다,ko_to_vi_and_vi_to_ko,slang|가다,seed_needs_native_field_review
+VIU0516,slang_variant,가다해,khuôn mẫu/mẫu chuẩn,가다해,ko_to_vi_and_vi_to_ko,slang|가다,seed_needs_native_field_review
+VIU0517,slang_variant,빵꾸,lỗ thủng hoặc thiếu người,빵꾸,ko_to_vi_and_vi_to_ko,slang|빵꾸,seed_needs_native_field_review
+VIU0518,slang_variant,빵꾸해,lỗ thủng hoặc thiếu người,빵꾸해,ko_to_vi_and_vi_to_ko,slang|빵꾸,seed_needs_native_field_review
+VIU0519,slang_variant,빠꾸,trả lại/quay lại/làm lại,빠꾸,ko_to_vi_and_vi_to_ko,slang|빠꾸,seed_needs_native_field_review
+VIU0520,slang_variant,빠꾸해,trả lại/quay lại/làm lại,빠꾸해,ko_to_vi_and_vi_to_ko,slang|빠꾸,seed_needs_native_field_review
+VIU0521,slang_variant,땜빵,thay thế tạm thời,땜빵,ko_to_vi_and_vi_to_ko,slang|땜빵,seed_needs_native_field_review
+VIU0522,slang_variant,땜빵해,thay thế tạm thời,땜빵해,ko_to_vi_and_vi_to_ko,slang|땜빵,seed_needs_native_field_review
+VIU0523,slang_variant,야리끼리,xong khối lượng thì nghỉ,야리끼리,ko_to_vi_and_vi_to_ko,slang|야리끼리,seed_needs_native_field_review
+VIU0524,slang_variant,야리끼리해,xong khối lượng thì nghỉ,야리끼리해,ko_to_vi_and_vi_to_ko,slang|야리끼리,seed_needs_native_field_review
+VIU0525,slang_variant,함바,nhà ăn công trường,함바,ko_to_vi_and_vi_to_ko,slang|함바,seed_needs_native_field_review
+VIU0526,slang_variant,함바해,nhà ăn công trường,함바해,ko_to_vi_and_vi_to_ko,slang|함바,seed_needs_native_field_review
+VIU0527,slang_variant,아나방,khoan lỗ/coring,아나방,ko_to_vi_and_vi_to_ko,slang|아나방,seed_needs_native_field_review
+VIU0528,slang_variant,아나방해,khoan lỗ/coring,아나방해,ko_to_vi_and_vi_to_ko,slang|아나방,seed_needs_native_field_review
+VIU0529,slang_variant,메꾸라,nút bịt,메꾸라,ko_to_vi_and_vi_to_ko,slang|메꾸라,seed_needs_native_field_review
+VIU0530,slang_variant,메꾸라해,nút bịt,메꾸라해,ko_to_vi_and_vi_to_ko,slang|메꾸라,seed_needs_native_field_review
+VIU0531,slang_variant,함마드릴,máy khoan búa,함마드릴,ko_to_vi_and_vi_to_ko,slang|함마드릴,seed_needs_native_field_review
+VIU0532,slang_variant,함마드릴해,máy khoan búa,함마드릴해,ko_to_vi_and_vi_to_ko,slang|함마드릴,seed_needs_native_field_review
+VIU0533,slang_variant,레벨보다,kiểm tra cao độ,레벨보다,ko_to_vi_and_vi_to_ko,slang|레벨보다,seed_needs_native_field_review
+VIU0534,slang_variant,레벨보다해,kiểm tra cao độ,레벨보다해,ko_to_vi_and_vi_to_ko,slang|레벨보다,seed_needs_native_field_review
+VIU0535,slang_variant,먹놓다,bật dây mực,먹놓다,ko_to_vi_and_vi_to_ko,slang|먹놓다,seed_needs_native_field_review
+VIU0536,slang_variant,먹놓다해,bật dây mực,먹놓다해,ko_to_vi_and_vi_to_ko,slang|먹놓다,seed_needs_native_field_review
+VIU0537,slang_variant,가라,làm tạm bợ/giả,가라,ko_to_vi_and_vi_to_ko,slang|가라,seed_needs_native_field_review
+VIU0538,slang_variant,가라해,làm tạm bợ/giả,가라해,ko_to_vi_and_vi_to_ko,slang|가라,seed_needs_native_field_review
+VIU0539,slang_variant,조지다,làm mạnh tay hoặc làm hỏng,조지다,ko_to_vi_and_vi_to_ko,slang|조지다,seed_needs_native_field_review
+VIU0540,slang_variant,조지다해,làm mạnh tay hoặc làm hỏng,조지다해,ko_to_vi_and_vi_to_ko,slang|조지다,seed_needs_native_field_review
+VIU0541,slang_variant,쪼인트,mối nối,쪼인트,ko_to_vi_and_vi_to_ko,slang|쪼인트,seed_needs_native_field_review
+VIU0542,slang_variant,쪼인트해,mối nối,쪼인트해,ko_to_vi_and_vi_to_ko,slang|쪼인트,seed_needs_native_field_review
+VIU0543,slang_variant,도비,vận chuyển/lắp đặt vật nặng,도비,ko_to_vi_and_vi_to_ko,slang|도비,seed_needs_native_field_review
+VIU0544,slang_variant,도비해,vận chuyển/lắp đặt vật nặng,도비해,ko_to_vi_and_vi_to_ko,slang|도비,seed_needs_native_field_review
+VIU0545,slang_variant,걸다,móc hoặc cố định,걸다,ko_to_vi_and_vi_to_ko,slang|걸다,seed_needs_native_field_review
+VIU0546,slang_variant,걸다해,móc hoặc cố định,걸다해,ko_to_vi_and_vi_to_ko,slang|걸다,seed_needs_native_field_review
+VIU0547,slang_variant,풀다,tháo hoặc nới ra,풀다,ko_to_vi_and_vi_to_ko,slang|풀다,seed_needs_native_field_review
+VIU0548,slang_variant,풀다해,tháo hoặc nới ra,풀다해,ko_to_vi_and_vi_to_ko,slang|풀다,seed_needs_native_field_review
+VIU0549,slang_variant,따다,khoan lỗ hoặc tách nhánh,따다,ko_to_vi_and_vi_to_ko,slang|따다,seed_needs_native_field_review
+VIU0550,slang_variant,따다해,khoan lỗ hoặc tách nhánh,따다해,ko_to_vi_and_vi_to_ko,slang|따다,seed_needs_native_field_review
+VIU0551,slang_variant,빼다,lấy ra hoặc tháo ra,빼다,ko_to_vi_and_vi_to_ko,slang|빼다,seed_needs_native_field_review
+VIU0552,slang_variant,빼다해,lấy ra hoặc tháo ra,빼다해,ko_to_vi_and_vi_to_ko,slang|빼다,seed_needs_native_field_review
+VIU0553,slang_variant,올리다,nâng lên hoặc tăng,올리다,ko_to_vi_and_vi_to_ko,slang|올리다,seed_needs_native_field_review
+VIU0554,slang_variant,올리다해,nâng lên hoặc tăng,올리다해,ko_to_vi_and_vi_to_ko,slang|올리다,seed_needs_native_field_review
+VIU0555,slang_variant,내리다,hạ xuống hoặc giảm,내리다,ko_to_vi_and_vi_to_ko,slang|내리다,seed_needs_native_field_review
+VIU0556,slang_variant,내리다해,hạ xuống hoặc giảm,내리다해,ko_to_vi_and_vi_to_ko,slang|내리다,seed_needs_native_field_review
+VIU0557,slang_variant,잡아주다,giữ giúp,잡아주다,ko_to_vi_and_vi_to_ko,slang|잡아주다,seed_needs_native_field_review
+VIU0558,slang_variant,잡아주다해,giữ giúp,잡아주다해,ko_to_vi_and_vi_to_ko,slang|잡아주다,seed_needs_native_field_review
+VIU0559,slang_variant,까대기,bốc dỡ thủ công,까대기,ko_to_vi_and_vi_to_ko,slang|까대기,seed_needs_native_field_review
+VIU0560,slang_variant,까대기해,bốc dỡ thủ công,까대기해,ko_to_vi_and_vi_to_ko,slang|까대기,seed_needs_native_field_review
+VIU0561,slang_variant,노가다,lao động xây dựng nặng nhọc,노가다,ko_to_vi_and_vi_to_ko,slang|노가다,seed_needs_native_field_review
+VIU0562,slang_variant,노가다해,lao động xây dựng nặng nhọc,노가다해,ko_to_vi_and_vi_to_ko,slang|노가다,seed_needs_native_field_review
+VIU0563,slang_variant,짬처리,đẩy việc tồn lại cho người khác,짬처리,ko_to_vi_and_vi_to_ko,slang|짬처리,seed_needs_native_field_review
+VIU0564,slang_variant,짬처리해,đẩy việc tồn lại cho người khác,짬처리해,ko_to_vi_and_vi_to_ko,slang|짬처리,seed_needs_native_field_review
+VIU0565,slang_variant,아시바,giàn giáo,아시바,ko_to_vi_and_vi_to_ko,slang|아시바,seed_needs_native_field_review
+VIU0566,slang_variant,아시바해,giàn giáo,아시바해,ko_to_vi_and_vi_to_ko,slang|아시바,seed_needs_native_field_review
+VIU0567,slang_variant,데스라,lan can hoặc thanh chắn an toàn,데스라,ko_to_vi_and_vi_to_ko,slang|데스라,seed_needs_native_field_review
+VIU0568,slang_variant,데스라해,lan can hoặc thanh chắn an toàn,데스라해,ko_to_vi_and_vi_to_ko,slang|데스라,seed_needs_native_field_review
+VIU0569,slang_variant,기리바리,thanh chống tạm,기리바리,ko_to_vi_and_vi_to_ko,slang|기리바리,seed_needs_native_field_review
+VIU0570,slang_variant,기리바리해,thanh chống tạm,기리바리해,ko_to_vi_and_vi_to_ko,slang|기리바리,seed_needs_native_field_review
+VIU0571,slang_variant,나라시,san phẳng,나라시,ko_to_vi_and_vi_to_ko,slang|나라시,seed_needs_native_field_review
+VIU0572,slang_variant,나라시해,san phẳng,나라시해,ko_to_vi_and_vi_to_ko,slang|나라시,seed_needs_native_field_review
+VIU0573,slang_variant,스미마끼,đánh dấu đường mực,스미마끼,ko_to_vi_and_vi_to_ko,slang|스미마끼,seed_needs_native_field_review
+VIU0574,slang_variant,스미마끼해,đánh dấu đường mực,스미마끼해,ko_to_vi_and_vi_to_ko,slang|스미마끼,seed_needs_native_field_review
+VIU0575,slang_variant,바라시,tháo dỡ,바라시,ko_to_vi_and_vi_to_ko,slang|바라시,seed_needs_native_field_review
+VIU0576,slang_variant,바라시해,tháo dỡ,바라시해,ko_to_vi_and_vi_to_ko,slang|바라시,seed_needs_native_field_review
+VIU0577,slang_variant,하스리,đục phá bê tông,하스리,ko_to_vi_and_vi_to_ko,slang|하스리,seed_needs_native_field_review
+VIU0578,slang_variant,하스리해,đục phá bê tông,하스리해,ko_to_vi_and_vi_to_ko,slang|하스리,seed_needs_native_field_review
+VIU0579,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0580,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0581,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0582,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0583,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0584,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0585,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0586,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0587,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0588,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0589,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0590,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0591,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0592,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0593,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0594,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0595,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0596,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0597,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0598,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0599,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0600,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0601,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0602,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0603,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0604,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0605,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0606,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0607,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0608,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0609,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0610,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0611,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0612,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0613,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0614,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0615,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0616,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0617,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0618,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0619,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0620,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0621,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0622,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0623,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0624,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0625,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0626,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0627,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0628,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0629,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0630,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0631,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0632,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0633,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0634,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0635,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0636,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0637,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0638,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0639,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0640,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0641,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0642,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0643,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0644,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0645,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0646,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0647,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0648,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0649,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0650,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0651,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0652,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0653,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0654,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0655,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0656,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0657,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0658,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0659,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0660,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0661,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0662,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0663,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0664,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0665,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0666,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0667,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0668,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0669,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0670,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0671,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0672,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0673,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0674,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0675,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0676,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0677,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0678,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0679,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0680,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0681,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0682,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0683,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0684,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0685,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0686,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0687,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0688,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0689,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0690,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0691,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0692,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0693,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0694,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0695,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0696,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0697,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0698,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0699,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0700,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0701,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0702,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0703,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0704,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0705,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0706,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0707,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0708,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0709,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0710,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0711,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0712,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0713,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0714,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0715,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0716,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0717,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0718,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0719,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0720,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0721,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0722,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0723,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0724,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0725,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0726,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0727,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0728,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0729,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0730,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0731,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0732,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0733,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0734,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0735,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0736,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0737,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0738,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0739,slang_variant,오야지요,tổ trưởng/giám sát hiện trường,오야지요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review
+VIU0740,slang_variant,오야지해요,tổ trưởng/giám sát hiện trường,오야지해요,ko_to_vi_and_vi_to_ko,slang|오야지,seed_needs_native_field_review

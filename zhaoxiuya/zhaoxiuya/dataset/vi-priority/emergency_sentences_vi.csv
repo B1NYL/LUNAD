@@ -1,0 +1,161 @@
+id,domain,risk_level,ko,vi,output_channels,repeat_recommended,status
+VIE0001,emergency,critical,멈춰!,Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0002,emergency,critical,손 빼!,Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0003,emergency,critical,뒤로 물러나!,Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0004,emergency,critical,가까이 가지 마세요!,Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0005,emergency,critical,지금 대피하세요!,Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0006,emergency,critical,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0007,emergency,critical,전원을 내리세요!,Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0008,emergency,critical,119에 신고하세요!,Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0009,emergency,critical,불이 났습니다!,Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0010,emergency,critical,사람이 다쳤습니다!,Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0011,emergency,critical,지게차 지나갑니다!,Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0012,emergency,critical,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0013,emergency,critical,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0014,emergency,critical,전기 만지지 마세요!,Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0015,emergency,critical,가스 냄새가 납니다!,Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0016,emergency,critical,환기하세요!,Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0017,emergency,critical,마스크 착용하세요!,Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0018,emergency,critical,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0019,emergency,critical,낙하물 조심하세요!,Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0020,emergency,critical,바닥이 미끄럽습니다!,Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0021,emergency,critical,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0022,emergency,critical,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0023,emergency,critical,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0024,emergency,critical,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0025,emergency,critical,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0026,emergency,critical,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0027,emergency,critical,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0028,emergency,critical,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0029,emergency,critical,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0030,emergency,critical,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0031,emergency,critical,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0032,emergency,critical,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0033,emergency,critical,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0034,emergency,critical,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0035,emergency,critical,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0036,emergency,critical,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0037,emergency,critical,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0038,emergency,critical,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0039,emergency,critical,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0040,emergency,critical,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0041,emergency,critical,멈춰!,Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0042,emergency,critical,손 빼!,Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0043,emergency,critical,뒤로 물러나!,Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0044,emergency,critical,가까이 가지 마세요!,Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0045,emergency,critical,지금 대피하세요!,Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0046,emergency,critical,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0047,emergency,critical,전원을 내리세요!,Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0048,emergency,critical,119에 신고하세요!,Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0049,emergency,critical,불이 났습니다!,Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0050,emergency,critical,사람이 다쳤습니다!,Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0051,emergency,critical,지게차 지나갑니다!,Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0052,emergency,critical,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0053,emergency,critical,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0054,emergency,critical,전기 만지지 마세요!,Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0055,emergency,critical,가스 냄새가 납니다!,Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0056,emergency,critical,환기하세요!,Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0057,emergency,critical,마스크 착용하세요!,Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0058,emergency,critical,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0059,emergency,critical,낙하물 조심하세요!,Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0060,emergency,critical,바닥이 미끄럽습니다!,Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0061,emergency,critical,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0062,emergency,critical,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0063,emergency,critical,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0064,emergency,critical,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0065,emergency,critical,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0066,emergency,critical,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0067,emergency,critical,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0068,emergency,critical,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0069,emergency,critical,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0070,emergency,critical,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0071,emergency,critical,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0072,emergency,critical,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0073,emergency,critical,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0074,emergency,critical,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0075,emergency,critical,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0076,emergency,critical,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0077,emergency,critical,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0078,emergency,critical,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0079,emergency,critical,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0080,emergency,critical,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0081,emergency,critical,멈춰!,Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0082,emergency,critical,손 빼!,Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0083,emergency,critical,뒤로 물러나!,Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0084,emergency,critical,가까이 가지 마세요!,Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0085,emergency,critical,지금 대피하세요!,Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0086,emergency,critical,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0087,emergency,critical,전원을 내리세요!,Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0088,emergency,critical,119에 신고하세요!,Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0089,emergency,critical,불이 났습니다!,Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0090,emergency,critical,사람이 다쳤습니다!,Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0091,emergency,critical,지게차 지나갑니다!,Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0092,emergency,critical,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0093,emergency,critical,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0094,emergency,critical,전기 만지지 마세요!,Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0095,emergency,critical,가스 냄새가 납니다!,Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0096,emergency,critical,환기하세요!,Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0097,emergency,critical,마스크 착용하세요!,Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0098,emergency,critical,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0099,emergency,critical,낙하물 조심하세요!,Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0100,emergency,critical,바닥이 미끄럽습니다!,Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0101,emergency,critical,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0102,emergency,critical,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0103,emergency,critical,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0104,emergency,critical,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0105,emergency,critical,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0106,emergency,critical,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0107,emergency,critical,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0108,emergency,critical,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0109,emergency,critical,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0110,emergency,critical,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0111,emergency,critical,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0112,emergency,critical,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0113,emergency,critical,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0114,emergency,critical,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0115,emergency,critical,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0116,emergency,critical,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0117,emergency,critical,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0118,emergency,critical,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0119,emergency,critical,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0120,emergency,critical,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0121,emergency,critical,멈춰!,Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0122,emergency,critical,손 빼!,Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0123,emergency,critical,뒤로 물러나!,Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0124,emergency,critical,가까이 가지 마세요!,Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0125,emergency,critical,지금 대피하세요!,Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0126,emergency,critical,비상정지 버튼을 누르세요!,Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0127,emergency,critical,전원을 내리세요!,Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0128,emergency,critical,119에 신고하세요!,Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0129,emergency,critical,불이 났습니다!,Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0130,emergency,critical,사람이 다쳤습니다!,Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0131,emergency,critical,지게차 지나갑니다!,Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0132,emergency,critical,크레인 아래로 지나가지 마세요!,Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0133,emergency,critical,기계 안에 손 넣지 마세요!,Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0134,emergency,critical,전기 만지지 마세요!,Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0135,emergency,critical,가스 냄새가 납니다!,Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0136,emergency,critical,환기하세요!,Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0137,emergency,critical,마스크 착용하세요!,Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0138,emergency,critical,안전대 걸고 올라가세요!,Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0139,emergency,critical,낙하물 조심하세요!,Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0140,emergency,critical,바닥이 미끄럽습니다!,Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0141,emergency,critical,긴급 상황입니다. 멈춰!,Tình huống khẩn cấp. Dừng lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0142,emergency,critical,긴급 상황입니다. 손 빼!,Tình huống khẩn cấp. Rút tay ra ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0143,emergency,critical,긴급 상황입니다. 뒤로 물러나!,Tình huống khẩn cấp. Lùi lại ngay!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0144,emergency,critical,긴급 상황입니다. 가까이 가지 마세요!,Tình huống khẩn cấp. Không được lại gần!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0145,emergency,critical,긴급 상황입니다. 지금 대피하세요!,Tình huống khẩn cấp. Sơ tán ngay bây giờ!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0146,emergency,critical,긴급 상황입니다. 비상정지 버튼을 누르세요!,Tình huống khẩn cấp. Nhấn nút dừng khẩn cấp!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0147,emergency,critical,긴급 상황입니다. 전원을 내리세요!,Tình huống khẩn cấp. Ngắt nguồn điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0148,emergency,critical,긴급 상황입니다. 119에 신고하세요!,Tình huống khẩn cấp. Gọi 119!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0149,emergency,critical,긴급 상황입니다. 불이 났습니다!,Tình huống khẩn cấp. Có cháy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0150,emergency,critical,긴급 상황입니다. 사람이 다쳤습니다!,Tình huống khẩn cấp. Có người bị thương!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0151,emergency,critical,긴급 상황입니다. 지게차 지나갑니다!,Tình huống khẩn cấp. Xe nâng đang đi qua!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0152,emergency,critical,긴급 상황입니다. 크레인 아래로 지나가지 마세요!,Tình huống khẩn cấp. Không đi dưới cần cẩu!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0153,emergency,critical,긴급 상황입니다. 기계 안에 손 넣지 마세요!,Tình huống khẩn cấp. Không cho tay vào trong máy!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0154,emergency,critical,긴급 상황입니다. 전기 만지지 마세요!,Tình huống khẩn cấp. Không chạm vào điện!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0155,emergency,critical,긴급 상황입니다. 가스 냄새가 납니다!,Tình huống khẩn cấp. Có mùi gas!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0156,emergency,critical,긴급 상황입니다. 환기하세요!,Tình huống khẩn cấp. Hãy thông gió!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0157,emergency,critical,긴급 상황입니다. 마스크 착용하세요!,Tình huống khẩn cấp. Đeo khẩu trang!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0158,emergency,critical,긴급 상황입니다. 안전대 걸고 올라가세요!,Tình huống khẩn cấp. Móc dây an toàn rồi mới leo lên!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0159,emergency,critical,긴급 상황입니다. 낙하물 조심하세요!,Tình huống khẩn cấp. Cẩn thận vật rơi!,subtitle|audio|speaker,true,seed_needs_native_field_review
+VIE0160,emergency,critical,긴급 상황입니다. 바닥이 미끄럽습니다!,Tình huống khẩn cấp. Sàn trơn!,subtitle|audio|speaker,true,seed_needs_native_field_review
