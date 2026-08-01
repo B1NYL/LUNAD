@@ -154,11 +154,14 @@ async def receive(token, offset=None, timeout=20):
         )
         return updates
 
-async def listen(token):
+async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
     offset = None
     while True:
         updates = await receive(token, offset=offset, timeout=20)
         for u in updates:
             if u.message and u.message.text:
-                print(u.message.text)
+                audio = t2s(translate(u.message.text, domain_lang, codomain_lang))
+                spr, audio = scipy.io.wavefile.read(audio)
+                sd.play(audio, spr)
+                sd.wait()
             offset = u.update_id + 1
