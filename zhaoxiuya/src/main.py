@@ -6,6 +6,8 @@ from logger import printf
 from sob import listen
 from gigi import arm_ctrl, check_fall, joystick_ctrl
 
+lunad_lang = "영어"
+
 async def main():
     dotenv.load_dotenv()
     
@@ -19,8 +21,8 @@ async def main():
     await sob.init_bot(sender_token)
             
     await asyncio.gather(
-        listen(sender_token),
-        arm_ctrl(sender_token),
+        listen(sender_token, codomain_lang=lunad_lang),
+        arm_ctrl(sender_token, my_lang=lunad_lang),
         check_fall(sender_token),
         joystick_ctrl(sender_token)
     )

@@ -17,7 +17,7 @@ def init_gigi():
     print(GIGI.modules)
     return GIGI
 
-async def arm_ctrl(sender_token, dn_ang=135, up_ang=210):
+async def arm_ctrl(sender_token, dn_ang=135, up_ang=210, my_lang="베트남어"):
     gigi = init_gigi()
     now_ang = up_ang
     motor = gigi.motors[0]
@@ -40,7 +40,7 @@ async def arm_ctrl(sender_token, dn_ang=135, up_ang=210):
             text = await asyncio.to_thread(sob.s2t, audio_path)
             printf(f"인식된 텍스트: {text}")
             printf(f"번역 작업을 진행하겠읍니다.")
-            text = sob.translate(text, "언어 미상", "한국어")
+            text = sob.translate(text, {my_lang}, "한국어")
             printf(f"번역 결과: {text}")
             if text:
                 await sob.send(sender_token, f"음성 메시지: \n{text}")
