@@ -7,7 +7,9 @@ import os
 import asyncio
 import json
 from telegram import Bot
-from services import s2t, send, translate
+from services import s2t, send, translate, t2s
+import scipy.io.wavfile
+import sounddevice as sd
 
 app = FastAPI()
 
@@ -32,9 +34,22 @@ class PositionUpdate(BaseModel):
 # Dummy data for workers with 3D coordinates (x, y, z)
 # y=0: 1층, y=4: 2층, y=8: 3층
 workers_data = [
-    {"id": "156243137817562", "name": "조수아", "status": "normal", "position": {"x": 2, "y": 0, "z": -3}},
+    {"id": "156243137817561", "name": "조수아", "status": "normal", "position": {"x": 2, "y": 0, "z": -3}},
     {"id": "2", "name": "황정빈", "status": "normal", "position": {"x": -4, "y": 0, "z": 2}},
 ]
+
+device_to_worker = {}
+
+async def play_tts_task(text):
+    try:
+        out_path = await t2s(text)
+        def _play():
+            spr, audio = scipy.io.wavfile.read(str(out_path))
+            sd.play(audio, spr)
+            sd.wait()
+        await asyncio.to_thread(_play)
+    except Exception as e:
+        print(f"TTS Error: {e}")
 
 alerts_queue = []
 
@@ -59,6 +74,9 @@ async def telegram_listener():
                             try:
                                 data = json.loads(text)
                                 msg_content = data.get("data", "")
+                                # '음성 메시지:' 접두사 제거
+                                msg_content = msg_content.replace("음성 메시지: \n", "").replace("음성 메시지:", "").strip()
+                                
                                 device_id = str(data.get("id", "unknown"))
                                 worker_id = device_id
 
@@ -88,6 +106,9 @@ async def telegram_listener():
                                     })
                                     if len(messages_queue) > 10:
                                         messages_queue.pop(0)
+                                        
+                                    # 대시보드 PC에서 음성 재생
+                                    asyncio.create_task(play_tts_task(msg_content))
                             except Exception:
                                 pass
                         offset = u.update_id + 1
@@ -138,6 +159,9 @@ async def get_messages():
 @app.post("/api/alerts/webhook")
 async def receive_webhook(payload: dict):
     msg_content = payload.get("data", "")
+    # '음성 메시지:' 접두사 제거
+    msg_content = msg_content.replace("음성 메시지: \n", "").replace("음성 메시지:", "").strip()
+    
     device_id = str(payload.get("id", "unknown"))
     worker_id = device_id
 
