@@ -6,9 +6,20 @@ import Building3D from './components/Building3D';
 import WorkerDot from './components/WorkerDot';
 
 const hostname = window.location.hostname;
-// 깃허브 페이지에서 접속할 경우를 대비해 고정 IP 폴백 설정
-const backendIP = hostname.includes('github.io') ? '192.168.10.181' : hostname;
-const API_BASE = `http://${backendIP}:8000/api`;
+// 깃허브 페이지에서 접속할 경우 외부 터널링 주소(HTTPS)로 연결
+const backendIP = hostname.includes('github.io') ? 'https://lunad-api.loca.lt' : `http://${hostname}:8000`;
+const API_BASE = `${backendIP}/api`;
+
+// localtunnel 경고 페이지를 우회하기 위한 커스텀 fetch 래퍼
+const customFetch = (url, options = {}) => {
+  return fetch(url, {
+    ...options,
+    headers: {
+      ...options.headers,
+      'Bypass-Tunnel-Reminder': 'true'
+    }
+  });
+};
 
 function App() {
   const [workers, setWorkers] = useState([]);
@@ -41,7 +52,7 @@ function App() {
 
   const fetchWorkers = async () => {
     try {
-      const res = await fetch(`${API_BASE}/workers`);
+      const res = await customFetch(`${API_BASE}/workers`);
       const data = await res.json();
       setWorkers(data);
       return data;
@@ -53,7 +64,7 @@ function App() {
 
   const fetchAlerts = async () => {
     try {
-      const res = await fetch(`${API_BASE}/alerts`);
+      const res = await customFetch(`${API_BASE}/alerts`);
       const data = await res.json();
       setAlerts(data);
     } catch (err) {
@@ -63,7 +74,7 @@ function App() {
 
   const fetchMessages = async (currentWorkers = workers) => {
     try {
-      const res = await fetch(`${API_BASE}/messages`);
+      const res = await customFetch(`${API_BASE}/messages`);
       const data = await res.json();
       setMessages(data);
     } catch (err) {
@@ -73,7 +84,7 @@ function App() {
 
   const resolveAlert = async (alertId) => {
     try {
-      await fetch(`${API_BASE}/alerts/${alertId}/resolve`, {
+      await customFetch(`${API_BASE}/alerts/${alertId}/resolve`, {
         method: 'POST'
       });
       // Fetch alerts immediately after resolving
@@ -113,7 +124,7 @@ function App() {
     // Optimistic update
     setWorkers(prev => prev.map(w => w.id === id ? { ...w, position: { x, y, z } } : w));
     try {
-      await fetch(`${API_BASE}/workers/${id}/position`, {
+      await customFetch(`${API_BASE}/workers/${id}/position`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ x, y, z })
@@ -127,7 +138,7 @@ function App() {
     // Optimistic update
     setWorkers(prev => prev.map(w => ({ ...w, position: { ...w.position, y: 0 } })));
     try {
-      await fetch(`${API_BASE}/workers/reset`, {
+      await customFetch(`${API_BASE}/workers/reset`, {
         method: 'POST'
       });
       showToast("모든 노동자의 위치가 1층으로 초기화되었습니다.", "success");
@@ -139,7 +150,7 @@ function App() {
 
   const resetStatus = async () => {
     try {
-      await fetch(`${API_BASE}/workers/reset_status`, {
+      await customFetch(`${API_BASE}/workers/reset_status`, {
         method: 'POST'
       });
       fetchWorkers();
@@ -196,7 +207,7 @@ function App() {
     formData.append('selected_workers', Array.from(selectedIds).join(','));
 
     try {
-      const res = await fetch(`${API_BASE}/broadcast`, {
+      const res = await customFetch(`${API_BASE}/broadcast`, {
         method: 'POST',
         body: formData
       });
