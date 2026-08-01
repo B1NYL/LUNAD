@@ -7,7 +7,7 @@ import WorkerDot from './components/WorkerDot';
 
 const hostname = window.location.hostname;
 // 깃허브 페이지에서 접속할 경우를 대비해 고정 IP 폴백 설정
-const backendIP = hostname.includes('github.io') ? '192.168.10.140' : hostname;
+const backendIP = hostname.includes('github.io') ? '192.168.10.181' : hostname;
 const API_BASE = `http://${backendIP}:8000/api`;
 
 function App() {
