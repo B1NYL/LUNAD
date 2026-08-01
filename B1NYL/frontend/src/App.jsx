@@ -16,17 +16,22 @@ function App() {
   const [toast, setToast] = useState({ show: false, message: '', type: 'success' });
   
   const [alerts, setAlerts] = useState([]);
+  const [messages, setMessages] = useState([]);
+  const seenMessagesRef = useRef(new Set());
   
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
 
   useEffect(() => {
-    fetchWorkers();
-    fetchAlerts();
-    
-    const interval = setInterval(() => {
-      fetchWorkers();
+    fetchWorkers().then(currentWorkers => {
       fetchAlerts();
+      fetchMessages(currentWorkers);
+    });
+    
+    const interval = setInterval(async () => {
+      const currentWorkers = await fetchWorkers();
+      fetchAlerts();
+      fetchMessages(currentWorkers);
     }, 3000);
     return () => clearInterval(interval);
   }, []);
@@ -36,8 +41,10 @@ function App() {
       const res = await fetch(`${API_BASE}/workers`);
       const data = await res.json();
       setWorkers(data);
+      return data;
     } catch (err) {
       console.error("Failed to fetch workers", err);
+      return [];
     }
   };
 
@@ -48,6 +55,16 @@ function App() {
       setAlerts(data);
     } catch (err) {
       console.error("Failed to fetch alerts", err);
+    }
+  };
+
+  const fetchMessages = async (currentWorkers = workers) => {
+    try {
+      const res = await fetch(`${API_BASE}/messages`);
+      const data = await res.json();
+      setMessages(data);
+    } catch (err) {
+      console.error("Failed to fetch messages", err);
     }
   };
 
@@ -220,60 +237,86 @@ function App() {
         </div>
       </header>
 
-      <main className="glass-panel" style={{ height: '700px', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ flex: 1, position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#e2e8f0' }}>
-          <Canvas camera={{ position: [20, 15, 20], fov: 45 }}>
-            <ambientLight intensity={0.5} />
-            <directionalLight position={[10, 20, 10]} intensity={1.5} />
+      <main className="glass-panel" style={{ height: '700px', display: 'flex', flexDirection: 'row', gap: '16px' }}>
+        
+        {/* 왼쪽 영역: 3D 캔버스 + 하단 마이크 컨트롤 */}
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
+          <div style={{ flex: 1, position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#e2e8f0' }}>
+            <Canvas camera={{ position: [20, 15, 20], fov: 45 }}>
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[10, 20, 10]} intensity={1.5} />
+              
+              <Building3D />
+              
+              {workers.map(worker => (
+                <WorkerDot 
+                  key={worker.id} 
+                  worker={worker} 
+                  isSelected={selectedIds.has(worker.id)} 
+                  onClick={toggleWorker} 
+                  onPositionChange={updateWorkerPosition}
+                />
+              ))}
+              
+              <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 2 - 0.05} />
+            </Canvas>
+            <div style={{ position: 'absolute', top: '16px', left: '16px', color: 'var(--text-secondary)', fontSize: '0.9rem', pointerEvents: 'none', background: 'rgba(255,255,255,0.8)', padding: '8px 12px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
+              🖱️ 마우스 좌클릭 드래그로 회전, 휠로 확대/축소할 수 있습니다.
+            </div>
+          </div>
+
+          <div className="controls-section" style={{ marginTop: '1rem', paddingTop: '1rem' }}>
+            <div className="mic-wrapper">
+              <div className={`recording-status ${isRecording ? 'active' : ''}`}>
+                ● 녹음 중... 마우스를 떼면 전송됩니다
+              </div>
+              <button 
+                className={`mic-btn ${isRecording ? 'recording' : ''}`}
+                onMouseDown={startRecording}
+                onMouseUp={stopRecording}
+                onMouseLeave={stopRecording}
+                onTouchStart={startRecording}
+                onTouchEnd={stopRecording}
+              >
+                {isRecording ? <Mic size={36} /> : <MicOff size={36} />}
+              </button>
+            </div>
+            <p style={{ color: 'var(--text-secondary)' }}>버튼을 누른 채로 말하세요. (Push to Talk)</p>
             
-            <Building3D />
-            
-            {workers.map(worker => (
-              <WorkerDot 
-                key={worker.id} 
-                worker={worker} 
-                isSelected={selectedIds.has(worker.id)} 
-                onClick={toggleWorker} 
-                onPositionChange={updateWorkerPosition}
-              />
-            ))}
-            
-            <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 2 - 0.05} />
-          </Canvas>
-          <div style={{ position: 'absolute', top: '16px', left: '16px', color: 'var(--text-secondary)', fontSize: '0.9rem', pointerEvents: 'none', background: 'rgba(255,255,255,0.8)', padding: '8px 12px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.05)' }}>
-            🖱️ 마우스 좌클릭 드래그로 회전, 휠로 확대/축소할 수 있습니다.
+            {isProcessing && (
+              <div style={{ marginTop: '0.5rem', padding: '1rem', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.1)', color: 'var(--accent-blue)', fontWeight: '600' }}>
+                ⏳ 음성을 변환하고 있습니다...
+              </div>
+            )}
+            {!isProcessing && transcribedText && (
+              <div style={{ marginTop: '0.5rem', padding: '1rem', borderRadius: '8px', background: 'rgba(16, 185, 129, 0.05)', color: 'var(--text-primary)', border: '1px solid rgba(16, 185, 129, 0.2)', maxWidth: '600px', textAlign: 'center' }}>
+                <span style={{ color: 'var(--accent-green)', fontWeight: 'bold', marginRight: '8px' }}>인식된 내용:</span>
+                <span>{transcribedText}</span>
+              </div>
+            )}
           </div>
         </div>
 
-        <div className="controls-section" style={{ marginTop: '1rem', paddingTop: '1rem' }}>
-          <div className="mic-wrapper">
-            <div className={`recording-status ${isRecording ? 'active' : ''}`}>
-              ● 녹음 중... 마우스를 떼면 전송됩니다
-            </div>
-            <button 
-              className={`mic-btn ${isRecording ? 'recording' : ''}`}
-              onMouseDown={startRecording}
-              onMouseUp={stopRecording}
-              onMouseLeave={stopRecording}
-              onTouchStart={startRecording}
-              onTouchEnd={stopRecording}
-            >
-              {isRecording ? <Mic size={36} /> : <MicOff size={36} />}
-            </button>
+        {/* 오른쪽 영역: 현장 통신 로그 창 */}
+        <div style={{ width: '320px', background: 'rgba(255,255,255,0.8)', borderRadius: '16px', padding: '16px', display: 'flex', flexDirection: 'column', border: '1px solid rgba(255,255,255,0.5)' }}>
+          <h3 style={{ marginTop: 0, borderBottom: '1px solid #e2e8f0', paddingBottom: '12px', fontSize: '1.1rem', color: '#1e293b', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            💬 현장 통신 로그
+          </h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '12px', overflowY: 'auto', flex: 1, paddingRight: '4px' }}>
+            {messages.length === 0 ? (
+              <div style={{ color: '#94a3b8', fontSize: '0.95rem', textAlign: 'center', padding: '20px 0' }}>수신된 메시지가 없습니다.</div>
+            ) : (
+              [...messages].reverse().map(msg => {
+                const workerName = workers.find(w => w.id === msg.worker_id)?.name || '알 수 없음';
+                return (
+                  <div key={msg.id} style={{ background: '#f8fafc', padding: '12px', borderRadius: '12px', borderLeft: '4px solid #3b82f6', fontSize: '0.95rem' }}>
+                    <strong style={{ color: '#1e293b', display: 'block', marginBottom: '6px', fontSize: '0.85rem' }}>{workerName}</strong>
+                    <span style={{ color: '#475569', lineHeight: '1.4' }}>{msg.message}</span>
+                  </div>
+                );
+              })
+            )}
           </div>
-          <p style={{ color: 'var(--text-secondary)' }}>버튼을 누른 채로 말하세요. (Push to Talk)</p>
-          
-          {isProcessing && (
-            <div style={{ marginTop: '0.5rem', padding: '1rem', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.1)', color: 'var(--accent-blue)', fontWeight: '600' }}>
-              ⏳ 음성을 변환하고 있습니다...
-            </div>
-          )}
-          {!isProcessing && transcribedText && (
-            <div style={{ marginTop: '0.5rem', padding: '1rem', borderRadius: '8px', background: 'rgba(16, 185, 129, 0.05)', color: 'var(--text-primary)', border: '1px solid rgba(16, 185, 129, 0.2)', maxWidth: '600px', textAlign: 'center' }}>
-              <span style={{ color: 'var(--accent-green)', fontWeight: 'bold', marginRight: '8px' }}>인식된 내용:</span>
-              <span>{transcribedText}</span>
-            </div>
-          )}
         </div>
       </main>
 

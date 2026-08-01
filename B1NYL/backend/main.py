@@ -56,29 +56,42 @@ async def telegram_listener():
                     for u in updates:
                         if u.message and u.message.text:
                             text = u.message.text
+                            print(f"[Telegram Listener] Received message: {text}")
                             try:
                                 data = json.loads(text)
                                 msg_content = data.get("data", "")
+                                device_id = str(data.get("id", "unknown"))
+                                
+                                # 매핑 로직: 새 기기면 조수아(1)에 매핑, 그 다음은 황정빈(2)
+                                if device_id not in device_to_worker:
+                                    device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
+                                    
+                                worker_id = device_to_worker[device_id]
+
                                 if "낙상 발생" in msg_content or "아파요" in msg_content or "도와주세요" in msg_content:
-                                    device_id = str(data.get("id", "unknown"))
-                                    
-                                    # 매핑 로직: 새 기기면 조수아(1)에 매핑, 그 다음은 황정빈(2)
-                                    if device_id not in device_to_worker:
-                                        device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
-                                        
-                                    worker_id = device_to_worker[device_id]
-                                    
-                                    # 상태 업데이트
+                                    is_already_accident = False
                                     for w in workers_data:
                                         if w["id"] == worker_id:
+                                            if w["status"] == "accident":
+                                                is_already_accident = True
                                             w["status"] = "accident"
                                     
-                                    alerts_queue.append({
+                                    if not is_already_accident:
+                                        alerts_queue.append({
+                                            "id": str(uuid.uuid4()),
+                                            "device_id": device_id,
+                                            "worker_id": worker_id,
+                                            "message": msg_content,
+                                        })
+                                else:
+                                    # 일반 음성 메시지
+                                    messages_queue.append({
                                         "id": str(uuid.uuid4()),
-                                        "device_id": device_id,
                                         "worker_id": worker_id,
                                         "message": msg_content,
                                     })
+                                    if len(messages_queue) > 10:
+                                        messages_queue.pop(0)
                             except Exception:
                                 pass
                         offset = u.update_id + 1
@@ -120,27 +133,49 @@ async def reset_workers_status():
 async def get_alerts():
     return alerts_queue
 
+messages_queue = []
+
+@app.get("/api/messages")
+async def get_messages():
+    return messages_queue
+
 @app.post("/api/alerts/webhook")
 async def receive_webhook(payload: dict):
     msg_content = payload.get("data", "")
+    device_id = str(payload.get("id", "unknown"))
+    
+    if device_id not in device_to_worker:
+        device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
+        
+    worker_id = device_to_worker[device_id]
+
     if "낙상 발생" in msg_content or "아파요" in msg_content or "도와주세요" in msg_content:
-        device_id = str(payload.get("id", "unknown"))
-        
-        if device_id not in device_to_worker:
-            device_to_worker[device_id] = "1" if len(device_to_worker) == 0 else "2"
-            
-        worker_id = device_to_worker[device_id]
-        
+        is_already_accident = False
         for w in workers_data:
             if w["id"] == worker_id:
+                if w["status"] == "accident":
+                    is_already_accident = True
                 w["status"] = "accident"
         
-        alerts_queue.append({
+        if not is_already_accident:
+            alerts_queue.append({
+                "id": str(uuid.uuid4()),
+                "device_id": device_id,
+                "worker_id": worker_id,
+                "message": msg_content,
+            })
+    else:
+        # 일반 음성 메시지
+        messages_queue.append({
             "id": str(uuid.uuid4()),
-            "device_id": device_id,
             "worker_id": worker_id,
             "message": msg_content,
         })
+        
+        # 10개까지만 유지
+        if len(messages_queue) > 10:
+            messages_queue.pop(0)
+
     return {"success": True}
 
 @app.post("/api/alerts/{alert_id}/resolve")
@@ -148,7 +183,6 @@ async def resolve_alert(alert_id: str):
     global alerts_queue
     resolved_alert = next((a for a in alerts_queue if a["id"] == alert_id), None)
     if resolved_alert:
-        # 알림 팝업은 닫지만, 점을 계속 빨간색으로 유지하기 위해 status="normal"로 되돌리지 않습니다.
         alerts_queue = [a for a in alerts_queue if a["id"] != alert_id]
     return {"success": True}
 
@@ -171,7 +205,11 @@ async def broadcast(
         transcribed_text = await s2t(file_path)
         token = os.getenv("LUNAD_TOKEN") or os.getenv("SENDER_BOT_TOKEN")
         if token:
-            await send(token, transcribed_text)
+            worker_ids = [w.strip() for w in selected_workers.split(',') if w.strip()]
+            for w_id in worker_ids:
+                # 사용자 요청 포맷: {"id": 보낼 사용자 아이디, "data": 보낼 데이터}
+                payload_str = json.dumps({"id": w_id, "data": transcribed_text}, ensure_ascii=False)
+                await send(token, payload_str)
         else:
             print("SENDER_TOKEN is not set.")
         return {"success": True, "text": transcribed_text}
@@ -183,3 +221,4 @@ async def broadcast(
     finally:
         if file_path.exists():
             file_path.unlink()
+
