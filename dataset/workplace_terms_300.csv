@@ -1,0 +1,301 @@
+id,domain,risk_level,ko,plain_ko,aliases,translation_status,glossary_use
+T001,safety,critical,멈춰,즉시 동작을 중단하라는 긴급 지시,정지|스톱,needs_native_review,force_preserve_meaning
+T002,safety,critical,위험,사고나 부상이 발생할 수 있는 상태,위험함|위험해,needs_native_review,force_preserve_meaning
+T003,safety,critical,대피,위험 장소에서 안전한 곳으로 이동,피난|탈출,needs_native_review,force_preserve_meaning
+T004,safety,critical,비상정지,기계나 설비를 긴급하게 정지,긴급정지|이머전시스톱,needs_native_review,force_preserve_meaning
+T005,safety,critical,119 신고,응급상황을 소방/구급에 알림,구급신고|소방신고,needs_native_review,force_preserve_meaning
+T006,safety,critical,응급실,응급환자를 치료하는 병원 공간,ER|응급센터,needs_native_review,force_preserve_meaning
+T007,safety,critical,응급처치,다친 사람에게 즉시 하는 기본 조치,응급조치|구급처치,needs_native_review,force_preserve_meaning
+T008,safety,critical,출혈,피가 나는 상태,피남|피가남,needs_native_review,force_preserve_meaning
+T009,safety,critical,골절,뼈가 부러진 상태,뼈부러짐,needs_native_review,force_preserve_meaning
+T010,safety,critical,화상,뜨거운 것에 피부가 손상됨,데임,needs_native_review,force_preserve_meaning
+T011,safety,critical,질식,숨을 쉬기 어려운 상태,숨막힘,needs_native_review,force_preserve_meaning
+T012,safety,high,어지러움,머리가 어지러운 증상,현기증,needs_native_review,context_hint
+T013,safety,high,두통,머리가 아픈 증상,머리통증,needs_native_review,context_hint
+T014,safety,high,복통,배가 아픈 증상,배아픔,needs_native_review,context_hint
+T015,safety,high,탈수,몸에 수분이 부족한 상태,물부족,needs_native_review,context_hint
+T016,safety,critical,온열질환,더위로 생기는 건강 이상,열사병|일사병,needs_native_review,force_preserve_meaning
+T017,safety,critical,저체온증,추위로 체온이 떨어지는 상태,체온저하,needs_native_review,force_preserve_meaning
+T018,safety,critical,감전,전기가 몸을 통과해 다치는 사고,전기충격|전기쇼크,needs_native_review,force_preserve_meaning
+T019,safety,critical,화재,불이 나는 사고,불남,needs_native_review,force_preserve_meaning
+T020,safety,critical,폭발,압력이나 화학반응으로 터지는 사고,터짐,needs_native_review,force_preserve_meaning
+T021,safety,critical,추락,높은 곳에서 떨어지는 사고,떨어짐,needs_native_review,force_preserve_meaning
+T022,safety,critical,낙하물,위에서 떨어지는 물건,떨어지는물건,needs_native_review,force_preserve_meaning
+T023,safety,critical,끼임,몸이 기계나 물체 사이에 끼는 사고,협착|말림,needs_native_review,force_preserve_meaning
+T024,safety,high,베임,칼이나 날카로운 물체에 피부가 잘림,절상,needs_native_review,context_hint
+T025,safety,critical,절단,신체 일부가 잘리는 사고,절단사고,needs_native_review,force_preserve_meaning
+T026,safety,high,찔림,뾰족한 물체에 찔리는 사고,자상,needs_native_review,context_hint
+T027,safety,high,미끄럼,바닥에서 미끄러지는 상태,슬립,needs_native_review,context_hint
+T028,safety,high,넘어짐,균형을 잃고 넘어지는 사고,전도,needs_native_review,context_hint
+T029,safety,high,부딪힘,사람이나 물체와 충돌하는 사고,충돌,needs_native_review,context_hint
+T030,safety,high,맞음,날아오거나 떨어진 물체에 맞는 사고,가격,needs_native_review,context_hint
+T031,safety,critical,깔림,무거운 물체 아래에 눌리는 사고,압착,needs_native_review,force_preserve_meaning
+T032,safety,critical,붕괴,구조물이나 흙이 무너지는 사고,무너짐,needs_native_review,force_preserve_meaning
+T033,safety,critical,토사붕괴,흙이나 암석이 무너지는 사고,흙무너짐,needs_native_review,force_preserve_meaning
+T034,safety,critical,질식위험,산소 부족 등으로 숨쉬기 어려운 위험,산소결핍,needs_native_review,force_preserve_meaning
+T035,safety,critical,유해가스,건강에 해로운 기체,독성가스,needs_native_review,force_preserve_meaning
+T036,ppe,high,안전모,머리 보호용 보호구,헬멧,needs_native_review,context_hint
+T037,ppe,high,안전화,발 보호용 작업 신발,작업화,needs_native_review,context_hint
+T038,ppe,high,안전대,추락 방지용 몸 보호 장비,하네스,needs_native_review,context_hint
+T039,ppe,high,안전고리,안전대를 걸어 고정하는 고리,카라비너,needs_native_review,context_hint
+T040,ppe,high,장갑,손 보호구,작업장갑,needs_native_review,context_hint
+T041,ppe,high,절단방지장갑,베임을 막는 장갑,베임방지장갑,needs_native_review,context_hint
+T042,ppe,high,내화장갑,열과 불꽃을 막는 장갑,방열장갑,needs_native_review,context_hint
+T043,ppe,high,고무장갑,화학물질이나 물을 막는 장갑,방수장갑,needs_native_review,context_hint
+T044,ppe,high,보안경,눈 보호용 안경,안전안경,needs_native_review,context_hint
+T045,ppe,high,보안면,얼굴 보호구,안면보호구,needs_native_review,context_hint
+T046,ppe,high,마스크,호흡기 보호구,방진마스크,needs_native_review,context_hint
+T047,ppe,high,방독마스크,유해가스 차단용 마스크,가스마스크,needs_native_review,context_hint
+T048,ppe,high,귀마개,소음 차단용 귀 보호구,이어플러그,needs_native_review,context_hint
+T049,ppe,high,귀덮개,소음 차단용 귀 보호구,이어머프,needs_native_review,context_hint
+T050,ppe,high,형광조끼,눈에 잘 보이는 안전 조끼,안전조끼,needs_native_review,context_hint
+T051,ppe,normal,작업복,작업할 때 입는 옷,유니폼,needs_native_review,context_hint
+T052,ppe,high,방진복,먼지와 오염을 막는 작업복,보호복,needs_native_review,context_hint
+T053,ppe,high,방수복,물을 막는 작업복,우의,needs_native_review,context_hint
+T054,ppe,high,용접면,용접 빛과 불꽃을 막는 보호면,용접보안면,needs_native_review,context_hint
+T055,ppe,normal,무릎보호대,무릎을 보호하는 장비,니패드,needs_native_review,context_hint
+T056,machine,critical,프레스,압력을 가해 찍거나 누르는 기계,프레스기,needs_native_review,force_preserve_meaning
+T057,machine,critical,사출기,플라스틱을 금형에 넣어 제품을 만드는 기계,인젝션,needs_native_review,force_preserve_meaning
+T058,machine,critical,컨베이어,물건을 자동으로 이동시키는 벨트 설비,벨트컨베이어,needs_native_review,force_preserve_meaning
+T059,machine,critical,롤러,회전하며 물건을 누르거나 이동시키는 부품,로라,needs_native_review,force_preserve_meaning
+T060,machine,critical,절단기,물건을 자르는 기계,커터,needs_native_review,force_preserve_meaning
+T061,machine,critical,파쇄기,물건을 부수는 기계,분쇄기,needs_native_review,force_preserve_meaning
+T062,machine,critical,압축기,물건을 눌러 압축하는 기계,프레스압축기,needs_native_review,force_preserve_meaning
+T063,machine,critical,혼합기,재료를 섞는 기계,믹서,needs_native_review,force_preserve_meaning
+T064,machine,high,포장기,제품을 자동 포장하는 기계,랩핑기,needs_native_review,context_hint
+T065,machine,high,선반,금속을 깎는 회전 가공 기계,lathe,needs_native_review,context_hint
+T066,machine,high,밀링기,금속을 절삭 가공하는 기계,밀링머신,needs_native_review,context_hint
+T067,machine,high,드릴,구멍을 뚫는 공구,전동드릴,needs_native_review,context_hint
+T068,machine,high,그라인더,금속을 갈거나 절단하는 공구,연마기,needs_native_review,context_hint
+T069,machine,high,톱날,자르는 날이 있는 부품,톱,needs_native_review,context_hint
+T070,machine,high,칼날,자르는 날카로운 부품,블레이드,needs_native_review,context_hint
+T071,machine,critical,회전체,돌아가는 기계 부품,회전부,needs_native_review,force_preserve_meaning
+T072,machine,critical,동력전달부,동력을 전달하는 벨트나 체인 부품,구동부,needs_native_review,force_preserve_meaning
+T073,machine,critical,끼임점,손이나 몸이 끼일 수 있는 위치,협착점,needs_native_review,force_preserve_meaning
+T074,machine,high,방호덮개,위험 부위를 덮는 보호 장치,안전커버,needs_native_review,context_hint
+T075,machine,high,인터록,문이 열리면 기계가 멈추는 안전장치,연동장치,needs_native_review,context_hint
+T076,machine,high,센서,위치나 사람을 감지하는 장치,감지기,needs_native_review,context_hint
+T077,machine,high,비상정지버튼,기계를 급히 멈추는 버튼,이머전시버튼,needs_native_review,context_hint
+T078,machine,normal,지그,제품을 고정하는 작업 도구,고정틀,needs_native_review,context_hint
+T079,machine,normal,금형,제품 모양을 만드는 틀,몰드,needs_native_review,context_hint
+T080,machine,normal,공압,압축공기를 이용한 힘,에어압,needs_native_review,context_hint
+T081,machine,normal,유압,기름 압력을 이용한 힘,오일압,needs_native_review,context_hint
+T082,machine,high,에어건,압축공기를 분사하는 도구,공기총,needs_native_review,context_hint
+T083,machine,high,콤프레서,압축공기를 만드는 장비,공기압축기,needs_native_review,context_hint
+T084,machine,normal,작업대,작업을 하는 테이블,테이블,needs_native_review,context_hint
+T085,machine,normal,공구함,공구를 보관하는 상자,툴박스,needs_native_review,context_hint
+T086,electrical,critical,전원,기계에 공급되는 전기,파워,needs_native_review,force_preserve_meaning
+T087,electrical,critical,전원 차단,전기 공급을 끊는 조치,전기차단,needs_native_review,force_preserve_meaning
+T088,electrical,critical,차단기,전기를 끊는 장치,브레이커,needs_native_review,force_preserve_meaning
+T089,electrical,critical,누전,전기가 새는 현상,전기누설,needs_native_review,force_preserve_meaning
+T090,electrical,critical,접지,전기를 땅으로 흘려보내 안전하게 하는 조치,어스,needs_native_review,force_preserve_meaning
+T091,electrical,critical,감전위험,전기에 다칠 수 있는 위험,전기위험,needs_native_review,force_preserve_meaning
+T092,electrical,high,분전반,전기를 나누어 공급하는 장치함,배전반,needs_native_review,context_hint
+T093,electrical,high,전선,전기를 전달하는 선,케이블,needs_native_review,context_hint
+T094,electrical,high,콘센트,전기를 꽂아 쓰는 장치,플러그소켓,needs_native_review,context_hint
+T095,electrical,high,플러그,콘센트에 꽂는 전기 연결부,전기플러그,needs_native_review,context_hint
+T096,electrical,high,절연,전기가 통하지 않게 막는 것,절연처리,needs_native_review,context_hint
+T097,electrical,high,누전차단기,누전 시 전기를 자동 차단하는 장치,ELB,needs_native_review,context_hint
+T098,electrical,high,잠금표지,정비 중 전원 투입을 막는 표시,LOTO,needs_native_review,context_hint
+T099,electrical,high,활선작업,전기가 흐르는 상태에서 하는 작업,전기활선,needs_native_review,context_hint
+T100,electrical,normal,검전기,전기가 흐르는지 확인하는 도구,전압검지기,needs_native_review,context_hint
+T101,construction,critical,비계,높은 곳 작업용 임시 구조물,스캐폴딩,needs_native_review,force_preserve_meaning
+T102,construction,critical,발판,작업자가 서는 판,작업발판,needs_native_review,force_preserve_meaning
+T103,construction,critical,난간,추락을 막는 울타리,가드레일,needs_native_review,force_preserve_meaning
+T104,construction,critical,개구부,바닥이나 벽의 구멍,오픈홀,needs_native_review,force_preserve_meaning
+T105,construction,high,덮개,구멍이나 위험부를 덮는 판,커버,needs_native_review,context_hint
+T106,construction,high,거푸집,콘크리트를 붓기 위한 틀,폼,needs_native_review,context_hint
+T107,construction,high,동바리,거푸집을 받치는 지지대,서포트,needs_native_review,context_hint
+T108,construction,high,철근,콘크리트 보강용 쇠막대,리바,needs_native_review,context_hint
+T109,construction,high,보호캡,철근 끝을 덮는 보호 부품,철근캡,needs_native_review,context_hint
+T110,construction,critical,양중,크레인 등으로 물건을 들어 올림,리프팅,needs_native_review,force_preserve_meaning
+T111,construction,critical,크레인,무거운 물건을 들어 올리는 장비,기중기,needs_native_review,force_preserve_meaning
+T112,construction,critical,타워크레인,건설현장의 높은 고정식 크레인,타워,needs_native_review,force_preserve_meaning
+T113,construction,critical,이동식크레인,차량에 장착된 크레인,카고크레인,needs_native_review,force_preserve_meaning
+T114,construction,critical,슬링벨트,물건을 묶어 들어 올리는 벨트,벨트슬링,needs_native_review,force_preserve_meaning
+T115,construction,critical,샤클,줄과 물건을 연결하는 금속 고리,섀클,needs_native_review,force_preserve_meaning
+T116,construction,critical,훅,크레인에 물건을 거는 고리,크레인고리,needs_native_review,force_preserve_meaning
+T117,construction,critical,신호수,장비 이동을 신호로 지시하는 사람,유도자,needs_native_review,force_preserve_meaning
+T118,construction,critical,작업반경,장비가 움직이는 위험 범위,회전반경,needs_native_review,force_preserve_meaning
+T119,construction,critical,굴착,땅을 파는 작업,터파기,needs_native_review,force_preserve_meaning
+T120,construction,critical,굴착면,파낸 흙의 벽면,사면,needs_native_review,force_preserve_meaning
+T121,construction,critical,흙막이,굴착면 붕괴를 막는 구조물,토류벽,needs_native_review,force_preserve_meaning
+T122,construction,high,사다리,높은 곳에 오르는 도구,래더,needs_native_review,context_hint
+T123,construction,high,작업발판,작업자가 서서 일하는 발판,워크플랫폼,needs_native_review,context_hint
+T124,construction,high,고소작업대,사람을 올려 작업하는 장비,리프트,needs_native_review,context_hint
+T125,construction,critical,추락방지망,떨어짐을 막는 그물,안전망,needs_native_review,force_preserve_meaning
+T126,construction,high,낙하방지망,물건이 떨어지는 것을 막는 그물,방망,needs_native_review,context_hint
+T127,construction,normal,콘크리트,시멘트와 골재가 굳은 재료,레미콘,needs_native_review,context_hint
+T128,construction,normal,시멘트,콘크리트 재료인 가루,cement,needs_native_review,context_hint
+T129,construction,normal,몰탈,시멘트와 모래를 섞은 재료,모르타르,needs_native_review,context_hint
+T130,construction,normal,배관,물이나 가스가 지나가는 관 설치,파이프작업,needs_native_review,context_hint
+T131,welding,critical,용접,금속을 열로 붙이는 작업,웰딩,needs_native_review,force_preserve_meaning
+T132,welding,high,용접봉,용접에 쓰는 금속 막대,전극봉,needs_native_review,context_hint
+T133,welding,critical,용접불꽃,용접 중 발생하는 불꽃,스파크,needs_native_review,force_preserve_meaning
+T134,welding,critical,불티,작업 중 튀는 작은 불꽃,스패터,needs_native_review,force_preserve_meaning
+T135,welding,critical,가연물,불이 붙기 쉬운 물질,인화물,needs_native_review,force_preserve_meaning
+T136,welding,critical,인화성물질,쉽게 불이 붙는 물질,인화물질,needs_native_review,force_preserve_meaning
+T137,welding,critical,산소통,산소가 들어 있는 압력용기,산소용기,needs_native_review,force_preserve_meaning
+T138,welding,critical,가스통,가스가 들어 있는 압력용기,가스용기,needs_native_review,force_preserve_meaning
+T139,welding,critical,역화방지기,불꽃이 가스통으로 역류하는 것을 막는 장치,역화장치,needs_native_review,force_preserve_meaning
+T140,welding,high,환기,공기를 바꾸는 것,통풍,needs_native_review,context_hint
+T141,chemical,critical,화학물질,화학적 성질을 가진 물질,약품,needs_native_review,force_preserve_meaning
+T142,chemical,critical,유해물질,건강에 해로운 물질,위험물질,needs_native_review,force_preserve_meaning
+T143,chemical,critical,MSDS,물질안전보건자료,물질안전자료,needs_native_review,force_preserve_meaning
+T144,chemical,high,라벨,용기 표면의 정보 표시,표지,needs_native_review,context_hint
+T145,chemical,critical,농약,농작물 병해충 방제 약품,살충제,needs_native_review,force_preserve_meaning
+T146,chemical,critical,살충제,벌레를 죽이는 약품,방충약,needs_native_review,force_preserve_meaning
+T147,chemical,critical,소독제,세균을 없애는 약품,방역약,needs_native_review,force_preserve_meaning
+T148,chemical,high,세척제,오염을 씻어내는 약품,클리너,needs_native_review,context_hint
+T149,chemical,critical,산,부식성이 있는 산성 물질,산성물질,needs_native_review,force_preserve_meaning
+T150,chemical,critical,알칼리,부식성이 있는 알칼리성 물질,염기,needs_native_review,force_preserve_meaning
+T151,chemical,critical,부식성,피부나 금속을 손상시키는 성질,부식위험,needs_native_review,force_preserve_meaning
+T152,chemical,critical,독성,몸에 해로운 성질,중독위험,needs_native_review,force_preserve_meaning
+T153,chemical,critical,인화성,불이 붙기 쉬운 성질,불붙기쉬움,needs_native_review,force_preserve_meaning
+T154,chemical,high,보관함,물질을 안전하게 보관하는 함,캐비닛,needs_native_review,context_hint
+T155,chemical,critical,누출,액체나 가스가 새는 상태,새어나옴,needs_native_review,force_preserve_meaning
+T156,chemical,critical,흡입,숨을 통해 몸에 들어감,들이마심,needs_native_review,force_preserve_meaning
+T157,chemical,critical,피부접촉,물질이 피부에 닿음,피부노출,needs_native_review,force_preserve_meaning
+T158,chemical,critical,눈세척기,눈에 들어간 물질을 씻는 장치,아이워시,needs_native_review,force_preserve_meaning
+T159,chemical,high,방제,오염이나 해충을 막는 작업,방역,needs_native_review,context_hint
+T160,chemical,normal,희석,물이나 용매로 농도를 낮춤,묽힘,needs_native_review,context_hint
+T161,logistics,critical,지게차,화물을 들어 옮기는 차량,포크리프트,needs_native_review,force_preserve_meaning
+T162,logistics,critical,포크,지게차 앞의 화물 받침,발,needs_native_review,force_preserve_meaning
+T163,logistics,critical,팔레트,화물을 올리는 받침대,빠렛트,needs_native_review,force_preserve_meaning
+T164,logistics,high,랙,창고 선반 구조물,선반,needs_native_review,context_hint
+T165,logistics,high,적재,짐을 쌓아 올림,쌓기,needs_native_review,context_hint
+T166,logistics,high,상차,차량에 짐을 실음,싣기,needs_native_review,context_hint
+T167,logistics,high,하차,차량에서 짐을 내림,내리기,needs_native_review,context_hint
+T168,logistics,normal,입고,물건이 창고로 들어옴,반입,needs_native_review,context_hint
+T169,logistics,normal,출고,물건이 창고에서 나감,반출,needs_native_review,context_hint
+T170,logistics,normal,바코드,물품 식별 코드,스캔코드,needs_native_review,context_hint
+T171,logistics,normal,스캐너,바코드를 읽는 장치,바코드스캐너,needs_native_review,context_hint
+T172,logistics,normal,랩핑,비닐 필름으로 감싸는 포장,스트레치필름,needs_native_review,context_hint
+T173,logistics,normal,박스,물건을 담는 상자,상자,needs_native_review,context_hint
+T174,logistics,high,중량물,무거운 물건,무거운짐,needs_native_review,context_hint
+T175,logistics,high,손수레,손으로 끄는 운반 도구,카트,needs_native_review,context_hint
+T176,logistics,high,대차,바퀴가 달린 운반 장비,운반카트,needs_native_review,context_hint
+T177,logistics,high,하역,화물을 싣고 내리는 작업,상하차,needs_native_review,context_hint
+T178,logistics,high,동선,사람이나 장비가 이동하는 길,이동경로,needs_native_review,context_hint
+T179,logistics,high,사각지대,운전자가 볼 수 없는 위치,안보이는곳,needs_native_review,context_hint
+T180,logistics,high,후진경고음,차량이 뒤로 갈 때 나는 경고음,백부저,needs_native_review,context_hint
+T181,agriculture,high,비닐하우스,비닐로 덮은 재배 시설,하우스,needs_native_review,context_hint
+T182,agriculture,normal,수확,농산물을 거두는 작업,따기,needs_native_review,context_hint
+T183,agriculture,normal,선별,좋은 것과 나쁜 것을 나누는 작업,분류,needs_native_review,context_hint
+T184,agriculture,normal,상자,농산물을 담는 박스,박스,needs_native_review,context_hint
+T185,agriculture,normal,묘목,어린 나무나 식물,모종,needs_native_review,context_hint
+T186,agriculture,normal,모종,옮겨 심을 어린 식물,묘,needs_native_review,context_hint
+T187,agriculture,normal,관수,물을 주는 작업,물주기,needs_native_review,context_hint
+T188,agriculture,high,예초기,풀을 베는 회전날 기계,풀베는기계,needs_native_review,context_hint
+T189,agriculture,high,관리기,농작업용 소형 기계,농기계,needs_native_review,context_hint
+T190,agriculture,critical,경운기,밭갈이나 운반에 쓰는 농기계,트랙터소형,needs_native_review,force_preserve_meaning
+T191,agriculture,critical,트랙터,농작업용 차량형 기계,농업트랙터,needs_native_review,force_preserve_meaning
+T192,agriculture,high,회전날,빠르게 도는 칼날,로터리날,needs_native_review,context_hint
+T193,agriculture,high,축사,가축을 기르는 건물,가축우리,needs_native_review,context_hint
+T194,agriculture,critical,분뇨가스,가축 분뇨에서 나오는 유해가스,황화수소,needs_native_review,force_preserve_meaning
+T195,agriculture,high,사료,가축 먹이,먹이,needs_native_review,context_hint
+T196,agriculture,high,급이기,사료를 주는 장치,먹이공급기,needs_native_review,context_hint
+T197,agriculture,high,환풍기,공기를 빼내는 장치,팬,needs_native_review,context_hint
+T198,agriculture,critical,온실가스중독,하우스나 축사 내 가스 중독,가스중독,needs_native_review,force_preserve_meaning
+T199,agriculture,high,벌쏘임,벌에 쏘이는 사고,벌침,needs_native_review,context_hint
+T200,agriculture,high,뱀물림,뱀에게 물리는 사고,독사물림,needs_native_review,context_hint
+T201,food,high,절단작업,칼이나 기계로 자르는 작업,커팅,needs_native_review,context_hint
+T202,food,critical,절단기,식품을 자르는 기계,슬라이서,needs_native_review,force_preserve_meaning
+T203,food,high,칼,식품이나 재료를 자르는 도구,나이프,needs_native_review,context_hint
+T204,food,high,도마,식품을 자르는 받침판,커팅보드,needs_native_review,context_hint
+T205,food,normal,위생장갑,식품 오염을 막는 장갑,비닐장갑,needs_native_review,context_hint
+T206,food,normal,위생모,머리카락 혼입을 막는 모자,헤어캡,needs_native_review,context_hint
+T207,food,normal,앞치마,몸 앞을 보호하는 작업복,에이프런,needs_native_review,context_hint
+T208,food,high,세척,물이나 세제로 씻는 작업,씻기,needs_native_review,context_hint
+T209,food,high,소독,세균을 없애는 작업,살균,needs_native_review,context_hint
+T210,food,high,냉동실,낮은 온도로 보관하는 방,냉동창고,needs_native_review,context_hint
+T211,food,high,냉장실,차가운 온도로 보관하는 방,냉장창고,needs_native_review,context_hint
+T212,food,high,저온화상,차가운 물체 접촉으로 생기는 손상,냉동화상,needs_native_review,context_hint
+T213,food,high,뜨거운물,화상 위험이 있는 물,온수,needs_native_review,context_hint
+T214,food,high,증기,뜨거운 수증기,스팀,needs_native_review,context_hint
+T215,food,normal,유통기한,제품을 팔거나 먹을 수 있는 기한,소비기한,needs_native_review,context_hint
+T216,quality,normal,불량,기준에 맞지 않는 제품,NG,needs_native_review,context_hint
+T217,quality,normal,양품,기준에 맞는 정상 제품,OK품,needs_native_review,context_hint
+T218,quality,normal,찍힘,표면에 눌린 자국,눌림자국,needs_native_review,context_hint
+T219,quality,normal,긁힘,표면이 긁힌 손상,스크래치,needs_native_review,context_hint
+T220,quality,normal,깨짐,제품이 갈라지거나 부서짐,파손,needs_native_review,context_hint
+T221,quality,normal,누락,있어야 할 것이 빠짐,빠짐,needs_native_review,context_hint
+T222,quality,normal,오염,먼지나 이물질이 묻음,더러움,needs_native_review,context_hint
+T223,quality,normal,변색,색이 달라짐,색변함,needs_native_review,context_hint
+T224,quality,normal,수량부족,개수가 모자람,개수부족,needs_native_review,context_hint
+T225,quality,normal,재작업,다시 고쳐 작업함,리워크,needs_native_review,context_hint
+T226,quality,normal,폐기,버리거나 사용하지 않음,버림,needs_native_review,context_hint
+T227,quality,normal,샘플,검사용 대표 제품,시료,needs_native_review,context_hint
+T228,quality,normal,검사,기준에 맞는지 확인,체크,needs_native_review,context_hint
+T229,quality,normal,포장방향,제품을 넣는 방향,방향,needs_native_review,context_hint
+T230,quality,normal,로트번호,제품 묶음 식별 번호,LOT,needs_native_review,context_hint
+T231,waste,critical,폐기물,버리는 물질이나 물건,쓰레기,needs_native_review,force_preserve_meaning
+T232,waste,high,재활용품,다시 사용할 수 있는 폐기물,재활용,needs_native_review,context_hint
+T233,waste,high,분리수거,종류별로 나누어 버리는 작업,분류배출,needs_native_review,context_hint
+T234,waste,critical,의료폐기물,의료기관에서 나온 위험 폐기물,병원폐기물,needs_native_review,force_preserve_meaning
+T235,waste,critical,주사기,바늘이 달린 의료 도구,주삿바늘,needs_native_review,force_preserve_meaning
+T236,waste,high,깨진유리,깨져 날카로운 유리,파유리,needs_native_review,context_hint
+T237,waste,high,날카로운물건,베이거나 찔릴 수 있는 물건,예리물,needs_native_review,context_hint
+T238,waste,critical,압착,강한 힘으로 눌림,눌림,needs_native_review,force_preserve_meaning
+T239,waste,high,악취,심한 냄새,나쁜냄새,needs_native_review,context_hint
+T240,waste,critical,감염위험,병원체에 노출될 위험,감염,needs_native_review,force_preserve_meaning
+T241,fishing,critical,갑판,배 위 작업 공간,데크,needs_native_review,force_preserve_meaning
+T242,fishing,critical,그물,물고기를 잡는 망,어망,needs_native_review,force_preserve_meaning
+T243,fishing,critical,양망기,그물을 끌어올리는 기계,그물올림기,needs_native_review,force_preserve_meaning
+T244,fishing,critical,로프,배나 그물을 묶는 줄,밧줄,needs_native_review,force_preserve_meaning
+T245,fishing,critical,윈치,줄을 감아 당기는 기계,권양기,needs_native_review,force_preserve_meaning
+T246,fishing,critical,해상추락,바다로 떨어지는 사고,익수,needs_native_review,force_preserve_meaning
+T247,fishing,critical,구명조끼,물에 빠졌을 때 몸을 띄우는 보호구,라이프자켓,needs_native_review,force_preserve_meaning
+T248,fishing,high,미끄럼방지화,젖은 바닥에서 미끄럼을 줄이는 신발,논슬립화,needs_native_review,context_hint
+T249,fishing,high,냉동창고,어획물을 얼려 보관하는 창고,냉동고,needs_native_review,context_hint
+T250,fishing,high,어획물,잡은 물고기나 해산물,잡은고기,needs_native_review,context_hint
+T251,mining,critical,광산,광물을 캐는 작업장,채굴장,needs_native_review,force_preserve_meaning
+T252,mining,critical,갱도,광산 안의 통로,터널,needs_native_review,force_preserve_meaning
+T253,mining,critical,낙반,암석이 떨어지는 사고,돌떨어짐,needs_native_review,force_preserve_meaning
+T254,mining,critical,분진,공기 중의 작은 먼지,먼지,needs_native_review,force_preserve_meaning
+T255,mining,critical,방진마스크,먼지 흡입을 막는 마스크,분진마스크,needs_native_review,force_preserve_meaning
+T256,mining,high,환기설비,공기를 바꾸는 설비,통풍설비,needs_native_review,context_hint
+T257,mining,critical,산소농도,공기 중 산소의 양,산소량,needs_native_review,force_preserve_meaning
+T258,mining,critical,가스측정기,유해가스와 산소를 측정하는 기기,가스검지기,needs_native_review,force_preserve_meaning
+T259,mining,high,발파,폭약으로 암석을 깨는 작업,폭파,needs_native_review,context_hint
+T260,mining,high,채굴,광물을 캐는 작업,굴착,needs_native_review,context_hint
+T261,communication,normal,관리자,작업을 지시하고 관리하는 사람,반장|팀장,needs_native_review,context_hint
+T262,communication,normal,작업자,현장에서 일하는 사람,근로자,needs_native_review,context_hint
+T263,communication,normal,통역,다른 언어로 의미를 전달함,번역,needs_native_review,context_hint
+T264,communication,normal,다시 말해 주세요,말을 반복해 달라는 요청,한번더,needs_native_review,context_hint
+T265,communication,normal,천천히 말해 주세요,속도를 낮춰 말해 달라는 요청,천천히,needs_native_review,context_hint
+T266,communication,normal,이해했습니다,내용을 알아들었다는 말,알겠습니다,needs_native_review,context_hint
+T267,communication,normal,이해하지 못했습니다,내용을 알아듣지 못했다는 말,모르겠습니다,needs_native_review,context_hint
+T268,communication,normal,어디입니까,위치를 묻는 말,어디,needs_native_review,context_hint
+T269,communication,normal,언제입니까,시간을 묻는 말,언제,needs_native_review,context_hint
+T270,communication,normal,누구에게 말합니까,담당자를 묻는 말,누구,needs_native_review,context_hint
+T271,labor,normal,출근,일하러 회사에 옴,근무시작,needs_native_review,context_hint
+T272,labor,normal,퇴근,일을 마치고 나감,근무종료,needs_native_review,context_hint
+T273,labor,normal,잔업,정규시간 뒤 추가 근무,연장근무,needs_native_review,context_hint
+T274,labor,normal,야간근무,밤에 하는 근무,야근,needs_native_review,context_hint
+T275,labor,normal,휴게시간,일 중간에 쉬는 시간,쉬는시간,needs_native_review,context_hint
+T276,labor,normal,점심시간,점심을 먹고 쉬는 시간,식사시간,needs_native_review,context_hint
+T277,labor,normal,급여,일한 대가로 받는 돈,임금,needs_native_review,context_hint
+T278,labor,normal,급여명세서,급여 내역이 적힌 문서,임금명세서,needs_native_review,context_hint
+T279,labor,normal,근로계약서,일하는 조건을 적은 계약서,계약서,needs_native_review,context_hint
+T280,labor,normal,숙소,회사나 개인이 제공하는 거주 공간,기숙사,needs_native_review,context_hint
+T281,labor,normal,병가,아파서 쉬는 휴가,아픈휴가,needs_native_review,context_hint
+T282,labor,normal,산재,일 때문에 다치거나 병이 난 사고,산업재해,needs_native_review,context_hint
+T283,labor,normal,보험,사고나 병에 대비한 제도,보장제도,needs_native_review,context_hint
+T284,labor,normal,외국인등록증,외국인 체류 신분증,등록증,needs_native_review,context_hint
+T285,labor,normal,여권,국적과 신분을 증명하는 문서,passport,needs_native_review,context_hint
+T286,slang,normal,빼,제거하거나 꺼내라는 현장 표현,빼다,needs_native_review,context_hint
+T287,slang,normal,올려,들어 올리거나 수치를 높이라는 표현,올리다,needs_native_review,context_hint
+T288,slang,normal,내려,내려놓거나 수치를 낮추라는 표현,내리다,needs_native_review,context_hint
+T289,slang,normal,잡아줘,손으로 고정하거나 함께 들어 달라는 표현,잡다,needs_native_review,context_hint
+T290,slang,normal,까대기,짐을 손으로 싣고 내리는 일,상하차,needs_native_review,context_hint
+T291,slang,normal,빠렛트,팔레트를 부르는 현장 표현,파렛트,needs_native_review,context_hint
+T292,slang,normal,빠루,쇠지렛대를 부르는 현장 표현,지렛대,needs_native_review,context_hint
+T293,slang,normal,함바,건설현장 식당을 부르는 표현,현장식당,needs_native_review,context_hint
+T294,slang,normal,야리끼리,정한 작업량을 끝내면 조기 종료하는 방식,물량제,needs_native_review,context_hint
+T295,slang,normal,땜빵,임시로 빈자리를 메우는 투입,임시대체,needs_native_review,context_hint
+T296,slang,normal,노가다,건설 막일을 낮춰 부르는 표현,막일,needs_native_review,context_hint
+T297,slang,normal,찍힘,제품 표면 눌림 손상을 부르는 표현,눌림,needs_native_review,context_hint
+T298,slang,normal,까짐,제품 표면이 벗겨진 손상,벗겨짐,needs_native_review,context_hint
+T299,slang,normal,짬처리,남은 일이나 귀찮은 일을 넘기는 표현,떠넘김,needs_native_review,context_hint
+T300,slang,normal,오야지,현장 책임자를 부르는 비공식 표현,반장,needs_native_review,context_hint

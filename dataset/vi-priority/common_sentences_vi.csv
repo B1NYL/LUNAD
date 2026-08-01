@@ -1,0 +1,421 @@
+id,domain,risk_level,ko,vi,normalized_ko,term_refs,status
+VIS0001,manufacturing_machine,normal,프레스 확인하고 시작하세요.,Hãy kiểm tra máy dập rồi bắt đầu.,프레스 확인하고 시작하세요.,VIT0001,seed_needs_native_field_review
+VIS0002,manufacturing_machine,normal,프레스 문제 있으면 바로 말하세요.,"Nếu máy dập có vấn đề, hãy báo ngay.",프레스 문제 있으면 바로 말하세요.,VIT0001,seed_needs_native_field_review
+VIS0003,manufacturing_machine,normal,프레스 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy dập, hãy kiểm tra tình trạng an toàn.",프레스 작업 전 안전 상태를 확인하세요.,VIT0001,seed_needs_native_field_review
+VIS0004,manufacturing_machine,normal,프레스 끝나면 관리자에게 보고하세요.,"Khi xong máy dập, hãy báo cho quản lý.",프레스 끝나면 관리자에게 보고하세요.,VIT0001,seed_needs_native_field_review
+VIS0005,manufacturing_machine,normal,프레스는 따로 보관하세요.,Hãy bảo quản riêng máy dập.,프레스는 따로 보관하세요.,VIT0001,seed_needs_native_field_review
+VIS0006,manufacturing_machine,normal,프레스 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy dập.,프레스 주변을 정리하세요.,VIT0001,seed_needs_native_field_review
+VIS0007,manufacturing_machine,normal,사출기 확인하고 시작하세요.,Hãy kiểm tra máy ép nhựa rồi bắt đầu.,사출기 확인하고 시작하세요.,VIT0002,seed_needs_native_field_review
+VIS0008,manufacturing_machine,normal,사출기 문제 있으면 바로 말하세요.,"Nếu máy ép nhựa có vấn đề, hãy báo ngay.",사출기 문제 있으면 바로 말하세요.,VIT0002,seed_needs_native_field_review
+VIS0009,manufacturing_machine,normal,사출기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy ép nhựa, hãy kiểm tra tình trạng an toàn.",사출기 작업 전 안전 상태를 확인하세요.,VIT0002,seed_needs_native_field_review
+VIS0010,manufacturing_machine,normal,사출기 끝나면 관리자에게 보고하세요.,"Khi xong máy ép nhựa, hãy báo cho quản lý.",사출기 끝나면 관리자에게 보고하세요.,VIT0002,seed_needs_native_field_review
+VIS0011,manufacturing_machine,normal,사출기는 따로 보관하세요.,Hãy bảo quản riêng máy ép nhựa.,사출기는 따로 보관하세요.,VIT0002,seed_needs_native_field_review
+VIS0012,manufacturing_machine,normal,사출기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy ép nhựa.,사출기 주변을 정리하세요.,VIT0002,seed_needs_native_field_review
+VIS0013,manufacturing_machine,normal,컨베이어 확인하고 시작하세요.,Hãy kiểm tra băng tải rồi bắt đầu.,컨베이어 확인하고 시작하세요.,VIT0003,seed_needs_native_field_review
+VIS0014,manufacturing_machine,normal,컨베이어 문제 있으면 바로 말하세요.,"Nếu băng tải có vấn đề, hãy báo ngay.",컨베이어 문제 있으면 바로 말하세요.,VIT0003,seed_needs_native_field_review
+VIS0015,manufacturing_machine,normal,컨베이어 작업 전 안전 상태를 확인하세요.,"Trước khi làm băng tải, hãy kiểm tra tình trạng an toàn.",컨베이어 작업 전 안전 상태를 확인하세요.,VIT0003,seed_needs_native_field_review
+VIS0016,manufacturing_machine,normal,컨베이어 끝나면 관리자에게 보고하세요.,"Khi xong băng tải, hãy báo cho quản lý.",컨베이어 끝나면 관리자에게 보고하세요.,VIT0003,seed_needs_native_field_review
+VIS0017,manufacturing_machine,normal,컨베이어는 따로 보관하세요.,Hãy bảo quản riêng băng tải.,컨베이어는 따로 보관하세요.,VIT0003,seed_needs_native_field_review
+VIS0018,manufacturing_machine,normal,컨베이어 주변을 정리하세요.,Hãy dọn dẹp xung quanh băng tải.,컨베이어 주변을 정리하세요.,VIT0003,seed_needs_native_field_review
+VIS0019,manufacturing_machine,normal,롤러 확인하고 시작하세요.,Hãy kiểm tra con lăn rồi bắt đầu.,롤러 확인하고 시작하세요.,VIT0004,seed_needs_native_field_review
+VIS0020,manufacturing_machine,normal,롤러 문제 있으면 바로 말하세요.,"Nếu con lăn có vấn đề, hãy báo ngay.",롤러 문제 있으면 바로 말하세요.,VIT0004,seed_needs_native_field_review
+VIS0021,manufacturing_machine,normal,롤러 작업 전 안전 상태를 확인하세요.,"Trước khi làm con lăn, hãy kiểm tra tình trạng an toàn.",롤러 작업 전 안전 상태를 확인하세요.,VIT0004,seed_needs_native_field_review
+VIS0022,manufacturing_machine,normal,롤러 끝나면 관리자에게 보고하세요.,"Khi xong con lăn, hãy báo cho quản lý.",롤러 끝나면 관리자에게 보고하세요.,VIT0004,seed_needs_native_field_review
+VIS0023,manufacturing_machine,normal,롤러는 따로 보관하세요.,Hãy bảo quản riêng con lăn.,롤러는 따로 보관하세요.,VIT0004,seed_needs_native_field_review
+VIS0024,manufacturing_machine,normal,롤러 주변을 정리하세요.,Hãy dọn dẹp xung quanh con lăn.,롤러 주변을 정리하세요.,VIT0004,seed_needs_native_field_review
+VIS0025,manufacturing_machine,normal,절단기 확인하고 시작하세요.,Hãy kiểm tra máy cắt rồi bắt đầu.,절단기 확인하고 시작하세요.,VIT0005,seed_needs_native_field_review
+VIS0026,manufacturing_machine,normal,절단기 문제 있으면 바로 말하세요.,"Nếu máy cắt có vấn đề, hãy báo ngay.",절단기 문제 있으면 바로 말하세요.,VIT0005,seed_needs_native_field_review
+VIS0027,manufacturing_machine,normal,절단기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy cắt, hãy kiểm tra tình trạng an toàn.",절단기 작업 전 안전 상태를 확인하세요.,VIT0005,seed_needs_native_field_review
+VIS0028,manufacturing_machine,normal,절단기 끝나면 관리자에게 보고하세요.,"Khi xong máy cắt, hãy báo cho quản lý.",절단기 끝나면 관리자에게 보고하세요.,VIT0005,seed_needs_native_field_review
+VIS0029,manufacturing_machine,normal,절단기는 따로 보관하세요.,Hãy bảo quản riêng máy cắt.,절단기는 따로 보관하세요.,VIT0005,seed_needs_native_field_review
+VIS0030,manufacturing_machine,normal,절단기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy cắt.,절단기 주변을 정리하세요.,VIT0005,seed_needs_native_field_review
+VIS0031,manufacturing_machine,normal,파쇄기 확인하고 시작하세요.,Hãy kiểm tra máy nghiền rồi bắt đầu.,파쇄기 확인하고 시작하세요.,VIT0006,seed_needs_native_field_review
+VIS0032,manufacturing_machine,normal,파쇄기 문제 있으면 바로 말하세요.,"Nếu máy nghiền có vấn đề, hãy báo ngay.",파쇄기 문제 있으면 바로 말하세요.,VIT0006,seed_needs_native_field_review
+VIS0033,manufacturing_machine,normal,파쇄기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy nghiền, hãy kiểm tra tình trạng an toàn.",파쇄기 작업 전 안전 상태를 확인하세요.,VIT0006,seed_needs_native_field_review
+VIS0034,manufacturing_machine,normal,파쇄기 끝나면 관리자에게 보고하세요.,"Khi xong máy nghiền, hãy báo cho quản lý.",파쇄기 끝나면 관리자에게 보고하세요.,VIT0006,seed_needs_native_field_review
+VIS0035,manufacturing_machine,normal,파쇄기는 따로 보관하세요.,Hãy bảo quản riêng máy nghiền.,파쇄기는 따로 보관하세요.,VIT0006,seed_needs_native_field_review
+VIS0036,manufacturing_machine,normal,파쇄기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy nghiền.,파쇄기 주변을 정리하세요.,VIT0006,seed_needs_native_field_review
+VIS0037,manufacturing_machine,normal,압축기 확인하고 시작하세요.,Hãy kiểm tra máy ép nén rồi bắt đầu.,압축기 확인하고 시작하세요.,VIT0007,seed_needs_native_field_review
+VIS0038,manufacturing_machine,normal,압축기 문제 있으면 바로 말하세요.,"Nếu máy ép nén có vấn đề, hãy báo ngay.",압축기 문제 있으면 바로 말하세요.,VIT0007,seed_needs_native_field_review
+VIS0039,manufacturing_machine,normal,압축기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy ép nén, hãy kiểm tra tình trạng an toàn.",압축기 작업 전 안전 상태를 확인하세요.,VIT0007,seed_needs_native_field_review
+VIS0040,manufacturing_machine,normal,압축기 끝나면 관리자에게 보고하세요.,"Khi xong máy ép nén, hãy báo cho quản lý.",압축기 끝나면 관리자에게 보고하세요.,VIT0007,seed_needs_native_field_review
+VIS0041,manufacturing_machine,normal,압축기는 따로 보관하세요.,Hãy bảo quản riêng máy ép nén.,압축기는 따로 보관하세요.,VIT0007,seed_needs_native_field_review
+VIS0042,manufacturing_machine,normal,압축기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy ép nén.,압축기 주변을 정리하세요.,VIT0007,seed_needs_native_field_review
+VIS0043,manufacturing_machine,normal,혼합기 확인하고 시작하세요.,Hãy kiểm tra máy trộn rồi bắt đầu.,혼합기 확인하고 시작하세요.,VIT0008,seed_needs_native_field_review
+VIS0044,manufacturing_machine,normal,혼합기 문제 있으면 바로 말하세요.,"Nếu máy trộn có vấn đề, hãy báo ngay.",혼합기 문제 있으면 바로 말하세요.,VIT0008,seed_needs_native_field_review
+VIS0045,manufacturing_machine,normal,혼합기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy trộn, hãy kiểm tra tình trạng an toàn.",혼합기 작업 전 안전 상태를 확인하세요.,VIT0008,seed_needs_native_field_review
+VIS0046,manufacturing_machine,normal,혼합기 끝나면 관리자에게 보고하세요.,"Khi xong máy trộn, hãy báo cho quản lý.",혼합기 끝나면 관리자에게 보고하세요.,VIT0008,seed_needs_native_field_review
+VIS0047,manufacturing_machine,normal,혼합기는 따로 보관하세요.,Hãy bảo quản riêng máy trộn.,혼합기는 따로 보관하세요.,VIT0008,seed_needs_native_field_review
+VIS0048,manufacturing_machine,normal,혼합기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy trộn.,혼합기 주변을 정리하세요.,VIT0008,seed_needs_native_field_review
+VIS0049,manufacturing_machine,normal,포장기 확인하고 시작하세요.,Hãy kiểm tra máy đóng gói rồi bắt đầu.,포장기 확인하고 시작하세요.,VIT0009,seed_needs_native_field_review
+VIS0050,manufacturing_machine,normal,포장기 문제 있으면 바로 말하세요.,"Nếu máy đóng gói có vấn đề, hãy báo ngay.",포장기 문제 있으면 바로 말하세요.,VIT0009,seed_needs_native_field_review
+VIS0051,manufacturing_machine,normal,포장기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy đóng gói, hãy kiểm tra tình trạng an toàn.",포장기 작업 전 안전 상태를 확인하세요.,VIT0009,seed_needs_native_field_review
+VIS0052,manufacturing_machine,normal,포장기 끝나면 관리자에게 보고하세요.,"Khi xong máy đóng gói, hãy báo cho quản lý.",포장기 끝나면 관리자에게 보고하세요.,VIT0009,seed_needs_native_field_review
+VIS0053,manufacturing_machine,normal,포장기는 따로 보관하세요.,Hãy bảo quản riêng máy đóng gói.,포장기는 따로 보관하세요.,VIT0009,seed_needs_native_field_review
+VIS0054,manufacturing_machine,normal,포장기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy đóng gói.,포장기 주변을 정리하세요.,VIT0009,seed_needs_native_field_review
+VIS0055,manufacturing_machine,normal,선반 확인하고 시작하세요.,Hãy kiểm tra máy tiện rồi bắt đầu.,선반 확인하고 시작하세요.,VIT0010,seed_needs_native_field_review
+VIS0056,manufacturing_machine,normal,선반 문제 있으면 바로 말하세요.,"Nếu máy tiện có vấn đề, hãy báo ngay.",선반 문제 있으면 바로 말하세요.,VIT0010,seed_needs_native_field_review
+VIS0057,manufacturing_machine,normal,선반 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy tiện, hãy kiểm tra tình trạng an toàn.",선반 작업 전 안전 상태를 확인하세요.,VIT0010,seed_needs_native_field_review
+VIS0058,manufacturing_machine,normal,선반 끝나면 관리자에게 보고하세요.,"Khi xong máy tiện, hãy báo cho quản lý.",선반 끝나면 관리자에게 보고하세요.,VIT0010,seed_needs_native_field_review
+VIS0059,manufacturing_machine,normal,선반는 따로 보관하세요.,Hãy bảo quản riêng máy tiện.,선반는 따로 보관하세요.,VIT0010,seed_needs_native_field_review
+VIS0060,manufacturing_machine,normal,선반 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy tiện.,선반 주변을 정리하세요.,VIT0010,seed_needs_native_field_review
+VIS0061,manufacturing_machine,normal,밀링기 확인하고 시작하세요.,Hãy kiểm tra máy phay rồi bắt đầu.,밀링기 확인하고 시작하세요.,VIT0011,seed_needs_native_field_review
+VIS0062,manufacturing_machine,normal,밀링기 문제 있으면 바로 말하세요.,"Nếu máy phay có vấn đề, hãy báo ngay.",밀링기 문제 있으면 바로 말하세요.,VIT0011,seed_needs_native_field_review
+VIS0063,manufacturing_machine,normal,밀링기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy phay, hãy kiểm tra tình trạng an toàn.",밀링기 작업 전 안전 상태를 확인하세요.,VIT0011,seed_needs_native_field_review
+VIS0064,manufacturing_machine,normal,밀링기 끝나면 관리자에게 보고하세요.,"Khi xong máy phay, hãy báo cho quản lý.",밀링기 끝나면 관리자에게 보고하세요.,VIT0011,seed_needs_native_field_review
+VIS0065,manufacturing_machine,normal,밀링기는 따로 보관하세요.,Hãy bảo quản riêng máy phay.,밀링기는 따로 보관하세요.,VIT0011,seed_needs_native_field_review
+VIS0066,manufacturing_machine,normal,밀링기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy phay.,밀링기 주변을 정리하세요.,VIT0011,seed_needs_native_field_review
+VIS0067,manufacturing_machine,normal,드릴 확인하고 시작하세요.,Hãy kiểm tra máy khoan rồi bắt đầu.,드릴 확인하고 시작하세요.,VIT0012,seed_needs_native_field_review
+VIS0068,manufacturing_machine,normal,드릴 문제 있으면 바로 말하세요.,"Nếu máy khoan có vấn đề, hãy báo ngay.",드릴 문제 있으면 바로 말하세요.,VIT0012,seed_needs_native_field_review
+VIS0069,manufacturing_machine,normal,드릴 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy khoan, hãy kiểm tra tình trạng an toàn.",드릴 작업 전 안전 상태를 확인하세요.,VIT0012,seed_needs_native_field_review
+VIS0070,manufacturing_machine,normal,드릴 끝나면 관리자에게 보고하세요.,"Khi xong máy khoan, hãy báo cho quản lý.",드릴 끝나면 관리자에게 보고하세요.,VIT0012,seed_needs_native_field_review
+VIS0071,manufacturing_machine,normal,드릴는 따로 보관하세요.,Hãy bảo quản riêng máy khoan.,드릴는 따로 보관하세요.,VIT0012,seed_needs_native_field_review
+VIS0072,manufacturing_machine,normal,드릴 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy khoan.,드릴 주변을 정리하세요.,VIT0012,seed_needs_native_field_review
+VIS0073,manufacturing_machine,normal,그라인더 확인하고 시작하세요.,Hãy kiểm tra máy mài rồi bắt đầu.,그라인더 확인하고 시작하세요.,VIT0013,seed_needs_native_field_review
+VIS0074,manufacturing_machine,normal,그라인더 문제 있으면 바로 말하세요.,"Nếu máy mài có vấn đề, hãy báo ngay.",그라인더 문제 있으면 바로 말하세요.,VIT0013,seed_needs_native_field_review
+VIS0075,manufacturing_machine,normal,그라인더 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy mài, hãy kiểm tra tình trạng an toàn.",그라인더 작업 전 안전 상태를 확인하세요.,VIT0013,seed_needs_native_field_review
+VIS0076,manufacturing_machine,normal,그라인더 끝나면 관리자에게 보고하세요.,"Khi xong máy mài, hãy báo cho quản lý.",그라인더 끝나면 관리자에게 보고하세요.,VIT0013,seed_needs_native_field_review
+VIS0077,manufacturing_machine,normal,그라인더는 따로 보관하세요.,Hãy bảo quản riêng máy mài.,그라인더는 따로 보관하세요.,VIT0013,seed_needs_native_field_review
+VIS0078,manufacturing_machine,normal,그라인더 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy mài.,그라인더 주변을 정리하세요.,VIT0013,seed_needs_native_field_review
+VIS0079,manufacturing_machine,normal,용접기 확인하고 시작하세요.,Hãy kiểm tra máy hàn rồi bắt đầu.,용접기 확인하고 시작하세요.,VIT0014,seed_needs_native_field_review
+VIS0080,manufacturing_machine,normal,용접기 문제 있으면 바로 말하세요.,"Nếu máy hàn có vấn đề, hãy báo ngay.",용접기 문제 있으면 바로 말하세요.,VIT0014,seed_needs_native_field_review
+VIS0081,manufacturing_machine,normal,용접기 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy hàn, hãy kiểm tra tình trạng an toàn.",용접기 작업 전 안전 상태를 확인하세요.,VIT0014,seed_needs_native_field_review
+VIS0082,manufacturing_machine,normal,용접기 끝나면 관리자에게 보고하세요.,"Khi xong máy hàn, hãy báo cho quản lý.",용접기 끝나면 관리자에게 보고하세요.,VIT0014,seed_needs_native_field_review
+VIS0083,manufacturing_machine,normal,용접기는 따로 보관하세요.,Hãy bảo quản riêng máy hàn.,용접기는 따로 보관하세요.,VIT0014,seed_needs_native_field_review
+VIS0084,manufacturing_machine,normal,용접기 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy hàn.,용접기 주변을 정리하세요.,VIT0014,seed_needs_native_field_review
+VIS0085,manufacturing_machine,normal,에어건 확인하고 시작하세요.,Hãy kiểm tra súng hơi rồi bắt đầu.,에어건 확인하고 시작하세요.,VIT0015,seed_needs_native_field_review
+VIS0086,manufacturing_machine,normal,에어건 문제 있으면 바로 말하세요.,"Nếu súng hơi có vấn đề, hãy báo ngay.",에어건 문제 있으면 바로 말하세요.,VIT0015,seed_needs_native_field_review
+VIS0087,manufacturing_machine,normal,에어건 작업 전 안전 상태를 확인하세요.,"Trước khi làm súng hơi, hãy kiểm tra tình trạng an toàn.",에어건 작업 전 안전 상태를 확인하세요.,VIT0015,seed_needs_native_field_review
+VIS0088,manufacturing_machine,normal,에어건 끝나면 관리자에게 보고하세요.,"Khi xong súng hơi, hãy báo cho quản lý.",에어건 끝나면 관리자에게 보고하세요.,VIT0015,seed_needs_native_field_review
+VIS0089,manufacturing_machine,normal,에어건는 따로 보관하세요.,Hãy bảo quản riêng súng hơi.,에어건는 따로 보관하세요.,VIT0015,seed_needs_native_field_review
+VIS0090,manufacturing_machine,normal,에어건 주변을 정리하세요.,Hãy dọn dẹp xung quanh súng hơi.,에어건 주변을 정리하세요.,VIT0015,seed_needs_native_field_review
+VIS0091,manufacturing_machine,normal,콤프레서 확인하고 시작하세요.,Hãy kiểm tra máy nén khí rồi bắt đầu.,콤프레서 확인하고 시작하세요.,VIT0016,seed_needs_native_field_review
+VIS0092,manufacturing_machine,normal,콤프레서 문제 있으면 바로 말하세요.,"Nếu máy nén khí có vấn đề, hãy báo ngay.",콤프레서 문제 있으면 바로 말하세요.,VIT0016,seed_needs_native_field_review
+VIS0093,manufacturing_machine,normal,콤프레서 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy nén khí, hãy kiểm tra tình trạng an toàn.",콤프레서 작업 전 안전 상태를 확인하세요.,VIT0016,seed_needs_native_field_review
+VIS0094,manufacturing_machine,normal,콤프레서 끝나면 관리자에게 보고하세요.,"Khi xong máy nén khí, hãy báo cho quản lý.",콤프레서 끝나면 관리자에게 보고하세요.,VIT0016,seed_needs_native_field_review
+VIS0095,manufacturing_machine,normal,콤프레서는 따로 보관하세요.,Hãy bảo quản riêng máy nén khí.,콤프레서는 따로 보관하세요.,VIT0016,seed_needs_native_field_review
+VIS0096,manufacturing_machine,normal,콤프레서 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy nén khí.,콤프레서 주변을 정리하세요.,VIT0016,seed_needs_native_field_review
+VIS0097,manufacturing_machine,normal,지그 확인하고 시작하세요.,Hãy kiểm tra đồ gá rồi bắt đầu.,지그 확인하고 시작하세요.,VIT0017,seed_needs_native_field_review
+VIS0098,manufacturing_machine,normal,지그 문제 있으면 바로 말하세요.,"Nếu đồ gá có vấn đề, hãy báo ngay.",지그 문제 있으면 바로 말하세요.,VIT0017,seed_needs_native_field_review
+VIS0099,manufacturing_machine,normal,지그 작업 전 안전 상태를 확인하세요.,"Trước khi làm đồ gá, hãy kiểm tra tình trạng an toàn.",지그 작업 전 안전 상태를 확인하세요.,VIT0017,seed_needs_native_field_review
+VIS0100,manufacturing_machine,normal,지그 끝나면 관리자에게 보고하세요.,"Khi xong đồ gá, hãy báo cho quản lý.",지그 끝나면 관리자에게 보고하세요.,VIT0017,seed_needs_native_field_review
+VIS0101,manufacturing_machine,normal,지그는 따로 보관하세요.,Hãy bảo quản riêng đồ gá.,지그는 따로 보관하세요.,VIT0017,seed_needs_native_field_review
+VIS0102,manufacturing_machine,normal,지그 주변을 정리하세요.,Hãy dọn dẹp xung quanh đồ gá.,지그 주변을 정리하세요.,VIT0017,seed_needs_native_field_review
+VIS0103,manufacturing_machine,normal,금형 확인하고 시작하세요.,Hãy kiểm tra khuôn rồi bắt đầu.,금형 확인하고 시작하세요.,VIT0018,seed_needs_native_field_review
+VIS0104,manufacturing_machine,normal,금형 문제 있으면 바로 말하세요.,"Nếu khuôn có vấn đề, hãy báo ngay.",금형 문제 있으면 바로 말하세요.,VIT0018,seed_needs_native_field_review
+VIS0105,manufacturing_machine,normal,금형 작업 전 안전 상태를 확인하세요.,"Trước khi làm khuôn, hãy kiểm tra tình trạng an toàn.",금형 작업 전 안전 상태를 확인하세요.,VIT0018,seed_needs_native_field_review
+VIS0106,manufacturing_machine,normal,금형 끝나면 관리자에게 보고하세요.,"Khi xong khuôn, hãy báo cho quản lý.",금형 끝나면 관리자에게 보고하세요.,VIT0018,seed_needs_native_field_review
+VIS0107,manufacturing_machine,normal,금형는 따로 보관하세요.,Hãy bảo quản riêng khuôn.,금형는 따로 보관하세요.,VIT0018,seed_needs_native_field_review
+VIS0108,manufacturing_machine,normal,금형 주변을 정리하세요.,Hãy dọn dẹp xung quanh khuôn.,금형 주변을 정리하세요.,VIT0018,seed_needs_native_field_review
+VIS0109,manufacturing_machine,normal,로봇암 확인하고 시작하세요.,Hãy kiểm tra cánh tay robot rồi bắt đầu.,로봇암 확인하고 시작하세요.,VIT0019,seed_needs_native_field_review
+VIS0110,manufacturing_machine,normal,로봇암 문제 있으면 바로 말하세요.,"Nếu cánh tay robot có vấn đề, hãy báo ngay.",로봇암 문제 있으면 바로 말하세요.,VIT0019,seed_needs_native_field_review
+VIS0111,manufacturing_machine,normal,로봇암 작업 전 안전 상태를 확인하세요.,"Trước khi làm cánh tay robot, hãy kiểm tra tình trạng an toàn.",로봇암 작업 전 안전 상태를 확인하세요.,VIT0019,seed_needs_native_field_review
+VIS0112,manufacturing_machine,normal,로봇암 끝나면 관리자에게 보고하세요.,"Khi xong cánh tay robot, hãy báo cho quản lý.",로봇암 끝나면 관리자에게 보고하세요.,VIT0019,seed_needs_native_field_review
+VIS0113,manufacturing_machine,normal,로봇암는 따로 보관하세요.,Hãy bảo quản riêng cánh tay robot.,로봇암는 따로 보관하세요.,VIT0019,seed_needs_native_field_review
+VIS0114,manufacturing_machine,normal,로봇암 주변을 정리하세요.,Hãy dọn dẹp xung quanh cánh tay robot.,로봇암 주변을 정리하세요.,VIT0019,seed_needs_native_field_review
+VIS0115,manufacturing_machine,normal,CNC 확인하고 시작하세요.,Hãy kiểm tra máy CNC rồi bắt đầu.,CNC 확인하고 시작하세요.,VIT0020,seed_needs_native_field_review
+VIS0116,manufacturing_machine,normal,CNC 문제 있으면 바로 말하세요.,"Nếu máy CNC có vấn đề, hãy báo ngay.",CNC 문제 있으면 바로 말하세요.,VIT0020,seed_needs_native_field_review
+VIS0117,manufacturing_machine,normal,CNC 작업 전 안전 상태를 확인하세요.,"Trước khi làm máy CNC, hãy kiểm tra tình trạng an toàn.",CNC 작업 전 안전 상태를 확인하세요.,VIT0020,seed_needs_native_field_review
+VIS0118,manufacturing_machine,normal,CNC 끝나면 관리자에게 보고하세요.,"Khi xong máy CNC, hãy báo cho quản lý.",CNC 끝나면 관리자에게 보고하세요.,VIT0020,seed_needs_native_field_review
+VIS0119,manufacturing_machine,normal,CNC는 따로 보관하세요.,Hãy bảo quản riêng máy CNC.,CNC는 따로 보관하세요.,VIT0020,seed_needs_native_field_review
+VIS0120,manufacturing_machine,normal,CNC 주변을 정리하세요.,Hãy dọn dẹp xung quanh máy CNC.,CNC 주변을 정리하세요.,VIT0020,seed_needs_native_field_review
+VIS0121,manufacturing_machine,normal,호이스트 확인하고 시작하세요.,Hãy kiểm tra pa lăng rồi bắt đầu.,호이스트 확인하고 시작하세요.,VIT0021,seed_needs_native_field_review
+VIS0122,manufacturing_machine,normal,호이스트 문제 있으면 바로 말하세요.,"Nếu pa lăng có vấn đề, hãy báo ngay.",호이스트 문제 있으면 바로 말하세요.,VIT0021,seed_needs_native_field_review
+VIS0123,manufacturing_machine,normal,호이스트 작업 전 안전 상태를 확인하세요.,"Trước khi làm pa lăng, hãy kiểm tra tình trạng an toàn.",호이스트 작업 전 안전 상태를 확인하세요.,VIT0021,seed_needs_native_field_review
+VIS0124,manufacturing_machine,normal,호이스트 끝나면 관리자에게 보고하세요.,"Khi xong pa lăng, hãy báo cho quản lý.",호이스트 끝나면 관리자에게 보고하세요.,VIT0021,seed_needs_native_field_review
+VIS0125,manufacturing_machine,normal,호이스트는 따로 보관하세요.,Hãy bảo quản riêng pa lăng.,호이스트는 따로 보관하세요.,VIT0021,seed_needs_native_field_review
+VIS0126,manufacturing_machine,normal,호이스트 주변을 정리하세요.,Hãy dọn dẹp xung quanh pa lăng.,호이스트 주변을 정리하세요.,VIT0021,seed_needs_native_field_review
+VIS0127,manufacturing_machine,normal,전동공구 확인하고 시작하세요.,Hãy kiểm tra dụng cụ điện rồi bắt đầu.,전동공구 확인하고 시작하세요.,VIT0022,seed_needs_native_field_review
+VIS0128,manufacturing_machine,normal,전동공구 문제 있으면 바로 말하세요.,"Nếu dụng cụ điện có vấn đề, hãy báo ngay.",전동공구 문제 있으면 바로 말하세요.,VIT0022,seed_needs_native_field_review
+VIS0129,manufacturing_machine,normal,전동공구 작업 전 안전 상태를 확인하세요.,"Trước khi làm dụng cụ điện, hãy kiểm tra tình trạng an toàn.",전동공구 작업 전 안전 상태를 확인하세요.,VIT0022,seed_needs_native_field_review
+VIS0130,manufacturing_machine,normal,전동공구 끝나면 관리자에게 보고하세요.,"Khi xong dụng cụ điện, hãy báo cho quản lý.",전동공구 끝나면 관리자에게 보고하세요.,VIT0022,seed_needs_native_field_review
+VIS0131,manufacturing_machine,normal,전동공구는 따로 보관하세요.,Hãy bảo quản riêng dụng cụ điện.,전동공구는 따로 보관하세요.,VIT0022,seed_needs_native_field_review
+VIS0132,manufacturing_machine,normal,전동공구 주변을 정리하세요.,Hãy dọn dẹp xung quanh dụng cụ điện.,전동공구 주변을 정리하세요.,VIT0022,seed_needs_native_field_review
+VIS0133,manufacturing_machine,normal,작업대 확인하고 시작하세요.,Hãy kiểm tra bàn làm việc rồi bắt đầu.,작업대 확인하고 시작하세요.,VIT0023,seed_needs_native_field_review
+VIS0134,manufacturing_machine,normal,작업대 문제 있으면 바로 말하세요.,"Nếu bàn làm việc có vấn đề, hãy báo ngay.",작업대 문제 있으면 바로 말하세요.,VIT0023,seed_needs_native_field_review
+VIS0135,manufacturing_machine,normal,작업대 작업 전 안전 상태를 확인하세요.,"Trước khi làm bàn làm việc, hãy kiểm tra tình trạng an toàn.",작업대 작업 전 안전 상태를 확인하세요.,VIT0023,seed_needs_native_field_review
+VIS0136,manufacturing_machine,normal,작업대 끝나면 관리자에게 보고하세요.,"Khi xong bàn làm việc, hãy báo cho quản lý.",작업대 끝나면 관리자에게 보고하세요.,VIT0023,seed_needs_native_field_review
+VIS0137,manufacturing_machine,normal,작업대는 따로 보관하세요.,Hãy bảo quản riêng bàn làm việc.,작업대는 따로 보관하세요.,VIT0023,seed_needs_native_field_review
+VIS0138,manufacturing_machine,normal,작업대 주변을 정리하세요.,Hãy dọn dẹp xung quanh bàn làm việc.,작업대 주변을 정리하세요.,VIT0023,seed_needs_native_field_review
+VIS0139,manufacturing_machine,normal,공구함 확인하고 시작하세요.,Hãy kiểm tra hộp dụng cụ rồi bắt đầu.,공구함 확인하고 시작하세요.,VIT0024,seed_needs_native_field_review
+VIS0140,manufacturing_machine,normal,공구함 문제 있으면 바로 말하세요.,"Nếu hộp dụng cụ có vấn đề, hãy báo ngay.",공구함 문제 있으면 바로 말하세요.,VIT0024,seed_needs_native_field_review
+VIS0141,manufacturing_machine,normal,공구함 작업 전 안전 상태를 확인하세요.,"Trước khi làm hộp dụng cụ, hãy kiểm tra tình trạng an toàn.",공구함 작업 전 안전 상태를 확인하세요.,VIT0024,seed_needs_native_field_review
+VIS0142,manufacturing_machine,normal,공구함 끝나면 관리자에게 보고하세요.,"Khi xong hộp dụng cụ, hãy báo cho quản lý.",공구함 끝나면 관리자에게 보고하세요.,VIT0024,seed_needs_native_field_review
+VIS0143,manufacturing_machine,normal,공구함는 따로 보관하세요.,Hãy bảo quản riêng hộp dụng cụ.,공구함는 따로 보관하세요.,VIT0024,seed_needs_native_field_review
+VIS0144,manufacturing_machine,normal,공구함 주변을 정리하세요.,Hãy dọn dẹp xung quanh hộp dụng cụ.,공구함 주변을 정리하세요.,VIT0024,seed_needs_native_field_review
+VIS0145,manufacturing_machine,normal,톱날 확인하고 시작하세요.,Hãy kiểm tra lưỡi cưa rồi bắt đầu.,톱날 확인하고 시작하세요.,VIT0025,seed_needs_native_field_review
+VIS0146,manufacturing_machine,normal,톱날 문제 있으면 바로 말하세요.,"Nếu lưỡi cưa có vấn đề, hãy báo ngay.",톱날 문제 있으면 바로 말하세요.,VIT0025,seed_needs_native_field_review
+VIS0147,manufacturing_machine,normal,톱날 작업 전 안전 상태를 확인하세요.,"Trước khi làm lưỡi cưa, hãy kiểm tra tình trạng an toàn.",톱날 작업 전 안전 상태를 확인하세요.,VIT0025,seed_needs_native_field_review
+VIS0148,manufacturing_machine,normal,톱날 끝나면 관리자에게 보고하세요.,"Khi xong lưỡi cưa, hãy báo cho quản lý.",톱날 끝나면 관리자에게 보고하세요.,VIT0025,seed_needs_native_field_review
+VIS0149,manufacturing_machine,normal,톱날는 따로 보관하세요.,Hãy bảo quản riêng lưỡi cưa.,톱날는 따로 보관하세요.,VIT0025,seed_needs_native_field_review
+VIS0150,manufacturing_machine,normal,톱날 주변을 정리하세요.,Hãy dọn dẹp xung quanh lưỡi cưa.,톱날 주변을 정리하세요.,VIT0025,seed_needs_native_field_review
+VIS0151,manufacturing_machine,normal,칼날 확인하고 시작하세요.,Hãy kiểm tra lưỡi dao rồi bắt đầu.,칼날 확인하고 시작하세요.,VIT0026,seed_needs_native_field_review
+VIS0152,manufacturing_machine,normal,칼날 문제 있으면 바로 말하세요.,"Nếu lưỡi dao có vấn đề, hãy báo ngay.",칼날 문제 있으면 바로 말하세요.,VIT0026,seed_needs_native_field_review
+VIS0153,manufacturing_machine,normal,칼날 작업 전 안전 상태를 확인하세요.,"Trước khi làm lưỡi dao, hãy kiểm tra tình trạng an toàn.",칼날 작업 전 안전 상태를 확인하세요.,VIT0026,seed_needs_native_field_review
+VIS0154,manufacturing_machine,normal,칼날 끝나면 관리자에게 보고하세요.,"Khi xong lưỡi dao, hãy báo cho quản lý.",칼날 끝나면 관리자에게 보고하세요.,VIT0026,seed_needs_native_field_review
+VIS0155,manufacturing_machine,normal,칼날는 따로 보관하세요.,Hãy bảo quản riêng lưỡi dao.,칼날는 따로 보관하세요.,VIT0026,seed_needs_native_field_review
+VIS0156,manufacturing_machine,normal,칼날 주변을 정리하세요.,Hãy dọn dẹp xung quanh lưỡi dao.,칼날 주변을 정리하세요.,VIT0026,seed_needs_native_field_review
+VIS0157,manufacturing_machine,normal,드릴 비트 확인하고 시작하세요.,Hãy kiểm tra mũi khoan rồi bắt đầu.,드릴 비트 확인하고 시작하세요.,VIT0027,seed_needs_native_field_review
+VIS0158,manufacturing_machine,normal,드릴 비트 문제 있으면 바로 말하세요.,"Nếu mũi khoan có vấn đề, hãy báo ngay.",드릴 비트 문제 있으면 바로 말하세요.,VIT0027,seed_needs_native_field_review
+VIS0159,manufacturing_machine,normal,드릴 비트 작업 전 안전 상태를 확인하세요.,"Trước khi làm mũi khoan, hãy kiểm tra tình trạng an toàn.",드릴 비트 작업 전 안전 상태를 확인하세요.,VIT0027,seed_needs_native_field_review
+VIS0160,manufacturing_machine,normal,드릴 비트 끝나면 관리자에게 보고하세요.,"Khi xong mũi khoan, hãy báo cho quản lý.",드릴 비트 끝나면 관리자에게 보고하세요.,VIT0027,seed_needs_native_field_review
+VIS0161,manufacturing_machine,normal,드릴 비트는 따로 보관하세요.,Hãy bảo quản riêng mũi khoan.,드릴 비트는 따로 보관하세요.,VIT0027,seed_needs_native_field_review
+VIS0162,manufacturing_machine,normal,드릴 비트 주변을 정리하세요.,Hãy dọn dẹp xung quanh mũi khoan.,드릴 비트 주변을 정리하세요.,VIT0027,seed_needs_native_field_review
+VIS0163,manufacturing_machine,normal,기리 확인하고 시작하세요.,Hãy kiểm tra mũi khoan rồi bắt đầu.,기리 확인하고 시작하세요.,VIT0028,seed_needs_native_field_review
+VIS0164,manufacturing_machine,normal,기리 문제 있으면 바로 말하세요.,"Nếu mũi khoan có vấn đề, hãy báo ngay.",기리 문제 있으면 바로 말하세요.,VIT0028,seed_needs_native_field_review
+VIS0165,manufacturing_machine,normal,기리 작업 전 안전 상태를 확인하세요.,"Trước khi làm mũi khoan, hãy kiểm tra tình trạng an toàn.",기리 작업 전 안전 상태를 확인하세요.,VIT0028,seed_needs_native_field_review
+VIS0166,manufacturing_machine,normal,기리 끝나면 관리자에게 보고하세요.,"Khi xong mũi khoan, hãy báo cho quản lý.",기리 끝나면 관리자에게 보고하세요.,VIT0028,seed_needs_native_field_review
+VIS0167,manufacturing_machine,normal,기리는 따로 보관하세요.,Hãy bảo quản riêng mũi khoan.,기리는 따로 보관하세요.,VIT0028,seed_needs_native_field_review
+VIS0168,manufacturing_machine,normal,기리 주변을 정리하세요.,Hãy dọn dẹp xung quanh mũi khoan.,기리 주변을 정리하세요.,VIT0028,seed_needs_native_field_review
+VIS0169,manufacturing_machine,normal,방호덮개 확인하고 시작하세요.,Hãy kiểm tra nắp che bảo vệ rồi bắt đầu.,방호덮개 확인하고 시작하세요.,VIT0029,seed_needs_native_field_review
+VIS0170,manufacturing_machine,normal,방호덮개 문제 있으면 바로 말하세요.,"Nếu nắp che bảo vệ có vấn đề, hãy báo ngay.",방호덮개 문제 있으면 바로 말하세요.,VIT0029,seed_needs_native_field_review
+VIS0171,manufacturing_machine,normal,방호덮개 작업 전 안전 상태를 확인하세요.,"Trước khi làm nắp che bảo vệ, hãy kiểm tra tình trạng an toàn.",방호덮개 작업 전 안전 상태를 확인하세요.,VIT0029,seed_needs_native_field_review
+VIS0172,manufacturing_machine,normal,방호덮개 끝나면 관리자에게 보고하세요.,"Khi xong nắp che bảo vệ, hãy báo cho quản lý.",방호덮개 끝나면 관리자에게 보고하세요.,VIT0029,seed_needs_native_field_review
+VIS0173,manufacturing_machine,normal,방호덮개는 따로 보관하세요.,Hãy bảo quản riêng nắp che bảo vệ.,방호덮개는 따로 보관하세요.,VIT0029,seed_needs_native_field_review
+VIS0174,manufacturing_machine,normal,방호덮개 주변을 정리하세요.,Hãy dọn dẹp xung quanh nắp che bảo vệ.,방호덮개 주변을 정리하세요.,VIT0029,seed_needs_native_field_review
+VIS0175,manufacturing_machine,normal,인터록 확인하고 시작하세요.,Hãy kiểm tra khóa liên động an toàn rồi bắt đầu.,인터록 확인하고 시작하세요.,VIT0030,seed_needs_native_field_review
+VIS0176,manufacturing_machine,normal,인터록 문제 있으면 바로 말하세요.,"Nếu khóa liên động an toàn có vấn đề, hãy báo ngay.",인터록 문제 있으면 바로 말하세요.,VIT0030,seed_needs_native_field_review
+VIS0177,manufacturing_machine,normal,인터록 작업 전 안전 상태를 확인하세요.,"Trước khi làm khóa liên động an toàn, hãy kiểm tra tình trạng an toàn.",인터록 작업 전 안전 상태를 확인하세요.,VIT0030,seed_needs_native_field_review
+VIS0178,manufacturing_machine,normal,인터록 끝나면 관리자에게 보고하세요.,"Khi xong khóa liên động an toàn, hãy báo cho quản lý.",인터록 끝나면 관리자에게 보고하세요.,VIT0030,seed_needs_native_field_review
+VIS0179,manufacturing_machine,normal,인터록는 따로 보관하세요.,Hãy bảo quản riêng khóa liên động an toàn.,인터록는 따로 보관하세요.,VIT0030,seed_needs_native_field_review
+VIS0180,manufacturing_machine,normal,인터록 주변을 정리하세요.,Hãy dọn dẹp xung quanh khóa liên động an toàn.,인터록 주변을 정리하세요.,VIT0030,seed_needs_native_field_review
+VIS0181,manufacturing_machine,normal,센서 확인하고 시작하세요.,Hãy kiểm tra cảm biến rồi bắt đầu.,센서 확인하고 시작하세요.,VIT0031,seed_needs_native_field_review
+VIS0182,manufacturing_machine,normal,센서 문제 있으면 바로 말하세요.,"Nếu cảm biến có vấn đề, hãy báo ngay.",센서 문제 있으면 바로 말하세요.,VIT0031,seed_needs_native_field_review
+VIS0183,manufacturing_machine,normal,센서 작업 전 안전 상태를 확인하세요.,"Trước khi làm cảm biến, hãy kiểm tra tình trạng an toàn.",센서 작업 전 안전 상태를 확인하세요.,VIT0031,seed_needs_native_field_review
+VIS0184,manufacturing_machine,normal,센서 끝나면 관리자에게 보고하세요.,"Khi xong cảm biến, hãy báo cho quản lý.",센서 끝나면 관리자에게 보고하세요.,VIT0031,seed_needs_native_field_review
+VIS0185,manufacturing_machine,normal,센서는 따로 보관하세요.,Hãy bảo quản riêng cảm biến.,센서는 따로 보관하세요.,VIT0031,seed_needs_native_field_review
+VIS0186,manufacturing_machine,normal,센서 주변을 정리하세요.,Hãy dọn dẹp xung quanh cảm biến.,센서 주변을 정리하세요.,VIT0031,seed_needs_native_field_review
+VIS0187,manufacturing_machine,normal,비상정지버튼 확인하고 시작하세요.,Hãy kiểm tra nút dừng khẩn cấp rồi bắt đầu.,비상정지버튼 확인하고 시작하세요.,VIT0032,seed_needs_native_field_review
+VIS0188,manufacturing_machine,normal,비상정지버튼 문제 있으면 바로 말하세요.,"Nếu nút dừng khẩn cấp có vấn đề, hãy báo ngay.",비상정지버튼 문제 있으면 바로 말하세요.,VIT0032,seed_needs_native_field_review
+VIS0189,manufacturing_machine,normal,비상정지버튼 작업 전 안전 상태를 확인하세요.,"Trước khi làm nút dừng khẩn cấp, hãy kiểm tra tình trạng an toàn.",비상정지버튼 작업 전 안전 상태를 확인하세요.,VIT0032,seed_needs_native_field_review
+VIS0190,manufacturing_machine,normal,비상정지버튼 끝나면 관리자에게 보고하세요.,"Khi xong nút dừng khẩn cấp, hãy báo cho quản lý.",비상정지버튼 끝나면 관리자에게 보고하세요.,VIT0032,seed_needs_native_field_review
+VIS0191,manufacturing_machine,normal,비상정지버튼는 따로 보관하세요.,Hãy bảo quản riêng nút dừng khẩn cấp.,비상정지버튼는 따로 보관하세요.,VIT0032,seed_needs_native_field_review
+VIS0192,manufacturing_machine,normal,비상정지버튼 주변을 정리하세요.,Hãy dọn dẹp xung quanh nút dừng khẩn cấp.,비상정지버튼 주변을 정리하세요.,VIT0032,seed_needs_native_field_review
+VIS0193,manufacturing_machine,normal,회전체 확인하고 시작하세요.,Hãy kiểm tra bộ phận quay rồi bắt đầu.,회전체 확인하고 시작하세요.,VIT0033,seed_needs_native_field_review
+VIS0194,manufacturing_machine,normal,회전체 문제 있으면 바로 말하세요.,"Nếu bộ phận quay có vấn đề, hãy báo ngay.",회전체 문제 있으면 바로 말하세요.,VIT0033,seed_needs_native_field_review
+VIS0195,manufacturing_machine,normal,회전체 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ phận quay, hãy kiểm tra tình trạng an toàn.",회전체 작업 전 안전 상태를 확인하세요.,VIT0033,seed_needs_native_field_review
+VIS0196,manufacturing_machine,normal,회전체 끝나면 관리자에게 보고하세요.,"Khi xong bộ phận quay, hãy báo cho quản lý.",회전체 끝나면 관리자에게 보고하세요.,VIT0033,seed_needs_native_field_review
+VIS0197,manufacturing_machine,normal,회전체는 따로 보관하세요.,Hãy bảo quản riêng bộ phận quay.,회전체는 따로 보관하세요.,VIT0033,seed_needs_native_field_review
+VIS0198,manufacturing_machine,normal,회전체 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ phận quay.,회전체 주변을 정리하세요.,VIT0033,seed_needs_native_field_review
+VIS0199,manufacturing_machine,normal,동력전달부 확인하고 시작하세요.,Hãy kiểm tra bộ phận truyền động rồi bắt đầu.,동력전달부 확인하고 시작하세요.,VIT0034,seed_needs_native_field_review
+VIS0200,manufacturing_machine,normal,동력전달부 문제 있으면 바로 말하세요.,"Nếu bộ phận truyền động có vấn đề, hãy báo ngay.",동력전달부 문제 있으면 바로 말하세요.,VIT0034,seed_needs_native_field_review
+VIS0201,manufacturing_machine,normal,동력전달부 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ phận truyền động, hãy kiểm tra tình trạng an toàn.",동력전달부 작업 전 안전 상태를 확인하세요.,VIT0034,seed_needs_native_field_review
+VIS0202,manufacturing_machine,normal,동력전달부 끝나면 관리자에게 보고하세요.,"Khi xong bộ phận truyền động, hãy báo cho quản lý.",동력전달부 끝나면 관리자에게 보고하세요.,VIT0034,seed_needs_native_field_review
+VIS0203,manufacturing_machine,normal,동력전달부는 따로 보관하세요.,Hãy bảo quản riêng bộ phận truyền động.,동력전달부는 따로 보관하세요.,VIT0034,seed_needs_native_field_review
+VIS0204,manufacturing_machine,normal,동력전달부 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ phận truyền động.,동력전달부 주변을 정리하세요.,VIT0034,seed_needs_native_field_review
+VIS0205,manufacturing_machine,normal,끼임점 확인하고 시작하세요.,Hãy kiểm tra điểm kẹp rồi bắt đầu.,끼임점 확인하고 시작하세요.,VIT0035,seed_needs_native_field_review
+VIS0206,manufacturing_machine,normal,끼임점 문제 있으면 바로 말하세요.,"Nếu điểm kẹp có vấn đề, hãy báo ngay.",끼임점 문제 있으면 바로 말하세요.,VIT0035,seed_needs_native_field_review
+VIS0207,manufacturing_machine,normal,끼임점 작업 전 안전 상태를 확인하세요.,"Trước khi làm điểm kẹp, hãy kiểm tra tình trạng an toàn.",끼임점 작업 전 안전 상태를 확인하세요.,VIT0035,seed_needs_native_field_review
+VIS0208,manufacturing_machine,normal,끼임점 끝나면 관리자에게 보고하세요.,"Khi xong điểm kẹp, hãy báo cho quản lý.",끼임점 끝나면 관리자에게 보고하세요.,VIT0035,seed_needs_native_field_review
+VIS0209,manufacturing_machine,normal,끼임점는 따로 보관하세요.,Hãy bảo quản riêng điểm kẹp.,끼임점는 따로 보관하세요.,VIT0035,seed_needs_native_field_review
+VIS0210,manufacturing_machine,normal,끼임점 주변을 정리하세요.,Hãy dọn dẹp xung quanh điểm kẹp.,끼임점 주변을 정리하세요.,VIT0035,seed_needs_native_field_review
+VIS0211,manufacturing_machine,normal,공압 확인하고 시작하세요.,Hãy kiểm tra khí nén rồi bắt đầu.,공압 확인하고 시작하세요.,VIT0036,seed_needs_native_field_review
+VIS0212,manufacturing_machine,normal,공압 문제 있으면 바로 말하세요.,"Nếu khí nén có vấn đề, hãy báo ngay.",공압 문제 있으면 바로 말하세요.,VIT0036,seed_needs_native_field_review
+VIS0213,manufacturing_machine,normal,공압 작업 전 안전 상태를 확인하세요.,"Trước khi làm khí nén, hãy kiểm tra tình trạng an toàn.",공압 작업 전 안전 상태를 확인하세요.,VIT0036,seed_needs_native_field_review
+VIS0214,manufacturing_machine,normal,공압 끝나면 관리자에게 보고하세요.,"Khi xong khí nén, hãy báo cho quản lý.",공압 끝나면 관리자에게 보고하세요.,VIT0036,seed_needs_native_field_review
+VIS0215,manufacturing_machine,normal,공압는 따로 보관하세요.,Hãy bảo quản riêng khí nén.,공압는 따로 보관하세요.,VIT0036,seed_needs_native_field_review
+VIS0216,manufacturing_machine,normal,공압 주변을 정리하세요.,Hãy dọn dẹp xung quanh khí nén.,공압 주변을 정리하세요.,VIT0036,seed_needs_native_field_review
+VIS0217,manufacturing_machine,normal,유압 확인하고 시작하세요.,Hãy kiểm tra thủy lực rồi bắt đầu.,유압 확인하고 시작하세요.,VIT0037,seed_needs_native_field_review
+VIS0218,manufacturing_machine,normal,유압 문제 있으면 바로 말하세요.,"Nếu thủy lực có vấn đề, hãy báo ngay.",유압 문제 있으면 바로 말하세요.,VIT0037,seed_needs_native_field_review
+VIS0219,manufacturing_machine,normal,유압 작업 전 안전 상태를 확인하세요.,"Trước khi làm thủy lực, hãy kiểm tra tình trạng an toàn.",유압 작업 전 안전 상태를 확인하세요.,VIT0037,seed_needs_native_field_review
+VIS0220,manufacturing_machine,normal,유압 끝나면 관리자에게 보고하세요.,"Khi xong thủy lực, hãy báo cho quản lý.",유압 끝나면 관리자에게 보고하세요.,VIT0037,seed_needs_native_field_review
+VIS0221,manufacturing_machine,normal,유압는 따로 보관하세요.,Hãy bảo quản riêng thủy lực.,유압는 따로 보관하세요.,VIT0037,seed_needs_native_field_review
+VIS0222,manufacturing_machine,normal,유압 주변을 정리하세요.,Hãy dọn dẹp xung quanh thủy lực.,유압 주변을 정리하세요.,VIT0037,seed_needs_native_field_review
+VIS0223,manufacturing_machine,normal,윤활유 확인하고 시작하세요.,Hãy kiểm tra dầu bôi trơn rồi bắt đầu.,윤활유 확인하고 시작하세요.,VIT0038,seed_needs_native_field_review
+VIS0224,manufacturing_machine,normal,윤활유 문제 있으면 바로 말하세요.,"Nếu dầu bôi trơn có vấn đề, hãy báo ngay.",윤활유 문제 있으면 바로 말하세요.,VIT0038,seed_needs_native_field_review
+VIS0225,manufacturing_machine,normal,윤활유 작업 전 안전 상태를 확인하세요.,"Trước khi làm dầu bôi trơn, hãy kiểm tra tình trạng an toàn.",윤활유 작업 전 안전 상태를 확인하세요.,VIT0038,seed_needs_native_field_review
+VIS0226,manufacturing_machine,normal,윤활유 끝나면 관리자에게 보고하세요.,"Khi xong dầu bôi trơn, hãy báo cho quản lý.",윤활유 끝나면 관리자에게 보고하세요.,VIT0038,seed_needs_native_field_review
+VIS0227,manufacturing_machine,normal,윤활유는 따로 보관하세요.,Hãy bảo quản riêng dầu bôi trơn.,윤활유는 따로 보관하세요.,VIT0038,seed_needs_native_field_review
+VIS0228,manufacturing_machine,normal,윤활유 주변을 정리하세요.,Hãy dọn dẹp xung quanh dầu bôi trơn.,윤활유 주변을 정리하세요.,VIT0038,seed_needs_native_field_review
+VIS0229,manufacturing_machine,normal,냉각수 확인하고 시작하세요.,Hãy kiểm tra nước làm mát rồi bắt đầu.,냉각수 확인하고 시작하세요.,VIT0039,seed_needs_native_field_review
+VIS0230,manufacturing_machine,normal,냉각수 문제 있으면 바로 말하세요.,"Nếu nước làm mát có vấn đề, hãy báo ngay.",냉각수 문제 있으면 바로 말하세요.,VIT0039,seed_needs_native_field_review
+VIS0231,manufacturing_machine,normal,냉각수 작업 전 안전 상태를 확인하세요.,"Trước khi làm nước làm mát, hãy kiểm tra tình trạng an toàn.",냉각수 작업 전 안전 상태를 확인하세요.,VIT0039,seed_needs_native_field_review
+VIS0232,manufacturing_machine,normal,냉각수 끝나면 관리자에게 보고하세요.,"Khi xong nước làm mát, hãy báo cho quản lý.",냉각수 끝나면 관리자에게 보고하세요.,VIT0039,seed_needs_native_field_review
+VIS0233,manufacturing_machine,normal,냉각수는 따로 보관하세요.,Hãy bảo quản riêng nước làm mát.,냉각수는 따로 보관하세요.,VIT0039,seed_needs_native_field_review
+VIS0234,manufacturing_machine,normal,냉각수 주변을 정리하세요.,Hãy dọn dẹp xung quanh nước làm mát.,냉각수 주변을 정리하세요.,VIT0039,seed_needs_native_field_review
+VIS0235,manufacturing_machine,normal,필터 확인하고 시작하세요.,Hãy kiểm tra bộ lọc rồi bắt đầu.,필터 확인하고 시작하세요.,VIT0040,seed_needs_native_field_review
+VIS0236,manufacturing_machine,normal,필터 문제 있으면 바로 말하세요.,"Nếu bộ lọc có vấn đề, hãy báo ngay.",필터 문제 있으면 바로 말하세요.,VIT0040,seed_needs_native_field_review
+VIS0237,manufacturing_machine,normal,필터 작업 전 안전 상태를 확인하세요.,"Trước khi làm bộ lọc, hãy kiểm tra tình trạng an toàn.",필터 작업 전 안전 상태를 확인하세요.,VIT0040,seed_needs_native_field_review
+VIS0238,manufacturing_machine,normal,필터 끝나면 관리자에게 보고하세요.,"Khi xong bộ lọc, hãy báo cho quản lý.",필터 끝나면 관리자에게 보고하세요.,VIT0040,seed_needs_native_field_review
+VIS0239,manufacturing_machine,normal,필터는 따로 보관하세요.,Hãy bảo quản riêng bộ lọc.,필터는 따로 보관하세요.,VIT0040,seed_needs_native_field_review
+VIS0240,manufacturing_machine,normal,필터 주변을 정리하세요.,Hãy dọn dẹp xung quanh bộ lọc.,필터 주변을 정리하세요.,VIT0040,seed_needs_native_field_review
+VIS0241,manufacturing_machine,normal,노즐 확인하고 시작하세요.,Hãy kiểm tra vòi phun rồi bắt đầu.,노즐 확인하고 시작하세요.,VIT0041,seed_needs_native_field_review
+VIS0242,manufacturing_machine,normal,노즐 문제 있으면 바로 말하세요.,"Nếu vòi phun có vấn đề, hãy báo ngay.",노즐 문제 있으면 바로 말하세요.,VIT0041,seed_needs_native_field_review
+VIS0243,manufacturing_machine,normal,노즐 작업 전 안전 상태를 확인하세요.,"Trước khi làm vòi phun, hãy kiểm tra tình trạng an toàn.",노즐 작업 전 안전 상태를 확인하세요.,VIT0041,seed_needs_native_field_review
+VIS0244,manufacturing_machine,normal,노즐 끝나면 관리자에게 보고하세요.,"Khi xong vòi phun, hãy báo cho quản lý.",노즐 끝나면 관리자에게 보고하세요.,VIT0041,seed_needs_native_field_review
+VIS0245,manufacturing_machine,normal,노즐는 따로 보관하세요.,Hãy bảo quản riêng vòi phun.,노즐는 따로 보관하세요.,VIT0041,seed_needs_native_field_review
+VIS0246,manufacturing_machine,normal,노즐 주변을 정리하세요.,Hãy dọn dẹp xung quanh vòi phun.,노즐 주변을 정리하세요.,VIT0041,seed_needs_native_field_review
+VIS0247,manufacturing_machine,normal,베어링 확인하고 시작하세요.,Hãy kiểm tra vòng bi rồi bắt đầu.,베어링 확인하고 시작하세요.,VIT0042,seed_needs_native_field_review
+VIS0248,manufacturing_machine,normal,베어링 문제 있으면 바로 말하세요.,"Nếu vòng bi có vấn đề, hãy báo ngay.",베어링 문제 있으면 바로 말하세요.,VIT0042,seed_needs_native_field_review
+VIS0249,manufacturing_machine,normal,베어링 작업 전 안전 상태를 확인하세요.,"Trước khi làm vòng bi, hãy kiểm tra tình trạng an toàn.",베어링 작업 전 안전 상태를 확인하세요.,VIT0042,seed_needs_native_field_review
+VIS0250,manufacturing_machine,normal,베어링 끝나면 관리자에게 보고하세요.,"Khi xong vòng bi, hãy báo cho quản lý.",베어링 끝나면 관리자에게 보고하세요.,VIT0042,seed_needs_native_field_review
+VIS0251,manufacturing_machine,normal,베어링는 따로 보관하세요.,Hãy bảo quản riêng vòng bi.,베어링는 따로 보관하세요.,VIT0042,seed_needs_native_field_review
+VIS0252,manufacturing_machine,normal,베어링 주변을 정리하세요.,Hãy dọn dẹp xung quanh vòng bi.,베어링 주변을 정리하세요.,VIT0042,seed_needs_native_field_review
+VIS0253,manufacturing_machine,normal,벨트 확인하고 시작하세요.,Hãy kiểm tra dây đai rồi bắt đầu.,벨트 확인하고 시작하세요.,VIT0043,seed_needs_native_field_review
+VIS0254,manufacturing_machine,normal,벨트 문제 있으면 바로 말하세요.,"Nếu dây đai có vấn đề, hãy báo ngay.",벨트 문제 있으면 바로 말하세요.,VIT0043,seed_needs_native_field_review
+VIS0255,manufacturing_machine,normal,벨트 작업 전 안전 상태를 확인하세요.,"Trước khi làm dây đai, hãy kiểm tra tình trạng an toàn.",벨트 작업 전 안전 상태를 확인하세요.,VIT0043,seed_needs_native_field_review
+VIS0256,manufacturing_machine,normal,벨트 끝나면 관리자에게 보고하세요.,"Khi xong dây đai, hãy báo cho quản lý.",벨트 끝나면 관리자에게 보고하세요.,VIT0043,seed_needs_native_field_review
+VIS0257,manufacturing_machine,normal,벨트는 따로 보관하세요.,Hãy bảo quản riêng dây đai.,벨트는 따로 보관하세요.,VIT0043,seed_needs_native_field_review
+VIS0258,manufacturing_machine,normal,벨트 주변을 정리하세요.,Hãy dọn dẹp xung quanh dây đai.,벨트 주변을 정리하세요.,VIT0043,seed_needs_native_field_review
+VIS0259,manufacturing_machine,normal,체인 확인하고 시작하세요.,Hãy kiểm tra xích rồi bắt đầu.,체인 확인하고 시작하세요.,VIT0044,seed_needs_native_field_review
+VIS0260,manufacturing_machine,normal,체인 문제 있으면 바로 말하세요.,"Nếu xích có vấn đề, hãy báo ngay.",체인 문제 있으면 바로 말하세요.,VIT0044,seed_needs_native_field_review
+VIS0261,manufacturing_machine,normal,체인 작업 전 안전 상태를 확인하세요.,"Trước khi làm xích, hãy kiểm tra tình trạng an toàn.",체인 작업 전 안전 상태를 확인하세요.,VIT0044,seed_needs_native_field_review
+VIS0262,manufacturing_machine,normal,체인 끝나면 관리자에게 보고하세요.,"Khi xong xích, hãy báo cho quản lý.",체인 끝나면 관리자에게 보고하세요.,VIT0044,seed_needs_native_field_review
+VIS0263,manufacturing_machine,normal,체인는 따로 보관하세요.,Hãy bảo quản riêng xích.,체인는 따로 보관하세요.,VIT0044,seed_needs_native_field_review
+VIS0264,manufacturing_machine,normal,체인 주변을 정리하세요.,Hãy dọn dẹp xung quanh xích.,체인 주변을 정리하세요.,VIT0044,seed_needs_native_field_review
+VIS0265,manufacturing_machine,normal,기어 확인하고 시작하세요.,Hãy kiểm tra bánh răng rồi bắt đầu.,기어 확인하고 시작하세요.,VIT0045,seed_needs_native_field_review
+VIS0266,manufacturing_machine,normal,기어 문제 있으면 바로 말하세요.,"Nếu bánh răng có vấn đề, hãy báo ngay.",기어 문제 있으면 바로 말하세요.,VIT0045,seed_needs_native_field_review
+VIS0267,manufacturing_machine,normal,기어 작업 전 안전 상태를 확인하세요.,"Trước khi làm bánh răng, hãy kiểm tra tình trạng an toàn.",기어 작업 전 안전 상태를 확인하세요.,VIT0045,seed_needs_native_field_review
+VIS0268,manufacturing_machine,normal,기어 끝나면 관리자에게 보고하세요.,"Khi xong bánh răng, hãy báo cho quản lý.",기어 끝나면 관리자에게 보고하세요.,VIT0045,seed_needs_native_field_review
+VIS0269,manufacturing_machine,normal,기어는 따로 보관하세요.,Hãy bảo quản riêng bánh răng.,기어는 따로 보관하세요.,VIT0045,seed_needs_native_field_review
+VIS0270,manufacturing_machine,normal,기어 주변을 정리하세요.,Hãy dọn dẹp xung quanh bánh răng.,기어 주변을 정리하세요.,VIT0045,seed_needs_native_field_review
+VIS0271,manufacturing_machine,normal,모터 확인하고 시작하세요.,Hãy kiểm tra động cơ rồi bắt đầu.,모터 확인하고 시작하세요.,VIT0046,seed_needs_native_field_review
+VIS0272,manufacturing_machine,normal,모터 문제 있으면 바로 말하세요.,"Nếu động cơ có vấn đề, hãy báo ngay.",모터 문제 있으면 바로 말하세요.,VIT0046,seed_needs_native_field_review
+VIS0273,manufacturing_machine,normal,모터 작업 전 안전 상태를 확인하세요.,"Trước khi làm động cơ, hãy kiểm tra tình trạng an toàn.",모터 작업 전 안전 상태를 확인하세요.,VIT0046,seed_needs_native_field_review
+VIS0274,manufacturing_machine,normal,모터 끝나면 관리자에게 보고하세요.,"Khi xong động cơ, hãy báo cho quản lý.",모터 끝나면 관리자에게 보고하세요.,VIT0046,seed_needs_native_field_review
+VIS0275,manufacturing_machine,normal,모터는 따로 보관하세요.,Hãy bảo quản riêng động cơ.,모터는 따로 보관하세요.,VIT0046,seed_needs_native_field_review
+VIS0276,manufacturing_machine,normal,모터 주변을 정리하세요.,Hãy dọn dẹp xung quanh động cơ.,모터 주변을 정리하세요.,VIT0046,seed_needs_native_field_review
+VIS0277,manufacturing_machine,normal,제어반 확인하고 시작하세요.,Hãy kiểm tra tủ điều khiển rồi bắt đầu.,제어반 확인하고 시작하세요.,VIT0047,seed_needs_native_field_review
+VIS0278,manufacturing_machine,normal,제어반 문제 있으면 바로 말하세요.,"Nếu tủ điều khiển có vấn đề, hãy báo ngay.",제어반 문제 있으면 바로 말하세요.,VIT0047,seed_needs_native_field_review
+VIS0279,manufacturing_machine,normal,제어반 작업 전 안전 상태를 확인하세요.,"Trước khi làm tủ điều khiển, hãy kiểm tra tình trạng an toàn.",제어반 작업 전 안전 상태를 확인하세요.,VIT0047,seed_needs_native_field_review
+VIS0280,manufacturing_machine,normal,제어반 끝나면 관리자에게 보고하세요.,"Khi xong tủ điều khiển, hãy báo cho quản lý.",제어반 끝나면 관리자에게 보고하세요.,VIT0047,seed_needs_native_field_review
+VIS0281,manufacturing_machine,normal,제어반는 따로 보관하세요.,Hãy bảo quản riêng tủ điều khiển.,제어반는 따로 보관하세요.,VIT0047,seed_needs_native_field_review
+VIS0282,manufacturing_machine,normal,제어반 주변을 정리하세요.,Hãy dọn dẹp xung quanh tủ điều khiển.,제어반 주변을 정리하세요.,VIT0047,seed_needs_native_field_review
+VIS0283,manufacturing_machine,normal,분전반 확인하고 시작하세요.,Hãy kiểm tra tủ điện phân phối rồi bắt đầu.,분전반 확인하고 시작하세요.,VIT0048,seed_needs_native_field_review
+VIS0284,manufacturing_machine,normal,분전반 문제 있으면 바로 말하세요.,"Nếu tủ điện phân phối có vấn đề, hãy báo ngay.",분전반 문제 있으면 바로 말하세요.,VIT0048,seed_needs_native_field_review
+VIS0285,manufacturing_machine,normal,분전반 작업 전 안전 상태를 확인하세요.,"Trước khi làm tủ điện phân phối, hãy kiểm tra tình trạng an toàn.",분전반 작업 전 안전 상태를 확인하세요.,VIT0048,seed_needs_native_field_review
+VIS0286,manufacturing_machine,normal,분전반 끝나면 관리자에게 보고하세요.,"Khi xong tủ điện phân phối, hãy báo cho quản lý.",분전반 끝나면 관리자에게 보고하세요.,VIT0048,seed_needs_native_field_review
+VIS0287,manufacturing_machine,normal,분전반는 따로 보관하세요.,Hãy bảo quản riêng tủ điện phân phối.,분전반는 따로 보관하세요.,VIT0048,seed_needs_native_field_review
+VIS0288,manufacturing_machine,normal,분전반 주변을 정리하세요.,Hãy dọn dẹp xung quanh tủ điện phân phối.,분전반 주변을 정리하세요.,VIT0048,seed_needs_native_field_review
+VIS0289,manufacturing_quality,normal,불량 확인하고 시작하세요.,Hãy kiểm tra hàng lỗi rồi bắt đầu.,불량 확인하고 시작하세요.,VIT0049,seed_needs_native_field_review
+VIS0290,manufacturing_quality,normal,불량 문제 있으면 바로 말하세요.,"Nếu hàng lỗi có vấn đề, hãy báo ngay.",불량 문제 있으면 바로 말하세요.,VIT0049,seed_needs_native_field_review
+VIS0291,manufacturing_quality,normal,불량 작업 전 안전 상태를 확인하세요.,"Trước khi làm hàng lỗi, hãy kiểm tra tình trạng an toàn.",불량 작업 전 안전 상태를 확인하세요.,VIT0049,seed_needs_native_field_review
+VIS0292,manufacturing_quality,normal,불량 끝나면 관리자에게 보고하세요.,"Khi xong hàng lỗi, hãy báo cho quản lý.",불량 끝나면 관리자에게 보고하세요.,VIT0049,seed_needs_native_field_review
+VIS0293,manufacturing_quality,normal,불량는 따로 보관하세요.,Hãy bảo quản riêng hàng lỗi.,불량는 따로 보관하세요.,VIT0049,seed_needs_native_field_review
+VIS0294,manufacturing_quality,normal,불량 주변을 정리하세요.,Hãy dọn dẹp xung quanh hàng lỗi.,불량 주변을 정리하세요.,VIT0049,seed_needs_native_field_review
+VIS0295,manufacturing_quality,normal,양품 확인하고 시작하세요.,Hãy kiểm tra hàng đạt chuẩn rồi bắt đầu.,양품 확인하고 시작하세요.,VIT0050,seed_needs_native_field_review
+VIS0296,manufacturing_quality,normal,양품 문제 있으면 바로 말하세요.,"Nếu hàng đạt chuẩn có vấn đề, hãy báo ngay.",양품 문제 있으면 바로 말하세요.,VIT0050,seed_needs_native_field_review
+VIS0297,manufacturing_quality,normal,양품 작업 전 안전 상태를 확인하세요.,"Trước khi làm hàng đạt chuẩn, hãy kiểm tra tình trạng an toàn.",양품 작업 전 안전 상태를 확인하세요.,VIT0050,seed_needs_native_field_review
+VIS0298,manufacturing_quality,normal,양품 끝나면 관리자에게 보고하세요.,"Khi xong hàng đạt chuẩn, hãy báo cho quản lý.",양품 끝나면 관리자에게 보고하세요.,VIT0050,seed_needs_native_field_review
+VIS0299,manufacturing_quality,normal,양품는 따로 보관하세요.,Hãy bảo quản riêng hàng đạt chuẩn.,양품는 따로 보관하세요.,VIT0050,seed_needs_native_field_review
+VIS0300,manufacturing_quality,normal,양품 주변을 정리하세요.,Hãy dọn dẹp xung quanh hàng đạt chuẩn.,양품 주변을 정리하세요.,VIT0050,seed_needs_native_field_review
+VIS0301,manufacturing_quality,normal,찍힘 확인하고 시작하세요.,Hãy kiểm tra vết lõm rồi bắt đầu.,찍힘 확인하고 시작하세요.,VIT0051,seed_needs_native_field_review
+VIS0302,manufacturing_quality,normal,찍힘 문제 있으면 바로 말하세요.,"Nếu vết lõm có vấn đề, hãy báo ngay.",찍힘 문제 있으면 바로 말하세요.,VIT0051,seed_needs_native_field_review
+VIS0303,manufacturing_quality,normal,찍힘 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết lõm, hãy kiểm tra tình trạng an toàn.",찍힘 작업 전 안전 상태를 확인하세요.,VIT0051,seed_needs_native_field_review
+VIS0304,manufacturing_quality,normal,찍힘 끝나면 관리자에게 보고하세요.,"Khi xong vết lõm, hãy báo cho quản lý.",찍힘 끝나면 관리자에게 보고하세요.,VIT0051,seed_needs_native_field_review
+VIS0305,manufacturing_quality,normal,찍힘는 따로 보관하세요.,Hãy bảo quản riêng vết lõm.,찍힘는 따로 보관하세요.,VIT0051,seed_needs_native_field_review
+VIS0306,manufacturing_quality,normal,찍힘 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết lõm.,찍힘 주변을 정리하세요.,VIT0051,seed_needs_native_field_review
+VIS0307,manufacturing_quality,normal,긁힘 확인하고 시작하세요.,Hãy kiểm tra vết xước rồi bắt đầu.,긁힘 확인하고 시작하세요.,VIT0052,seed_needs_native_field_review
+VIS0308,manufacturing_quality,normal,긁힘 문제 있으면 바로 말하세요.,"Nếu vết xước có vấn đề, hãy báo ngay.",긁힘 문제 있으면 바로 말하세요.,VIT0052,seed_needs_native_field_review
+VIS0309,manufacturing_quality,normal,긁힘 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết xước, hãy kiểm tra tình trạng an toàn.",긁힘 작업 전 안전 상태를 확인하세요.,VIT0052,seed_needs_native_field_review
+VIS0310,manufacturing_quality,normal,긁힘 끝나면 관리자에게 보고하세요.,"Khi xong vết xước, hãy báo cho quản lý.",긁힘 끝나면 관리자에게 보고하세요.,VIT0052,seed_needs_native_field_review
+VIS0311,manufacturing_quality,normal,긁힘는 따로 보관하세요.,Hãy bảo quản riêng vết xước.,긁힘는 따로 보관하세요.,VIT0052,seed_needs_native_field_review
+VIS0312,manufacturing_quality,normal,긁힘 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết xước.,긁힘 주변을 정리하세요.,VIT0052,seed_needs_native_field_review
+VIS0313,manufacturing_quality,normal,기스 확인하고 시작하세요.,Hãy kiểm tra vết xước rồi bắt đầu.,기스 확인하고 시작하세요.,VIT0053,seed_needs_native_field_review
+VIS0314,manufacturing_quality,normal,기스 문제 있으면 바로 말하세요.,"Nếu vết xước có vấn đề, hãy báo ngay.",기스 문제 있으면 바로 말하세요.,VIT0053,seed_needs_native_field_review
+VIS0315,manufacturing_quality,normal,기스 작업 전 안전 상태를 확인하세요.,"Trước khi làm vết xước, hãy kiểm tra tình trạng an toàn.",기스 작업 전 안전 상태를 확인하세요.,VIT0053,seed_needs_native_field_review
+VIS0316,manufacturing_quality,normal,기스 끝나면 관리자에게 보고하세요.,"Khi xong vết xước, hãy báo cho quản lý.",기스 끝나면 관리자에게 보고하세요.,VIT0053,seed_needs_native_field_review
+VIS0317,manufacturing_quality,normal,기스는 따로 보관하세요.,Hãy bảo quản riêng vết xước.,기스는 따로 보관하세요.,VIT0053,seed_needs_native_field_review
+VIS0318,manufacturing_quality,normal,기스 주변을 정리하세요.,Hãy dọn dẹp xung quanh vết xước.,기스 주변을 정리하세요.,VIT0053,seed_needs_native_field_review
+VIS0319,manufacturing_quality,normal,깨짐 확인하고 시작하세요.,Hãy kiểm tra bị vỡ rồi bắt đầu.,깨짐 확인하고 시작하세요.,VIT0054,seed_needs_native_field_review
+VIS0320,manufacturing_quality,normal,깨짐 문제 있으면 바로 말하세요.,"Nếu bị vỡ có vấn đề, hãy báo ngay.",깨짐 문제 있으면 바로 말하세요.,VIT0054,seed_needs_native_field_review
+VIS0321,manufacturing_quality,normal,깨짐 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị vỡ, hãy kiểm tra tình trạng an toàn.",깨짐 작업 전 안전 상태를 확인하세요.,VIT0054,seed_needs_native_field_review
+VIS0322,manufacturing_quality,normal,깨짐 끝나면 관리자에게 보고하세요.,"Khi xong bị vỡ, hãy báo cho quản lý.",깨짐 끝나면 관리자에게 보고하세요.,VIT0054,seed_needs_native_field_review
+VIS0323,manufacturing_quality,normal,깨짐는 따로 보관하세요.,Hãy bảo quản riêng bị vỡ.,깨짐는 따로 보관하세요.,VIT0054,seed_needs_native_field_review
+VIS0324,manufacturing_quality,normal,깨짐 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị vỡ.,깨짐 주변을 정리하세요.,VIT0054,seed_needs_native_field_review
+VIS0325,manufacturing_quality,normal,누락 확인하고 시작하세요.,Hãy kiểm tra thiếu rồi bắt đầu.,누락 확인하고 시작하세요.,VIT0055,seed_needs_native_field_review
+VIS0326,manufacturing_quality,normal,누락 문제 있으면 바로 말하세요.,"Nếu thiếu có vấn đề, hãy báo ngay.",누락 문제 있으면 바로 말하세요.,VIT0055,seed_needs_native_field_review
+VIS0327,manufacturing_quality,normal,누락 작업 전 안전 상태를 확인하세요.,"Trước khi làm thiếu, hãy kiểm tra tình trạng an toàn.",누락 작업 전 안전 상태를 확인하세요.,VIT0055,seed_needs_native_field_review
+VIS0328,manufacturing_quality,normal,누락 끝나면 관리자에게 보고하세요.,"Khi xong thiếu, hãy báo cho quản lý.",누락 끝나면 관리자에게 보고하세요.,VIT0055,seed_needs_native_field_review
+VIS0329,manufacturing_quality,normal,누락는 따로 보관하세요.,Hãy bảo quản riêng thiếu.,누락는 따로 보관하세요.,VIT0055,seed_needs_native_field_review
+VIS0330,manufacturing_quality,normal,누락 주변을 정리하세요.,Hãy dọn dẹp xung quanh thiếu.,누락 주변을 정리하세요.,VIT0055,seed_needs_native_field_review
+VIS0331,manufacturing_quality,normal,오염 확인하고 시작하세요.,Hãy kiểm tra bị bẩn rồi bắt đầu.,오염 확인하고 시작하세요.,VIT0056,seed_needs_native_field_review
+VIS0332,manufacturing_quality,normal,오염 문제 있으면 바로 말하세요.,"Nếu bị bẩn có vấn đề, hãy báo ngay.",오염 문제 있으면 바로 말하세요.,VIT0056,seed_needs_native_field_review
+VIS0333,manufacturing_quality,normal,오염 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị bẩn, hãy kiểm tra tình trạng an toàn.",오염 작업 전 안전 상태를 확인하세요.,VIT0056,seed_needs_native_field_review
+VIS0334,manufacturing_quality,normal,오염 끝나면 관리자에게 보고하세요.,"Khi xong bị bẩn, hãy báo cho quản lý.",오염 끝나면 관리자에게 보고하세요.,VIT0056,seed_needs_native_field_review
+VIS0335,manufacturing_quality,normal,오염는 따로 보관하세요.,Hãy bảo quản riêng bị bẩn.,오염는 따로 보관하세요.,VIT0056,seed_needs_native_field_review
+VIS0336,manufacturing_quality,normal,오염 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị bẩn.,오염 주변을 정리하세요.,VIT0056,seed_needs_native_field_review
+VIS0337,manufacturing_quality,normal,변색 확인하고 시작하세요.,Hãy kiểm tra đổi màu rồi bắt đầu.,변색 확인하고 시작하세요.,VIT0057,seed_needs_native_field_review
+VIS0338,manufacturing_quality,normal,변색 문제 있으면 바로 말하세요.,"Nếu đổi màu có vấn đề, hãy báo ngay.",변색 문제 있으면 바로 말하세요.,VIT0057,seed_needs_native_field_review
+VIS0339,manufacturing_quality,normal,변색 작업 전 안전 상태를 확인하세요.,"Trước khi làm đổi màu, hãy kiểm tra tình trạng an toàn.",변색 작업 전 안전 상태를 확인하세요.,VIT0057,seed_needs_native_field_review
+VIS0340,manufacturing_quality,normal,변색 끝나면 관리자에게 보고하세요.,"Khi xong đổi màu, hãy báo cho quản lý.",변색 끝나면 관리자에게 보고하세요.,VIT0057,seed_needs_native_field_review
+VIS0341,manufacturing_quality,normal,변색는 따로 보관하세요.,Hãy bảo quản riêng đổi màu.,변색는 따로 보관하세요.,VIT0057,seed_needs_native_field_review
+VIS0342,manufacturing_quality,normal,변색 주변을 정리하세요.,Hãy dọn dẹp xung quanh đổi màu.,변색 주변을 정리하세요.,VIT0057,seed_needs_native_field_review
+VIS0343,manufacturing_quality,normal,수량부족 확인하고 시작하세요.,Hãy kiểm tra thiếu số lượng rồi bắt đầu.,수량부족 확인하고 시작하세요.,VIT0058,seed_needs_native_field_review
+VIS0344,manufacturing_quality,normal,수량부족 문제 있으면 바로 말하세요.,"Nếu thiếu số lượng có vấn đề, hãy báo ngay.",수량부족 문제 있으면 바로 말하세요.,VIT0058,seed_needs_native_field_review
+VIS0345,manufacturing_quality,normal,수량부족 작업 전 안전 상태를 확인하세요.,"Trước khi làm thiếu số lượng, hãy kiểm tra tình trạng an toàn.",수량부족 작업 전 안전 상태를 확인하세요.,VIT0058,seed_needs_native_field_review
+VIS0346,manufacturing_quality,normal,수량부족 끝나면 관리자에게 보고하세요.,"Khi xong thiếu số lượng, hãy báo cho quản lý.",수량부족 끝나면 관리자에게 보고하세요.,VIT0058,seed_needs_native_field_review
+VIS0347,manufacturing_quality,normal,수량부족는 따로 보관하세요.,Hãy bảo quản riêng thiếu số lượng.,수량부족는 따로 보관하세요.,VIT0058,seed_needs_native_field_review
+VIS0348,manufacturing_quality,normal,수량부족 주변을 정리하세요.,Hãy dọn dẹp xung quanh thiếu số lượng.,수량부족 주변을 정리하세요.,VIT0058,seed_needs_native_field_review
+VIS0349,manufacturing_quality,normal,재작업 확인하고 시작하세요.,Hãy kiểm tra làm lại rồi bắt đầu.,재작업 확인하고 시작하세요.,VIT0059,seed_needs_native_field_review
+VIS0350,manufacturing_quality,normal,재작업 문제 있으면 바로 말하세요.,"Nếu làm lại có vấn đề, hãy báo ngay.",재작업 문제 있으면 바로 말하세요.,VIT0059,seed_needs_native_field_review
+VIS0351,manufacturing_quality,normal,재작업 작업 전 안전 상태를 확인하세요.,"Trước khi làm làm lại, hãy kiểm tra tình trạng an toàn.",재작업 작업 전 안전 상태를 확인하세요.,VIT0059,seed_needs_native_field_review
+VIS0352,manufacturing_quality,normal,재작업 끝나면 관리자에게 보고하세요.,"Khi xong làm lại, hãy báo cho quản lý.",재작업 끝나면 관리자에게 보고하세요.,VIT0059,seed_needs_native_field_review
+VIS0353,manufacturing_quality,normal,재작업는 따로 보관하세요.,Hãy bảo quản riêng làm lại.,재작업는 따로 보관하세요.,VIT0059,seed_needs_native_field_review
+VIS0354,manufacturing_quality,normal,재작업 주변을 정리하세요.,Hãy dọn dẹp xung quanh làm lại.,재작업 주변을 정리하세요.,VIT0059,seed_needs_native_field_review
+VIS0355,manufacturing_quality,normal,폐기 확인하고 시작하세요.,Hãy kiểm tra loại bỏ rồi bắt đầu.,폐기 확인하고 시작하세요.,VIT0060,seed_needs_native_field_review
+VIS0356,manufacturing_quality,normal,폐기 문제 있으면 바로 말하세요.,"Nếu loại bỏ có vấn đề, hãy báo ngay.",폐기 문제 있으면 바로 말하세요.,VIT0060,seed_needs_native_field_review
+VIS0357,manufacturing_quality,normal,폐기 작업 전 안전 상태를 확인하세요.,"Trước khi làm loại bỏ, hãy kiểm tra tình trạng an toàn.",폐기 작업 전 안전 상태를 확인하세요.,VIT0060,seed_needs_native_field_review
+VIS0358,manufacturing_quality,normal,폐기 끝나면 관리자에게 보고하세요.,"Khi xong loại bỏ, hãy báo cho quản lý.",폐기 끝나면 관리자에게 보고하세요.,VIT0060,seed_needs_native_field_review
+VIS0359,manufacturing_quality,normal,폐기는 따로 보관하세요.,Hãy bảo quản riêng loại bỏ.,폐기는 따로 보관하세요.,VIT0060,seed_needs_native_field_review
+VIS0360,manufacturing_quality,normal,폐기 주변을 정리하세요.,Hãy dọn dẹp xung quanh loại bỏ.,폐기 주변을 정리하세요.,VIT0060,seed_needs_native_field_review
+VIS0361,manufacturing_quality,normal,샘플 확인하고 시작하세요.,Hãy kiểm tra mẫu rồi bắt đầu.,샘플 확인하고 시작하세요.,VIT0061,seed_needs_native_field_review
+VIS0362,manufacturing_quality,normal,샘플 문제 있으면 바로 말하세요.,"Nếu mẫu có vấn đề, hãy báo ngay.",샘플 문제 있으면 바로 말하세요.,VIT0061,seed_needs_native_field_review
+VIS0363,manufacturing_quality,normal,샘플 작업 전 안전 상태를 확인하세요.,"Trước khi làm mẫu, hãy kiểm tra tình trạng an toàn.",샘플 작업 전 안전 상태를 확인하세요.,VIT0061,seed_needs_native_field_review
+VIS0364,manufacturing_quality,normal,샘플 끝나면 관리자에게 보고하세요.,"Khi xong mẫu, hãy báo cho quản lý.",샘플 끝나면 관리자에게 보고하세요.,VIT0061,seed_needs_native_field_review
+VIS0365,manufacturing_quality,normal,샘플는 따로 보관하세요.,Hãy bảo quản riêng mẫu.,샘플는 따로 보관하세요.,VIT0061,seed_needs_native_field_review
+VIS0366,manufacturing_quality,normal,샘플 주변을 정리하세요.,Hãy dọn dẹp xung quanh mẫu.,샘플 주변을 정리하세요.,VIT0061,seed_needs_native_field_review
+VIS0367,manufacturing_quality,normal,검사 확인하고 시작하세요.,Hãy kiểm tra kiểm tra rồi bắt đầu.,검사 확인하고 시작하세요.,VIT0062,seed_needs_native_field_review
+VIS0368,manufacturing_quality,normal,검사 문제 있으면 바로 말하세요.,"Nếu kiểm tra có vấn đề, hãy báo ngay.",검사 문제 있으면 바로 말하세요.,VIT0062,seed_needs_native_field_review
+VIS0369,manufacturing_quality,normal,검사 작업 전 안전 상태를 확인하세요.,"Trước khi làm kiểm tra, hãy kiểm tra tình trạng an toàn.",검사 작업 전 안전 상태를 확인하세요.,VIT0062,seed_needs_native_field_review
+VIS0370,manufacturing_quality,normal,검사 끝나면 관리자에게 보고하세요.,"Khi xong kiểm tra, hãy báo cho quản lý.",검사 끝나면 관리자에게 보고하세요.,VIT0062,seed_needs_native_field_review
+VIS0371,manufacturing_quality,normal,검사는 따로 보관하세요.,Hãy bảo quản riêng kiểm tra.,검사는 따로 보관하세요.,VIT0062,seed_needs_native_field_review
+VIS0372,manufacturing_quality,normal,검사 주변을 정리하세요.,Hãy dọn dẹp xung quanh kiểm tra.,검사 주변을 정리하세요.,VIT0062,seed_needs_native_field_review
+VIS0373,manufacturing_quality,normal,전수검사 확인하고 시작하세요.,Hãy kiểm tra kiểm tra toàn bộ rồi bắt đầu.,전수검사 확인하고 시작하세요.,VIT0063,seed_needs_native_field_review
+VIS0374,manufacturing_quality,normal,전수검사 문제 있으면 바로 말하세요.,"Nếu kiểm tra toàn bộ có vấn đề, hãy báo ngay.",전수검사 문제 있으면 바로 말하세요.,VIT0063,seed_needs_native_field_review
+VIS0375,manufacturing_quality,normal,전수검사 작업 전 안전 상태를 확인하세요.,"Trước khi làm kiểm tra toàn bộ, hãy kiểm tra tình trạng an toàn.",전수검사 작업 전 안전 상태를 확인하세요.,VIT0063,seed_needs_native_field_review
+VIS0376,manufacturing_quality,normal,전수검사 끝나면 관리자에게 보고하세요.,"Khi xong kiểm tra toàn bộ, hãy báo cho quản lý.",전수검사 끝나면 관리자에게 보고하세요.,VIT0063,seed_needs_native_field_review
+VIS0377,manufacturing_quality,normal,전수검사는 따로 보관하세요.,Hãy bảo quản riêng kiểm tra toàn bộ.,전수검사는 따로 보관하세요.,VIT0063,seed_needs_native_field_review
+VIS0378,manufacturing_quality,normal,전수검사 주변을 정리하세요.,Hãy dọn dẹp xung quanh kiểm tra toàn bộ.,전수검사 주변을 정리하세요.,VIT0063,seed_needs_native_field_review
+VIS0379,manufacturing_quality,normal,샘플검사 확인하고 시작하세요.,Hãy kiểm tra kiểm tra mẫu rồi bắt đầu.,샘플검사 확인하고 시작하세요.,VIT0064,seed_needs_native_field_review
+VIS0380,manufacturing_quality,normal,샘플검사 문제 있으면 바로 말하세요.,"Nếu kiểm tra mẫu có vấn đề, hãy báo ngay.",샘플검사 문제 있으면 바로 말하세요.,VIT0064,seed_needs_native_field_review
+VIS0381,manufacturing_quality,normal,샘플검사 작업 전 안전 상태를 확인하세요.,"Trước khi làm kiểm tra mẫu, hãy kiểm tra tình trạng an toàn.",샘플검사 작업 전 안전 상태를 확인하세요.,VIT0064,seed_needs_native_field_review
+VIS0382,manufacturing_quality,normal,샘플검사 끝나면 관리자에게 보고하세요.,"Khi xong kiểm tra mẫu, hãy báo cho quản lý.",샘플검사 끝나면 관리자에게 보고하세요.,VIT0064,seed_needs_native_field_review
+VIS0383,manufacturing_quality,normal,샘플검사는 따로 보관하세요.,Hãy bảo quản riêng kiểm tra mẫu.,샘플검사는 따로 보관하세요.,VIT0064,seed_needs_native_field_review
+VIS0384,manufacturing_quality,normal,샘플검사 주변을 정리하세요.,Hãy dọn dẹp xung quanh kiểm tra mẫu.,샘플검사 주변을 정리하세요.,VIT0064,seed_needs_native_field_review
+VIS0385,manufacturing_quality,normal,로트번호 확인하고 시작하세요.,Hãy kiểm tra số lô rồi bắt đầu.,로트번호 확인하고 시작하세요.,VIT0065,seed_needs_native_field_review
+VIS0386,manufacturing_quality,normal,로트번호 문제 있으면 바로 말하세요.,"Nếu số lô có vấn đề, hãy báo ngay.",로트번호 문제 있으면 바로 말하세요.,VIT0065,seed_needs_native_field_review
+VIS0387,manufacturing_quality,normal,로트번호 작업 전 안전 상태를 확인하세요.,"Trước khi làm số lô, hãy kiểm tra tình trạng an toàn.",로트번호 작업 전 안전 상태를 확인하세요.,VIT0065,seed_needs_native_field_review
+VIS0388,manufacturing_quality,normal,로트번호 끝나면 관리자에게 보고하세요.,"Khi xong số lô, hãy báo cho quản lý.",로트번호 끝나면 관리자에게 보고하세요.,VIT0065,seed_needs_native_field_review
+VIS0389,manufacturing_quality,normal,로트번호는 따로 보관하세요.,Hãy bảo quản riêng số lô.,로트번호는 따로 보관하세요.,VIT0065,seed_needs_native_field_review
+VIS0390,manufacturing_quality,normal,로트번호 주변을 정리하세요.,Hãy dọn dẹp xung quanh số lô.,로트번호 주변을 정리하세요.,VIT0065,seed_needs_native_field_review
+VIS0391,manufacturing_quality,normal,바코드 확인하고 시작하세요.,Hãy kiểm tra mã vạch rồi bắt đầu.,바코드 확인하고 시작하세요.,VIT0066,seed_needs_native_field_review
+VIS0392,manufacturing_quality,normal,바코드 문제 있으면 바로 말하세요.,"Nếu mã vạch có vấn đề, hãy báo ngay.",바코드 문제 있으면 바로 말하세요.,VIT0066,seed_needs_native_field_review
+VIS0393,manufacturing_quality,normal,바코드 작업 전 안전 상태를 확인하세요.,"Trước khi làm mã vạch, hãy kiểm tra tình trạng an toàn.",바코드 작업 전 안전 상태를 확인하세요.,VIT0066,seed_needs_native_field_review
+VIS0394,manufacturing_quality,normal,바코드 끝나면 관리자에게 보고하세요.,"Khi xong mã vạch, hãy báo cho quản lý.",바코드 끝나면 관리자에게 보고하세요.,VIT0066,seed_needs_native_field_review
+VIS0395,manufacturing_quality,normal,바코드는 따로 보관하세요.,Hãy bảo quản riêng mã vạch.,바코드는 따로 보관하세요.,VIT0066,seed_needs_native_field_review
+VIS0396,manufacturing_quality,normal,바코드 주변을 정리하세요.,Hãy dọn dẹp xung quanh mã vạch.,바코드 주변을 정리하세요.,VIT0066,seed_needs_native_field_review
+VIS0397,manufacturing_quality,normal,라벨 확인하고 시작하세요.,Hãy kiểm tra nhãn rồi bắt đầu.,라벨 확인하고 시작하세요.,VIT0067,seed_needs_native_field_review
+VIS0398,manufacturing_quality,normal,라벨 문제 있으면 바로 말하세요.,"Nếu nhãn có vấn đề, hãy báo ngay.",라벨 문제 있으면 바로 말하세요.,VIT0067,seed_needs_native_field_review
+VIS0399,manufacturing_quality,normal,라벨 작업 전 안전 상태를 확인하세요.,"Trước khi làm nhãn, hãy kiểm tra tình trạng an toàn.",라벨 작업 전 안전 상태를 확인하세요.,VIT0067,seed_needs_native_field_review
+VIS0400,manufacturing_quality,normal,라벨 끝나면 관리자에게 보고하세요.,"Khi xong nhãn, hãy báo cho quản lý.",라벨 끝나면 관리자에게 보고하세요.,VIT0067,seed_needs_native_field_review
+VIS0401,manufacturing_quality,normal,라벨는 따로 보관하세요.,Hãy bảo quản riêng nhãn.,라벨는 따로 보관하세요.,VIT0067,seed_needs_native_field_review
+VIS0402,manufacturing_quality,normal,라벨 주변을 정리하세요.,Hãy dọn dẹp xung quanh nhãn.,라벨 주변을 정리하세요.,VIT0067,seed_needs_native_field_review
+VIS0403,manufacturing_quality,normal,포장방향 확인하고 시작하세요.,Hãy kiểm tra hướng đóng gói rồi bắt đầu.,포장방향 확인하고 시작하세요.,VIT0068,seed_needs_native_field_review
+VIS0404,manufacturing_quality,normal,포장방향 문제 있으면 바로 말하세요.,"Nếu hướng đóng gói có vấn đề, hãy báo ngay.",포장방향 문제 있으면 바로 말하세요.,VIT0068,seed_needs_native_field_review
+VIS0405,manufacturing_quality,normal,포장방향 작업 전 안전 상태를 확인하세요.,"Trước khi làm hướng đóng gói, hãy kiểm tra tình trạng an toàn.",포장방향 작업 전 안전 상태를 확인하세요.,VIT0068,seed_needs_native_field_review
+VIS0406,manufacturing_quality,normal,포장방향 끝나면 관리자에게 보고하세요.,"Khi xong hướng đóng gói, hãy báo cho quản lý.",포장방향 끝나면 관리자에게 보고하세요.,VIT0068,seed_needs_native_field_review
+VIS0407,manufacturing_quality,normal,포장방향는 따로 보관하세요.,Hãy bảo quản riêng hướng đóng gói.,포장방향는 따로 보관하세요.,VIT0068,seed_needs_native_field_review
+VIS0408,manufacturing_quality,normal,포장방향 주변을 정리하세요.,Hãy dọn dẹp xung quanh hướng đóng gói.,포장방향 주변을 정리하세요.,VIT0068,seed_needs_native_field_review
+VIS0409,manufacturing_quality,normal,뒤집힘 확인하고 시작하세요.,Hãy kiểm tra bị lật ngược rồi bắt đầu.,뒤집힘 확인하고 시작하세요.,VIT0069,seed_needs_native_field_review
+VIS0410,manufacturing_quality,normal,뒤집힘 문제 있으면 바로 말하세요.,"Nếu bị lật ngược có vấn đề, hãy báo ngay.",뒤집힘 문제 있으면 바로 말하세요.,VIT0069,seed_needs_native_field_review
+VIS0411,manufacturing_quality,normal,뒤집힘 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị lật ngược, hãy kiểm tra tình trạng an toàn.",뒤집힘 작업 전 안전 상태를 확인하세요.,VIT0069,seed_needs_native_field_review
+VIS0412,manufacturing_quality,normal,뒤집힘 끝나면 관리자에게 보고하세요.,"Khi xong bị lật ngược, hãy báo cho quản lý.",뒤집힘 끝나면 관리자에게 보고하세요.,VIT0069,seed_needs_native_field_review
+VIS0413,manufacturing_quality,normal,뒤집힘는 따로 보관하세요.,Hãy bảo quản riêng bị lật ngược.,뒤집힘는 따로 보관하세요.,VIT0069,seed_needs_native_field_review
+VIS0414,manufacturing_quality,normal,뒤집힘 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị lật ngược.,뒤집힘 주변을 정리하세요.,VIT0069,seed_needs_native_field_review
+VIS0415,manufacturing_quality,normal,삐뚤어짐 확인하고 시작하세요.,Hãy kiểm tra bị lệch rồi bắt đầu.,삐뚤어짐 확인하고 시작하세요.,VIT0070,seed_needs_native_field_review
+VIS0416,manufacturing_quality,normal,삐뚤어짐 문제 있으면 바로 말하세요.,"Nếu bị lệch có vấn đề, hãy báo ngay.",삐뚤어짐 문제 있으면 바로 말하세요.,VIT0070,seed_needs_native_field_review
+VIS0417,manufacturing_quality,normal,삐뚤어짐 작업 전 안전 상태를 확인하세요.,"Trước khi làm bị lệch, hãy kiểm tra tình trạng an toàn.",삐뚤어짐 작업 전 안전 상태를 확인하세요.,VIT0070,seed_needs_native_field_review
+VIS0418,manufacturing_quality,normal,삐뚤어짐 끝나면 관리자에게 보고하세요.,"Khi xong bị lệch, hãy báo cho quản lý.",삐뚤어짐 끝나면 관리자에게 보고하세요.,VIT0070,seed_needs_native_field_review
+VIS0419,manufacturing_quality,normal,삐뚤어짐는 따로 보관하세요.,Hãy bảo quản riêng bị lệch.,삐뚤어짐는 따로 보관하세요.,VIT0070,seed_needs_native_field_review
+VIS0420,manufacturing_quality,normal,삐뚤어짐 주변을 정리하세요.,Hãy dọn dẹp xung quanh bị lệch.,삐뚤어짐 주변을 정리하세요.,VIT0070,seed_needs_native_field_review
