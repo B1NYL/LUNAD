@@ -5,7 +5,7 @@ import sob
 from logger import printf
 from gigi import arm_ctrl, check_fall, joystick_ctrl, listen
 
-lunad_lang = "영어"
+lunad_lang = "베트남어"
 
 async def main():
     dotenv.load_dotenv()
