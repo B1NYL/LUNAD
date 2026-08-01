@@ -206,12 +206,16 @@ async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
             if updates:
                 for u in updates:
                     if u.message and u.message.text:
-                        print(u.message.text)
+                        printf(f"관리자 메세지: {u.message.text}")
+                        print("번역을 시도하겠읍니다")
                         trans_text = translate(u.message.text, domain_lang, codomain_lang)
-                        printf(f"번역 >> {trans_text}")
+                        printf(f"번역된 메세지: {trans_text}")
                         audio = t2s(trans_text)
+                        printf(f"음성 파일 생성 시작")
                         spr, audio = scipy.io.wavfile.read(str(audio))
+                        printf("음성 출력 중...")
                         sd.play(audio, spr)
+                        printf("음성 출력 끝.")
                         sd.wait()
                 
                 offset = updates[-1].update_id + 1
