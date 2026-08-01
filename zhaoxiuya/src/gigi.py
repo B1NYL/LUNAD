@@ -43,7 +43,7 @@ async def arm_ctrl(sender_token, dn_ang=135, up_ang=210, my_lang="베트남어")
             text = sob.translate(text, {my_lang}, "한국어")
             printf(f"번역 결과: {text}")
             if text:
-                await sob.send(sender_token, f"음성 메시지: \n{text}")
+                await sob.send(sender_token, f"음성 메시지: {text}")
                 printf("아무쪼록 텍스트를 잘 보냈읍니다.")
         except Exception as e:
             printf(f"STT 처리 오류: {e}")
