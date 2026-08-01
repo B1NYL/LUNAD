@@ -34,6 +34,7 @@ async def arm_ctrl(sender_token, dn_ang=135, up_ang=210, my_lang="베트남어")
     printf(f"{butoon.toggled}")
     
     async def record_and_send():
+        return
         try:
             async def countdown(sec):
                 for i in range(sec, 0, -1):
@@ -85,6 +86,8 @@ async def check_fall(sender_token, threshold=80):
                 await sob.send(sender_token, f"낙상 발생: @{time.time()}")
                 await asyncio.sleep(0.5)
             has_fall = True
+        else:
+            has_fall = False
         await asyncio.sleep(0.01)
 
 async def joystick_ctrl(sender_token):
@@ -147,8 +150,8 @@ async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
                         text = u.message.text
                         try:
                           data_json = json.loads(u.message.text)
-                          if data_json.get("id") != str(156243137817561):
-                              printf(f"메세지 id 불일치: {data_json.get('id')} != {156243137817561}")
+                          if data_json.get("id") != "156243137817561":
+                              printf(f"메세지 id 불일치: {data_json.get('id')} != 156243137817561")
                               continue
                           text = data_json.get("data")
                         except json.JSONDecodeError as e:
@@ -156,19 +159,17 @@ async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
                         printf("번역을 시도하겠읍니다")
                         trans_text = translate(text, domain_lang, codomain_lang)
                         printf(f"번역된 메세지: {trans_text}")
-                        audio = t2s(trans_text)
+                        audio_path = t2s(trans_text)
                         printf(f"음성 파일 생성 시작")
-                        spr, audio = scipy.io.wavfile.read(str(audio))
                         printf("음성 출력 중...")
                         speaker = GIGI.speakers[0]
                         
                         speaker.play_music("Success", 100)
-                        await asyncio.sleep(1)
                         speaker.reset()
                         
-                        sd.play(audio, spr)
+                        import os
+                        os.system(f'PULSE_SERVER="unix:/run/user/1000/pulse/native" paplay {str(audio_path)} >/dev/null 2>&1')
                         printf("음성 출력 끝.")
-                        sd.wait()
                 
                 offset = updates[-1].update_id + 1
                 

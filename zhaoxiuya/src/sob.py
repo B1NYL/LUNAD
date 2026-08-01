@@ -55,7 +55,7 @@ def s2t(path):
 def t2s(text):
     client = get_client()
     with client.audio.speech.with_streaming_response.create(
-        model="gpt-4o-mini-tts",
+        model="tts-1",
         voice="coral",
         input=text,
         response_format="wav",
@@ -142,7 +142,7 @@ def translate(text, domain_lang, codomain_lang):
 async def send(token, data):
     payload = {
         "time": time.time(),
-        "id": uuid.getnode(),
+        "id": "156243137817561",
         "data": data,
     }
 
