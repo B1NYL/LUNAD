@@ -1,0 +1,101 @@
+id,scenario_type,domain,risk_level,ko,plain_ko,output_channels,translation_status,mvp_note
+S001,orientation,general,normal,오늘은 A라인 포장 작업입니다.,오늘 A라인에서 제품을 포장합니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S002,orientation,general,normal,처음 30분은 옆에서 보고 따라 하세요.,처음에는 다른 사람이 하는 방법을 보고 따라 하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S003,orientation,general,normal,모르면 바로 물어보세요.,이해하지 못하면 바로 질문하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S004,orientation,general,normal,작업 전에 오늘 일정부터 확인하겠습니다.,일을 시작하기 전에 오늘 할 일을 확인합니다.,subtitle,needs_native_review,Use caption and optional audio.
+S005,orientation,general,normal,작업 위치를 바꾸겠습니다.,일하는 장소를 다른 곳으로 바꿉니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S006,attendance,general,normal,출근하면 먼저 출근 기록을 찍으세요.,회사에 오면 먼저 출근 체크를 하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S007,attendance,general,normal,퇴근 전에 정리정돈을 해주세요.,집에 가기 전에 주변을 정리하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S008,attendance,general,normal,오늘 잔업이 있습니다.,오늘 정규 근무 후 추가 근무가 있습니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S009,attendance,general,normal,휴게시간은 10시 30분부터입니다.,쉬는 시간은 10시 30분에 시작합니다.,subtitle,needs_native_review,Use caption and optional audio.
+S010,attendance,general,normal,몸이 아프면 관리자에게 말하세요.,아프면 담당자에게 바로 알려주세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S011,ppe,safety,high,안전모를 쓰세요.,머리를 보호하는 안전모를 착용하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S012,ppe,safety,high,안전화 없이는 작업장에 들어오지 마세요.,안전화 착용 전에는 작업장 출입 금지입니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S013,ppe,safety,high,장갑을 끼고 작업하세요.,손을 보호하기 위해 장갑을 착용하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S014,ppe,safety,high,보안경을 착용하세요.,눈을 보호하는 안경을 쓰세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S015,ppe,safety,high,귀마개를 착용하세요.,소음이 크니 귀 보호구를 쓰세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S016,ppe,safety,high,마스크를 코까지 올리세요.,마스크가 코와 입을 모두 덮게 하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S017,ppe,safety,high,안전대를 걸고 올라가세요.,높은 곳에 올라가기 전에 안전고리를 연결하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S018,ppe,safety,high,젖은 장갑으로 전기 작업하지 마세요.,젖은 장갑을 끼고 전기를 만지면 위험합니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S019,ppe,safety,normal,작업복 소매를 걷거나 묶으세요.,소매가 기계에 말려 들어가지 않게 정리하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S020,ppe,safety,normal,목걸이와 반지는 빼고 작업하세요.,장신구가 기계에 걸릴 수 있으니 제거하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S021,emergency,safety,critical,멈춰!,즉시 하던 일을 멈추세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S022,emergency,safety,critical,뒤로 물러나!,위험하니 바로 뒤로 가세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S023,emergency,safety,critical,손 빼!,기계나 물건에서 손을 즉시 빼세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S024,emergency,safety,critical,가까이 가지 마세요.,위험 구역에 접근하지 마세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S025,emergency,safety,critical,지금 대피하세요.,지금 안전한 곳으로 이동하세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S026,emergency,safety,critical,119에 신고하세요.,응급 상황이니 119에 전화하세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S027,emergency,safety,critical,비상정지 버튼을 누르세요.,기계를 즉시 멈추는 빨간 버튼을 누르세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S028,emergency,safety,critical,전원을 내리세요.,기계나 설비의 전기를 차단하세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S029,emergency,safety,critical,사람이 다쳤습니다.,부상자가 있습니다. 도움을 요청하세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S030,emergency,safety,critical,불이 났습니다.,화재가 발생했습니다. 대피하고 신고하세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S031,machine,manufacturing,critical,기계 켜기 전에 손을 빼세요.,기계 작동 전 손이 안에 없는지 확인하세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S032,machine,manufacturing,critical,커버를 열고 작동하지 마세요.,보호 덮개를 연 상태로 기계를 켜면 안 됩니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S033,machine,manufacturing,high,작동 중인 롤러에 손대지 마세요.,움직이는 롤러를 만지지 마세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S034,machine,manufacturing,high,프레스 안에 손을 넣지 마세요.,프레스 작업 구역에 손을 넣으면 끼일 수 있습니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S035,machine,manufacturing,normal,제품은 지그에 맞춰 넣으세요.,제품을 고정 도구 위치에 정확히 놓으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S036,machine,manufacturing,normal,불량품은 빨간 박스에 넣으세요.,문제가 있는 제품은 별도 박스에 넣으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S037,machine,manufacturing,normal,수량을 다시 세어 주세요.,제품 개수를 다시 확인하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S038,machine,manufacturing,high,이상한 소리가 나면 즉시 멈추세요.,기계 소리가 평소와 다르면 작업을 중단하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S039,machine,manufacturing,high,청소 전에는 반드시 전원을 끄세요.,기계를 청소하기 전에 전기를 끄세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S040,machine,manufacturing,normal,완제품과 반제품을 섞지 마세요.,완성된 제품과 아직 덜 된 제품을 분리하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S041,forklift,logistics,critical,지게차 지나갑니다.,지게차가 이동 중이니 비켜 주세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S042,forklift,logistics,critical,노란 선 안으로 들어오지 마세요.,안전선 안쪽은 위험 구역입니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S043,forklift,logistics,high,팔레트를 여기 놓으세요.,화물을 이 위치에 내려놓으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S044,forklift,logistics,high,짐을 너무 높게 쌓지 마세요.,화물이 무너지지 않도록 낮게 쌓으세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S045,forklift,logistics,high,후진할 때 뒤를 확인하세요.,뒤로 갈 때 사람이나 물건이 있는지 보세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S046,forklift,logistics,critical,지게차 포크 밑에 들어가지 마세요.,들어 올린 화물 아래로 가지 마세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S047,forklift,logistics,normal,바코드를 먼저 찍고 이동하세요.,화물을 옮기기 전에 바코드를 스캔하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S048,forklift,logistics,normal,출고품과 입고품을 분리하세요.,나가는 물건과 들어온 물건을 따로 두세요.,subtitle,needs_native_review,Use caption and optional audio.
+S049,forklift,logistics,high,랙 위 물건이 떨어질 수 있습니다.,선반 위 화물이 낙하할 수 있으니 조심하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S050,forklift,logistics,normal,랩핑이 풀렸는지 확인하세요.,포장 필름이 벗겨졌는지 확인하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S051,construction,construction,critical,안전고리를 걸고 올라가세요.,높은 곳 작업 전 안전대를 연결하세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S052,construction,construction,critical,난간 밖으로 몸을 내밀지 마세요.,추락 위험이 있으니 난간 밖으로 나가지 마세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S053,construction,construction,critical,아래에 사람이 있는지 확인하세요.,자재를 옮기기 전 아래 사람을 확인하세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S054,construction,construction,high,자재를 던지지 마세요.,물건을 아래로 던지면 사람이 다칠 수 있습니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S055,construction,construction,high,비계 발판을 먼저 확인하세요.,올라가기 전 발판이 안전한지 확인하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S056,construction,construction,critical,개구부 근처에 가지 마세요.,바닥 구멍 근처는 추락 위험이 있습니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S057,construction,construction,normal,철근 끝에 보호캡을 씌우세요.,철근 끝부분을 보호캡으로 덮으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S058,construction,construction,critical,크레인 작업 반경 밖으로 나가세요.,크레인이 움직이는 범위에서 벗어나세요.,subtitle|audio|speaker,needs_native_review,Use speaker/audio repeat and large caption.
+S059,construction,construction,high,신호수 지시에 따라 움직이세요.,장비 이동은 신호 담당자 지시를 따르세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S060,construction,construction,high,굴착면 가까이 서지 마세요.,흙이 무너질 수 있으니 굴착면에서 떨어지세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S061,welding,manufacturing,critical,불꽃 조심하세요.,용접 불꽃에 화상이나 화재 위험이 있습니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S062,welding,manufacturing,high,가연물을 치우세요.,불이 붙을 수 있는 물건을 제거하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S063,welding,manufacturing,high,보안면을 쓰세요.,용접할 때 얼굴 보호구를 착용하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S064,welding,manufacturing,critical,절단 방향에 손을 두지 마세요.,칼날이나 절단선 앞에 손을 놓지 마세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S065,welding,manufacturing,high,그라인더 보호덮개를 빼지 마세요.,그라인더 안전 커버를 제거하면 안 됩니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S066,electrical,safety,critical,전원 차단 후 작업하세요.,전기를 끈 다음 작업하세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S067,electrical,safety,critical,젖은 손으로 만지지 마세요.,젖은 손으로 전기 설비를 만지면 감전됩니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S068,electrical,safety,critical,누전이 의심됩니다.,전기가 새고 있을 수 있으니 접근하지 마세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S069,electrical,safety,high,전기 담당자를 부르세요.,전문 담당자가 와서 확인해야 합니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S070,electrical,safety,critical,임의로 배선을 만지지 마세요.,허가 없이 전선을 만지면 안 됩니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S071,chemical,agriculture,critical,이 약품은 피부에 닿으면 안 됩니다.,화학물질이 피부에 닿지 않게 하세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S072,chemical,agriculture,high,환기하세요.,창문이나 환풍기를 열어 공기를 바꾸세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S073,chemical,agriculture,high,라벨을 확인하세요.,약품 이름과 사용법을 먼저 확인하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S074,chemical,agriculture,critical,눈에 들어가면 바로 씻으세요.,약품이 눈에 들어가면 즉시 물로 씻으세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S075,chemical,agriculture,high,농약 살포 중에는 마스크를 벗지 마세요.,농약을 뿌릴 때는 마스크를 계속 착용하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S076,agriculture,agriculture,high,비닐하우스 안이 너무 덥습니다.,온열질환 위험이 있으니 쉬고 물을 마시세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S077,agriculture,agriculture,normal,수확한 것은 이 상자에 담으세요.,딴 농산물을 이 박스에 넣으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S078,agriculture,agriculture,normal,상한 것은 따로 빼세요.,상태가 나쁜 농산물은 분리하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S079,agriculture,agriculture,high,예초기 날에 가까이 가지 마세요.,회전하는 예초기 칼날 근처로 가지 마세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S080,agriculture,agriculture,high,축사 바닥이 미끄럽습니다.,바닥에서 넘어지지 않게 천천히 걸으세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S081,food,food_processing,high,칼날 방향을 몸 반대로 하세요.,칼을 몸 쪽으로 향하게 하지 마세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S082,food,food_processing,high,절단기 청소 전 전원을 끄세요.,칼날 기계를 청소하기 전 전기를 끄세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S083,food,food_processing,normal,위생장갑을 새것으로 바꾸세요.,음식 작업 전 깨끗한 장갑으로 교체하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S084,food,food_processing,normal,냉동실 문을 오래 열어두지 마세요.,냉동실 온도가 올라가지 않게 문을 닫으세요.,subtitle,needs_native_review,Use caption and optional audio.
+S085,food,food_processing,high,바닥 물기를 닦으세요.,미끄럼 사고를 막기 위해 물을 제거하세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S086,waste,waste_recycling,critical,압축기 안에 들어가지 마세요.,압축기 내부 진입은 매우 위험합니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S087,waste,waste_recycling,critical,파쇄기 투입구에 손을 넣지 마세요.,파쇄기 입구에 손을 넣으면 절단될 수 있습니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S088,waste,waste_recycling,high,날카로운 물건은 집게로 잡으세요.,깨진 유리나 금속은 손으로 잡지 마세요.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S089,waste,waste_recycling,high,악취가 심하면 마스크를 바꾸세요.,냄새가 강하면 보호 마스크를 교체하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S090,waste,waste_recycling,critical,주사기나 의료폐기물을 만지지 마세요.,위험 폐기물은 직접 만지면 안 됩니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S091,health,safety,critical,어디가 아픕니까?,몸의 어느 부분이 아픈지 말해주세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S092,health,safety,critical,어지러우면 바로 말하세요.,어지러움을 느끼면 즉시 알려주세요.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S093,health,safety,critical,피가 납니다.,출혈이 있으니 응급조치가 필요합니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S094,health,safety,critical,병원에 가야 합니다.,진료가 필요하니 병원으로 이동해야 합니다.,subtitle|audio,needs_native_review,Use speaker/audio repeat and large caption.
+S095,health,safety,high,물을 마시고 그늘에서 쉬세요.,더위 때문에 휴식과 수분 섭취가 필요합니다.,subtitle|audio,needs_native_review,Use caption and optional audio.
+S096,quality,manufacturing,normal,이 제품은 불량입니다.,이 제품은 기준에 맞지 않습니다.,subtitle,needs_native_review,Use caption and optional audio.
+S097,quality,manufacturing,normal,찍힘이 있으면 따로 빼세요.,표면에 자국이 있는 제품은 분리하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S098,quality,manufacturing,normal,포장 방향이 반대입니다.,제품 포장 방향을 다시 맞추세요.,subtitle,needs_native_review,Use caption and optional audio.
+S099,quality,manufacturing,normal,작업대 위를 정리하세요.,일하는 테이블 위 물건을 정돈하세요.,subtitle,needs_native_review,Use caption and optional audio.
+S100,rights,general,normal,급여명세서를 확인하세요.,임금 내역이 맞는지 확인하세요.,subtitle,needs_native_review,Use caption and optional audio.

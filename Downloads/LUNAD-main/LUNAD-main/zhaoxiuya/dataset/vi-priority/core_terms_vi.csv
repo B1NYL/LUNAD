@@ -1,0 +1,629 @@
+id,domain,priority,ko,vi,plain_ko,risk_level,type,status
+VIT0001,manufacturing_machine,core,프레스,máy dập,프레스,normal,base_term,seed_needs_native_field_review
+VIT0002,manufacturing_machine,core,사출기,máy ép nhựa,사출기,normal,base_term,seed_needs_native_field_review
+VIT0003,manufacturing_machine,core,컨베이어,băng tải,컨베이어,normal,base_term,seed_needs_native_field_review
+VIT0004,manufacturing_machine,core,롤러,con lăn,롤러,normal,base_term,seed_needs_native_field_review
+VIT0005,manufacturing_machine,core,절단기,máy cắt,절단기,normal,base_term,seed_needs_native_field_review
+VIT0006,manufacturing_machine,core,파쇄기,máy nghiền,파쇄기,normal,base_term,seed_needs_native_field_review
+VIT0007,manufacturing_machine,core,압축기,máy ép nén,압축기,normal,base_term,seed_needs_native_field_review
+VIT0008,manufacturing_machine,core,혼합기,máy trộn,혼합기,normal,base_term,seed_needs_native_field_review
+VIT0009,manufacturing_machine,core,포장기,máy đóng gói,포장기,normal,base_term,seed_needs_native_field_review
+VIT0010,manufacturing_machine,core,선반,máy tiện,선반,normal,base_term,seed_needs_native_field_review
+VIT0011,manufacturing_machine,core,밀링기,máy phay,밀링기,normal,base_term,seed_needs_native_field_review
+VIT0012,manufacturing_machine,core,드릴,máy khoan,드릴,normal,base_term,seed_needs_native_field_review
+VIT0013,manufacturing_machine,core,그라인더,máy mài,그라인더,normal,base_term,seed_needs_native_field_review
+VIT0014,manufacturing_machine,core,용접기,máy hàn,용접기,normal,base_term,seed_needs_native_field_review
+VIT0015,manufacturing_machine,core,에어건,súng hơi,에어건,normal,base_term,seed_needs_native_field_review
+VIT0016,manufacturing_machine,core,콤프레서,máy nén khí,콤프레서,normal,base_term,seed_needs_native_field_review
+VIT0017,manufacturing_machine,core,지그,đồ gá,지그,normal,base_term,seed_needs_native_field_review
+VIT0018,manufacturing_machine,core,금형,khuôn,금형,normal,base_term,seed_needs_native_field_review
+VIT0019,manufacturing_machine,core,로봇암,cánh tay robot,로봇암,normal,base_term,seed_needs_native_field_review
+VIT0020,manufacturing_machine,core,CNC,máy CNC,CNC,normal,base_term,seed_needs_native_field_review
+VIT0021,manufacturing_machine,core,호이스트,pa lăng,호이스트,normal,base_term,seed_needs_native_field_review
+VIT0022,manufacturing_machine,core,전동공구,dụng cụ điện,전동공구,normal,base_term,seed_needs_native_field_review
+VIT0023,manufacturing_machine,core,작업대,bàn làm việc,작업대,normal,base_term,seed_needs_native_field_review
+VIT0024,manufacturing_machine,core,공구함,hộp dụng cụ,공구함,normal,base_term,seed_needs_native_field_review
+VIT0025,manufacturing_machine,core,톱날,lưỡi cưa,톱날,normal,base_term,seed_needs_native_field_review
+VIT0026,manufacturing_machine,core,칼날,lưỡi dao,칼날,normal,base_term,seed_needs_native_field_review
+VIT0027,manufacturing_machine,core,드릴 비트,mũi khoan,드릴 비트,normal,base_term,seed_needs_native_field_review
+VIT0028,manufacturing_machine,core,기리,mũi khoan,기리,normal,base_term,seed_needs_native_field_review
+VIT0029,manufacturing_machine,core,방호덮개,nắp che bảo vệ,방호덮개,normal,base_term,seed_needs_native_field_review
+VIT0030,manufacturing_machine,core,인터록,khóa liên động an toàn,인터록,normal,base_term,seed_needs_native_field_review
+VIT0031,manufacturing_machine,core,센서,cảm biến,센서,normal,base_term,seed_needs_native_field_review
+VIT0032,manufacturing_machine,core,비상정지버튼,nút dừng khẩn cấp,비상정지버튼,normal,base_term,seed_needs_native_field_review
+VIT0033,manufacturing_machine,core,회전체,bộ phận quay,회전체,normal,base_term,seed_needs_native_field_review
+VIT0034,manufacturing_machine,core,동력전달부,bộ phận truyền động,동력전달부,normal,base_term,seed_needs_native_field_review
+VIT0035,manufacturing_machine,core,끼임점,điểm kẹp,끼임점,normal,base_term,seed_needs_native_field_review
+VIT0036,manufacturing_machine,core,공압,khí nén,공압,normal,base_term,seed_needs_native_field_review
+VIT0037,manufacturing_machine,core,유압,thủy lực,유압,normal,base_term,seed_needs_native_field_review
+VIT0038,manufacturing_machine,core,윤활유,dầu bôi trơn,윤활유,normal,base_term,seed_needs_native_field_review
+VIT0039,manufacturing_machine,core,냉각수,nước làm mát,냉각수,normal,base_term,seed_needs_native_field_review
+VIT0040,manufacturing_machine,core,필터,bộ lọc,필터,normal,base_term,seed_needs_native_field_review
+VIT0041,manufacturing_machine,core,노즐,vòi phun,노즐,normal,base_term,seed_needs_native_field_review
+VIT0042,manufacturing_machine,core,베어링,vòng bi,베어링,normal,base_term,seed_needs_native_field_review
+VIT0043,manufacturing_machine,core,벨트,dây đai,벨트,normal,base_term,seed_needs_native_field_review
+VIT0044,manufacturing_machine,core,체인,xích,체인,normal,base_term,seed_needs_native_field_review
+VIT0045,manufacturing_machine,core,기어,bánh răng,기어,normal,base_term,seed_needs_native_field_review
+VIT0046,manufacturing_machine,core,모터,động cơ,모터,normal,base_term,seed_needs_native_field_review
+VIT0047,manufacturing_machine,core,제어반,tủ điều khiển,제어반,normal,base_term,seed_needs_native_field_review
+VIT0048,manufacturing_machine,core,분전반,tủ điện phân phối,분전반,normal,base_term,seed_needs_native_field_review
+VIT0049,manufacturing_quality,core,불량,hàng lỗi,불량,normal,base_term,seed_needs_native_field_review
+VIT0050,manufacturing_quality,core,양품,hàng đạt chuẩn,양품,normal,base_term,seed_needs_native_field_review
+VIT0051,manufacturing_quality,core,찍힘,vết lõm,찍힘,normal,base_term,seed_needs_native_field_review
+VIT0052,manufacturing_quality,core,긁힘,vết xước,긁힘,normal,base_term,seed_needs_native_field_review
+VIT0053,manufacturing_quality,core,기스,vết xước,기스,normal,base_term,seed_needs_native_field_review
+VIT0054,manufacturing_quality,core,깨짐,bị vỡ,깨짐,normal,base_term,seed_needs_native_field_review
+VIT0055,manufacturing_quality,core,누락,thiếu,누락,normal,base_term,seed_needs_native_field_review
+VIT0056,manufacturing_quality,core,오염,bị bẩn,오염,normal,base_term,seed_needs_native_field_review
+VIT0057,manufacturing_quality,core,변색,đổi màu,변색,normal,base_term,seed_needs_native_field_review
+VIT0058,manufacturing_quality,core,수량부족,thiếu số lượng,수량부족,normal,base_term,seed_needs_native_field_review
+VIT0059,manufacturing_quality,core,재작업,làm lại,재작업,normal,base_term,seed_needs_native_field_review
+VIT0060,manufacturing_quality,core,폐기,loại bỏ,폐기,normal,base_term,seed_needs_native_field_review
+VIT0061,manufacturing_quality,core,샘플,mẫu,샘플,normal,base_term,seed_needs_native_field_review
+VIT0062,manufacturing_quality,core,검사,kiểm tra,검사,normal,base_term,seed_needs_native_field_review
+VIT0063,manufacturing_quality,core,전수검사,kiểm tra toàn bộ,전수검사,normal,base_term,seed_needs_native_field_review
+VIT0064,manufacturing_quality,core,샘플검사,kiểm tra mẫu,샘플검사,normal,base_term,seed_needs_native_field_review
+VIT0065,manufacturing_quality,core,로트번호,số lô,로트번호,normal,base_term,seed_needs_native_field_review
+VIT0066,manufacturing_quality,core,바코드,mã vạch,바코드,normal,base_term,seed_needs_native_field_review
+VIT0067,manufacturing_quality,core,라벨,nhãn,라벨,normal,base_term,seed_needs_native_field_review
+VIT0068,manufacturing_quality,core,포장방향,hướng đóng gói,포장방향,normal,base_term,seed_needs_native_field_review
+VIT0069,manufacturing_quality,core,뒤집힘,bị lật ngược,뒤집힘,normal,base_term,seed_needs_native_field_review
+VIT0070,manufacturing_quality,core,삐뚤어짐,bị lệch,삐뚤어짐,normal,base_term,seed_needs_native_field_review
+VIT0071,manufacturing_quality,core,치수불량,sai kích thước,치수불량,normal,base_term,seed_needs_native_field_review
+VIT0072,manufacturing_quality,core,색상불량,sai màu,색상불량,normal,base_term,seed_needs_native_field_review
+VIT0073,manufacturing_quality,core,이물질,dị vật,이물질,normal,base_term,seed_needs_native_field_review
+VIT0074,manufacturing_quality,core,흠집,vết hỏng,흠집,normal,base_term,seed_needs_native_field_review
+VIT0075,manufacturing_quality,core,찢어짐,bị rách,찢어짐,normal,base_term,seed_needs_native_field_review
+VIT0076,manufacturing_quality,core,눌림,bị ép lõm,눌림,normal,base_term,seed_needs_native_field_review
+VIT0077,manufacturing_quality,core,부품누락,thiếu linh kiện,부품누락,normal,base_term,seed_needs_native_field_review
+VIT0078,manufacturing_quality,core,조립불량,lỗi lắp ráp,조립불량,normal,base_term,seed_needs_native_field_review
+VIT0079,manufacturing_quality,core,용접불량,lỗi hàn,용접불량,normal,base_term,seed_needs_native_field_review
+VIT0080,manufacturing_quality,core,포장불량,lỗi đóng gói,포장불량,normal,base_term,seed_needs_native_field_review
+VIT0081,manufacturing_quality,core,혼입,lẫn hàng,혼입,normal,base_term,seed_needs_native_field_review
+VIT0082,manufacturing_quality,core,분리보관,bảo quản riêng,분리보관,normal,base_term,seed_needs_native_field_review
+VIT0083,manufacturing_quality,core,검사대기,chờ kiểm tra,검사대기,normal,base_term,seed_needs_native_field_review
+VIT0084,manufacturing_quality,core,출하보류,tạm giữ xuất hàng,출하보류,normal,base_term,seed_needs_native_field_review
+VIT0085,safety_emergency,core,멈춰,dừng lại,멈춰,high,base_term,seed_needs_native_field_review
+VIT0086,safety_emergency,core,위험,nguy hiểm,위험,high,base_term,seed_needs_native_field_review
+VIT0087,safety_emergency,core,대피,sơ tán,대피,high,base_term,seed_needs_native_field_review
+VIT0088,safety_emergency,core,비상정지,dừng khẩn cấp,비상정지,high,base_term,seed_needs_native_field_review
+VIT0089,safety_emergency,core,119 신고,gọi 119,119 신고,high,base_term,seed_needs_native_field_review
+VIT0090,safety_emergency,core,응급처치,sơ cứu,응급처치,high,base_term,seed_needs_native_field_review
+VIT0091,safety_emergency,core,출혈,chảy máu,출혈,high,base_term,seed_needs_native_field_review
+VIT0092,safety_emergency,core,골절,gãy xương,골절,high,base_term,seed_needs_native_field_review
+VIT0093,safety_emergency,core,화상,bỏng,화상,high,base_term,seed_needs_native_field_review
+VIT0094,safety_emergency,core,질식,ngạt thở,질식,high,base_term,seed_needs_native_field_review
+VIT0095,safety_emergency,core,감전,điện giật,감전,high,base_term,seed_needs_native_field_review
+VIT0096,safety_emergency,core,화재,cháy,화재,high,base_term,seed_needs_native_field_review
+VIT0097,safety_emergency,core,폭발,nổ,폭발,high,base_term,seed_needs_native_field_review
+VIT0098,safety_emergency,core,추락,rơi từ trên cao,추락,high,base_term,seed_needs_native_field_review
+VIT0099,safety_emergency,core,낙하물,vật rơi,낙하물,high,base_term,seed_needs_native_field_review
+VIT0100,safety_emergency,core,끼임,bị kẹp,끼임,high,base_term,seed_needs_native_field_review
+VIT0101,safety_emergency,core,베임,bị cắt,베임,high,base_term,seed_needs_native_field_review
+VIT0102,safety_emergency,core,절단,bị cắt đứt,절단,high,base_term,seed_needs_native_field_review
+VIT0103,safety_emergency,core,찔림,bị đâm,찔림,high,base_term,seed_needs_native_field_review
+VIT0104,safety_emergency,core,미끄럼,trượt ngã,미끄럼,high,base_term,seed_needs_native_field_review
+VIT0105,safety_emergency,core,넘어짐,té ngã,넘어짐,high,base_term,seed_needs_native_field_review
+VIT0106,safety_emergency,core,부딪힘,va chạm,부딪힘,high,base_term,seed_needs_native_field_review
+VIT0107,safety_emergency,core,맞음,bị vật đập trúng,맞음,high,base_term,seed_needs_native_field_review
+VIT0108,safety_emergency,core,깔림,bị đè,깔림,high,base_term,seed_needs_native_field_review
+VIT0109,safety_emergency,core,붕괴,sập đổ,붕괴,high,base_term,seed_needs_native_field_review
+VIT0110,safety_emergency,core,토사붕괴,sạt lở đất,토사붕괴,high,base_term,seed_needs_native_field_review
+VIT0111,safety_emergency,core,밀폐공간,không gian kín,밀폐공간,high,base_term,seed_needs_native_field_review
+VIT0112,safety_emergency,core,유해가스,khí độc hại,유해가스,high,base_term,seed_needs_native_field_review
+VIT0113,safety_emergency,core,안전모,mũ bảo hộ,안전모,high,base_term,seed_needs_native_field_review
+VIT0114,safety_emergency,core,안전화,giày bảo hộ,안전화,high,base_term,seed_needs_native_field_review
+VIT0115,safety_emergency,core,안전대,dây an toàn,안전대,high,base_term,seed_needs_native_field_review
+VIT0116,safety_emergency,core,안전고리,móc an toàn,안전고리,high,base_term,seed_needs_native_field_review
+VIT0117,safety_emergency,core,장갑,găng tay,장갑,high,base_term,seed_needs_native_field_review
+VIT0118,safety_emergency,core,보안경,kính bảo hộ,보안경,high,base_term,seed_needs_native_field_review
+VIT0119,safety_emergency,core,보안면,mặt nạ bảo vệ mặt,보안면,high,base_term,seed_needs_native_field_review
+VIT0120,safety_emergency,core,마스크,khẩu trang,마스크,high,base_term,seed_needs_native_field_review
+VIT0121,safety_emergency,core,귀마개,nút tai chống ồn,귀마개,high,base_term,seed_needs_native_field_review
+VIT0122,safety_emergency,core,형광조끼,áo phản quang,형광조끼,high,base_term,seed_needs_native_field_review
+VIT0123,safety_emergency,core,전원 차단,ngắt nguồn điện,전원 차단,high,base_term,seed_needs_native_field_review
+VIT0124,safety_emergency,core,누전,rò điện,누전,high,base_term,seed_needs_native_field_review
+VIT0125,safety_emergency,core,접지,nối đất,접지,high,base_term,seed_needs_native_field_review
+VIT0126,safety_emergency,core,차단기,cầu dao,차단기,high,base_term,seed_needs_native_field_review
+VIT0127,safety_emergency,core,잠금표지,khóa và gắn thẻ,잠금표지,high,base_term,seed_needs_native_field_review
+VIT0128,safety_emergency,core,환기,thông gió,환기,high,base_term,seed_needs_native_field_review
+VIT0129,safety_emergency,core,가연물,vật dễ cháy,가연물,high,base_term,seed_needs_native_field_review
+VIT0130,safety_emergency,core,인화성물질,chất dễ bắt lửa,인화성물질,high,base_term,seed_needs_native_field_review
+VIT0131,safety_emergency,core,유해물질,chất độc hại,유해물질,high,base_term,seed_needs_native_field_review
+VIT0132,safety_emergency,core,MSDS,bảng dữ liệu an toàn hóa chất,MSDS,high,base_term,seed_needs_native_field_review
+VIT0133,construction_safety_slang,core,아시바,giàn giáo,아시바,high,base_term,seed_needs_native_field_review
+VIT0134,construction_safety_slang,core,비계,giàn giáo,비계,high,base_term,seed_needs_native_field_review
+VIT0135,construction_safety_slang,core,발판,sàn thao tác,발판,high,base_term,seed_needs_native_field_review
+VIT0136,construction_safety_slang,core,난간,lan can,난간,high,base_term,seed_needs_native_field_review
+VIT0137,construction_safety_slang,core,데스라,lan can hoặc thanh chắn an toàn,데스라,high,base_term,seed_needs_native_field_review
+VIT0138,construction_safety_slang,core,개구부,lỗ mở,개구부,high,base_term,seed_needs_native_field_review
+VIT0139,construction_safety_slang,core,거푸집,ván khuôn,거푸집,high,base_term,seed_needs_native_field_review
+VIT0140,construction_safety_slang,core,동바리,cây chống,동바리,high,base_term,seed_needs_native_field_review
+VIT0141,construction_safety_slang,core,기리바리,thanh chống tạm,기리바리,high,base_term,seed_needs_native_field_review
+VIT0142,construction_safety_slang,core,철근,thép cốt bê tông,철근,high,base_term,seed_needs_native_field_review
+VIT0143,construction_safety_slang,core,보호캡,nắp bảo vệ đầu thép,보호캡,high,base_term,seed_needs_native_field_review
+VIT0144,construction_safety_slang,core,양중,nâng hạ vật nặng,양중,high,base_term,seed_needs_native_field_review
+VIT0145,construction_safety_slang,core,크레인,cần cẩu,크레인,high,base_term,seed_needs_native_field_review
+VIT0146,construction_safety_slang,core,슬링벨트,dây cẩu vải,슬링벨트,high,base_term,seed_needs_native_field_review
+VIT0147,construction_safety_slang,core,샤클,ma ní,샤클,high,base_term,seed_needs_native_field_review
+VIT0148,construction_safety_slang,core,훅,móc cẩu,훅,high,base_term,seed_needs_native_field_review
+VIT0149,construction_safety_slang,core,신호수,người ra tín hiệu,신호수,high,base_term,seed_needs_native_field_review
+VIT0150,construction_safety_slang,core,작업반경,phạm vi làm việc,작업반경,high,base_term,seed_needs_native_field_review
+VIT0151,construction_safety_slang,core,굴착,đào đất,굴착,high,base_term,seed_needs_native_field_review
+VIT0152,construction_safety_slang,core,굴착면,mặt đào,굴착면,high,base_term,seed_needs_native_field_review
+VIT0153,construction_safety_slang,core,흙막이,tường chắn đất,흙막이,high,base_term,seed_needs_native_field_review
+VIT0154,construction_safety_slang,core,나라시,san phẳng,나라시,high,base_term,seed_needs_native_field_review
+VIT0155,construction_safety_slang,core,스미마끼,đánh dấu đường mực,스미마끼,high,base_term,seed_needs_native_field_review
+VIT0156,construction_safety_slang,core,먹매김,đánh dấu đường mực,먹매김,high,base_term,seed_needs_native_field_review
+VIT0157,construction_safety_slang,core,바라시,tháo dỡ,바라시,high,base_term,seed_needs_native_field_review
+VIT0158,construction_safety_slang,core,하스리,đục phá bê tông,하스리,high,base_term,seed_needs_native_field_review
+VIT0159,construction_safety_slang,core,공구리,bê tông,공구리,high,base_term,seed_needs_native_field_review
+VIT0160,construction_safety_slang,core,메지,mạch nối,메지,high,base_term,seed_needs_native_field_review
+VIT0161,construction_safety_slang,core,고바이,độ dốc,고바이,high,base_term,seed_needs_native_field_review
+VIT0162,construction_safety_slang,core,다데,chiều dọc,다데,high,base_term,seed_needs_native_field_review
+VIT0163,construction_safety_slang,core,요코,chiều ngang,요코,high,base_term,seed_needs_native_field_review
+VIT0164,construction_safety_slang,core,하리,dầm,하리,high,base_term,seed_needs_native_field_review
+VIT0165,construction_safety_slang,core,기소,móng,기소,high,base_term,seed_needs_native_field_review
+VIT0166,construction_safety_slang,core,빠데,bột trét,빠데,high,base_term,seed_needs_native_field_review
+VIT0167,construction_safety_slang,core,빠데질,trét bột,빠데질,high,base_term,seed_needs_native_field_review
+VIT0168,construction_safety_slang,core,오함마,búa tạ,오함마,high,base_term,seed_needs_native_field_review
+VIT0169,logistics_forklift,core,지게차,xe nâng,지게차,normal,base_term,seed_needs_native_field_review
+VIT0170,logistics_forklift,core,포크,càng nâng,포크,normal,base_term,seed_needs_native_field_review
+VIT0171,logistics_forklift,core,팔레트,pallet,팔레트,normal,base_term,seed_needs_native_field_review
+VIT0172,logistics_forklift,core,빠렛트,pallet,빠렛트,normal,base_term,seed_needs_native_field_review
+VIT0173,logistics_forklift,core,랙,kệ hàng,랙,normal,base_term,seed_needs_native_field_review
+VIT0174,logistics_forklift,core,적재,xếp hàng,적재,normal,base_term,seed_needs_native_field_review
+VIT0175,logistics_forklift,core,상차,bốc hàng lên xe,상차,normal,base_term,seed_needs_native_field_review
+VIT0176,logistics_forklift,core,하차,dỡ hàng xuống xe,하차,normal,base_term,seed_needs_native_field_review
+VIT0177,logistics_forklift,core,입고,nhập kho,입고,normal,base_term,seed_needs_native_field_review
+VIT0178,logistics_forklift,core,출고,xuất kho,출고,normal,base_term,seed_needs_native_field_review
+VIT0179,logistics_forklift,core,상하차,bốc dỡ hàng,상하차,normal,base_term,seed_needs_native_field_review
+VIT0180,logistics_forklift,core,하역,bốc dỡ,하역,normal,base_term,seed_needs_native_field_review
+VIT0181,logistics_forklift,core,랩핑,quấn màng,랩핑,normal,base_term,seed_needs_native_field_review
+VIT0182,logistics_forklift,core,박스,thùng,박스,normal,base_term,seed_needs_native_field_review
+VIT0183,logistics_forklift,core,중량물,vật nặng,중량물,normal,base_term,seed_needs_native_field_review
+VIT0184,logistics_forklift,core,손수레,xe đẩy tay,손수레,normal,base_term,seed_needs_native_field_review
+VIT0185,logistics_forklift,core,구루마,xe đẩy tay,구루마,normal,base_term,seed_needs_native_field_review
+VIT0186,logistics_forklift,core,대차,xe đẩy hàng,대차,normal,base_term,seed_needs_native_field_review
+VIT0187,logistics_forklift,core,동선,lối di chuyển,동선,normal,base_term,seed_needs_native_field_review
+VIT0188,logistics_forklift,core,사각지대,điểm mù,사각지대,normal,base_term,seed_needs_native_field_review
+VIT0189,logistics_forklift,core,후진경고음,âm cảnh báo lùi,후진경고음,normal,base_term,seed_needs_native_field_review
+VIT0190,logistics_forklift,core,적재중량,tải trọng xếp hàng,적재중량,normal,base_term,seed_needs_native_field_review
+VIT0191,logistics_forklift,core,과적,chở quá tải,과적,normal,base_term,seed_needs_native_field_review
+VIT0192,logistics_forklift,core,고정끈,dây chằng,고정끈,normal,base_term,seed_needs_native_field_review
+VIT0193,logistics_forklift,core,화물,hàng hóa,화물,normal,base_term,seed_needs_native_field_review
+VIT0194,logistics_forklift,core,출입구,cổng ra vào,출입구,normal,base_term,seed_needs_native_field_review
+VIT0195,logistics_forklift,core,안전선,vạch an toàn,안전선,normal,base_term,seed_needs_native_field_review
+VIT0196,logistics_forklift,core,작업구역,khu vực làm việc,작업구역,normal,base_term,seed_needs_native_field_review
+VIT0197,slang_variant,core,오야지,tổ trưởng/giám sát hiện trường,오야지,normal,base_term,seed_needs_native_field_review
+VIT0198,slang_variant,core,데모도,thợ phụ,데모도,normal,base_term,seed_needs_native_field_review
+VIT0199,slang_variant,core,곰방,vận chuyển thủ công,곰방,normal,base_term,seed_needs_native_field_review
+VIT0200,slang_variant,core,단도리,chuẩn bị công việc,단도리,normal,base_term,seed_needs_native_field_review
+VIT0201,slang_variant,core,시마이,kết thúc công việc,시마이,normal,base_term,seed_needs_native_field_review
+VIT0202,slang_variant,core,유도리,khoảng dư hoặc linh hoạt,유도리,normal,base_term,seed_needs_native_field_review
+VIT0203,slang_variant,core,빠루,xà beng,빠루,normal,base_term,seed_needs_native_field_review
+VIT0204,slang_variant,core,가다,khuôn mẫu/mẫu chuẩn,가다,normal,base_term,seed_needs_native_field_review
+VIT0205,slang_variant,core,빵꾸,lỗ thủng hoặc thiếu người,빵꾸,normal,base_term,seed_needs_native_field_review
+VIT0206,slang_variant,core,빠꾸,trả lại/quay lại/làm lại,빠꾸,normal,base_term,seed_needs_native_field_review
+VIT0207,slang_variant,core,땜빵,thay thế tạm thời,땜빵,normal,base_term,seed_needs_native_field_review
+VIT0208,slang_variant,core,야리끼리,xong khối lượng thì nghỉ,야리끼리,normal,base_term,seed_needs_native_field_review
+VIT0209,slang_variant,core,함바,nhà ăn công trường,함바,normal,base_term,seed_needs_native_field_review
+VIT0210,slang_variant,core,아나방,khoan lỗ/coring,아나방,normal,base_term,seed_needs_native_field_review
+VIT0211,slang_variant,core,메꾸라,nút bịt,메꾸라,normal,base_term,seed_needs_native_field_review
+VIT0212,slang_variant,core,함마드릴,máy khoan búa,함마드릴,normal,base_term,seed_needs_native_field_review
+VIT0213,slang_variant,core,레벨보다,kiểm tra cao độ,레벨보다,normal,base_term,seed_needs_native_field_review
+VIT0214,slang_variant,core,먹놓다,bật dây mực,먹놓다,normal,base_term,seed_needs_native_field_review
+VIT0215,slang_variant,core,가라,làm tạm bợ/giả,가라,normal,base_term,seed_needs_native_field_review
+VIT0216,slang_variant,core,조지다,làm mạnh tay hoặc làm hỏng,조지다,normal,base_term,seed_needs_native_field_review
+VIT0217,slang_variant,core,쪼인트,mối nối,쪼인트,normal,base_term,seed_needs_native_field_review
+VIT0218,slang_variant,core,도비,vận chuyển/lắp đặt vật nặng,도비,normal,base_term,seed_needs_native_field_review
+VIT0219,slang_variant,core,걸다,móc hoặc cố định,걸다,normal,base_term,seed_needs_native_field_review
+VIT0220,slang_variant,core,풀다,tháo hoặc nới ra,풀다,normal,base_term,seed_needs_native_field_review
+VIT0221,slang_variant,core,따다,khoan lỗ hoặc tách nhánh,따다,normal,base_term,seed_needs_native_field_review
+VIT0222,slang_variant,core,빼다,lấy ra hoặc tháo ra,빼다,normal,base_term,seed_needs_native_field_review
+VIT0223,slang_variant,core,올리다,nâng lên hoặc tăng,올리다,normal,base_term,seed_needs_native_field_review
+VIT0224,slang_variant,core,내리다,hạ xuống hoặc giảm,내리다,normal,base_term,seed_needs_native_field_review
+VIT0225,slang_variant,core,잡아주다,giữ giúp,잡아주다,normal,base_term,seed_needs_native_field_review
+VIT0226,slang_variant,core,까대기,bốc dỡ thủ công,까대기,normal,base_term,seed_needs_native_field_review
+VIT0227,slang_variant,core,노가다,lao động xây dựng nặng nhọc,노가다,normal,base_term,seed_needs_native_field_review
+VIT0228,slang_variant,core,짬처리,đẩy việc tồn lại cho người khác,짬처리,normal,base_term,seed_needs_native_field_review
+VIT0229,manufacturing_machine,high,프레스 작동,vận hành máy dập,프레스를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0230,manufacturing_machine,high,프레스 정지,dừng máy dập,프레스를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0231,manufacturing_machine,high,프레스 전원 차단,ngắt nguồn điện máy dập,프레스를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0232,manufacturing_machine,high,프레스 청소,vệ sinh máy dập,프레스를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0233,manufacturing_machine,high,프레스 점검,kiểm tra máy dập,프레스를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0234,manufacturing_machine,high,프레스 교체,thay thế máy dập,프레스를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0235,manufacturing_machine,high,프레스 고정,cố định máy dập,프레스를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0236,manufacturing_machine,high,프레스 분리,tháo rời máy dập,프레스를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0237,manufacturing_machine,high,사출기 작동,vận hành máy ép nhựa,사출기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0238,manufacturing_machine,high,사출기 정지,dừng máy ép nhựa,사출기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0239,manufacturing_machine,high,사출기 전원 차단,ngắt nguồn điện máy ép nhựa,사출기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0240,manufacturing_machine,high,사출기 청소,vệ sinh máy ép nhựa,사출기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0241,manufacturing_machine,high,사출기 점검,kiểm tra máy ép nhựa,사출기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0242,manufacturing_machine,high,사출기 교체,thay thế máy ép nhựa,사출기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0243,manufacturing_machine,high,사출기 고정,cố định máy ép nhựa,사출기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0244,manufacturing_machine,high,사출기 분리,tháo rời máy ép nhựa,사출기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0245,manufacturing_machine,high,컨베이어 작동,vận hành băng tải,컨베이어를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0246,manufacturing_machine,high,컨베이어 정지,dừng băng tải,컨베이어를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0247,manufacturing_machine,high,컨베이어 전원 차단,ngắt nguồn điện băng tải,컨베이어를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0248,manufacturing_machine,high,컨베이어 청소,vệ sinh băng tải,컨베이어를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0249,manufacturing_machine,high,컨베이어 점검,kiểm tra băng tải,컨베이어를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0250,manufacturing_machine,high,컨베이어 교체,thay thế băng tải,컨베이어를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0251,manufacturing_machine,high,컨베이어 고정,cố định băng tải,컨베이어를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0252,manufacturing_machine,high,컨베이어 분리,tháo rời băng tải,컨베이어를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0253,manufacturing_machine,high,롤러 작동,vận hành con lăn,롤러를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0254,manufacturing_machine,high,롤러 정지,dừng con lăn,롤러를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0255,manufacturing_machine,high,롤러 전원 차단,ngắt nguồn điện con lăn,롤러를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0256,manufacturing_machine,high,롤러 청소,vệ sinh con lăn,롤러를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0257,manufacturing_machine,high,롤러 점검,kiểm tra con lăn,롤러를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0258,manufacturing_machine,high,롤러 교체,thay thế con lăn,롤러를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0259,manufacturing_machine,high,롤러 고정,cố định con lăn,롤러를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0260,manufacturing_machine,high,롤러 분리,tháo rời con lăn,롤러를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0261,manufacturing_machine,high,절단기 작동,vận hành máy cắt,절단기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0262,manufacturing_machine,high,절단기 정지,dừng máy cắt,절단기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0263,manufacturing_machine,high,절단기 전원 차단,ngắt nguồn điện máy cắt,절단기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0264,manufacturing_machine,high,절단기 청소,vệ sinh máy cắt,절단기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0265,manufacturing_machine,high,절단기 점검,kiểm tra máy cắt,절단기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0266,manufacturing_machine,high,절단기 교체,thay thế máy cắt,절단기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0267,manufacturing_machine,high,절단기 고정,cố định máy cắt,절단기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0268,manufacturing_machine,high,절단기 분리,tháo rời máy cắt,절단기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0269,manufacturing_machine,high,파쇄기 작동,vận hành máy nghiền,파쇄기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0270,manufacturing_machine,high,파쇄기 정지,dừng máy nghiền,파쇄기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0271,manufacturing_machine,high,파쇄기 전원 차단,ngắt nguồn điện máy nghiền,파쇄기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0272,manufacturing_machine,high,파쇄기 청소,vệ sinh máy nghiền,파쇄기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0273,manufacturing_machine,high,파쇄기 점검,kiểm tra máy nghiền,파쇄기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0274,manufacturing_machine,high,파쇄기 교체,thay thế máy nghiền,파쇄기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0275,manufacturing_machine,high,파쇄기 고정,cố định máy nghiền,파쇄기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0276,manufacturing_machine,high,파쇄기 분리,tháo rời máy nghiền,파쇄기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0277,manufacturing_machine,high,압축기 작동,vận hành máy ép nén,압축기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0278,manufacturing_machine,high,압축기 정지,dừng máy ép nén,압축기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0279,manufacturing_machine,high,압축기 전원 차단,ngắt nguồn điện máy ép nén,압축기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0280,manufacturing_machine,high,압축기 청소,vệ sinh máy ép nén,압축기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0281,manufacturing_machine,high,압축기 점검,kiểm tra máy ép nén,압축기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0282,manufacturing_machine,high,압축기 교체,thay thế máy ép nén,압축기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0283,manufacturing_machine,high,압축기 고정,cố định máy ép nén,압축기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0284,manufacturing_machine,high,압축기 분리,tháo rời máy ép nén,압축기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0285,manufacturing_machine,high,혼합기 작동,vận hành máy trộn,혼합기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0286,manufacturing_machine,high,혼합기 정지,dừng máy trộn,혼합기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0287,manufacturing_machine,high,혼합기 전원 차단,ngắt nguồn điện máy trộn,혼합기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0288,manufacturing_machine,high,혼합기 청소,vệ sinh máy trộn,혼합기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0289,manufacturing_machine,high,혼합기 점검,kiểm tra máy trộn,혼합기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0290,manufacturing_machine,high,혼합기 교체,thay thế máy trộn,혼합기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0291,manufacturing_machine,high,혼합기 고정,cố định máy trộn,혼합기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0292,manufacturing_machine,high,혼합기 분리,tháo rời máy trộn,혼합기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0293,manufacturing_machine,high,포장기 작동,vận hành máy đóng gói,포장기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0294,manufacturing_machine,high,포장기 정지,dừng máy đóng gói,포장기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0295,manufacturing_machine,high,포장기 전원 차단,ngắt nguồn điện máy đóng gói,포장기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0296,manufacturing_machine,high,포장기 청소,vệ sinh máy đóng gói,포장기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0297,manufacturing_machine,high,포장기 점검,kiểm tra máy đóng gói,포장기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0298,manufacturing_machine,high,포장기 교체,thay thế máy đóng gói,포장기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0299,manufacturing_machine,high,포장기 고정,cố định máy đóng gói,포장기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0300,manufacturing_machine,high,포장기 분리,tháo rời máy đóng gói,포장기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0301,manufacturing_machine,high,선반 작동,vận hành máy tiện,선반를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0302,manufacturing_machine,high,선반 정지,dừng máy tiện,선반를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0303,manufacturing_machine,high,선반 전원 차단,ngắt nguồn điện máy tiện,선반를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0304,manufacturing_machine,high,선반 청소,vệ sinh máy tiện,선반를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0305,manufacturing_machine,high,선반 점검,kiểm tra máy tiện,선반를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0306,manufacturing_machine,high,선반 교체,thay thế máy tiện,선반를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0307,manufacturing_machine,high,선반 고정,cố định máy tiện,선반를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0308,manufacturing_machine,high,선반 분리,tháo rời máy tiện,선반를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0309,manufacturing_machine,high,밀링기 작동,vận hành máy phay,밀링기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0310,manufacturing_machine,high,밀링기 정지,dừng máy phay,밀링기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0311,manufacturing_machine,high,밀링기 전원 차단,ngắt nguồn điện máy phay,밀링기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0312,manufacturing_machine,high,밀링기 청소,vệ sinh máy phay,밀링기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0313,manufacturing_machine,high,밀링기 점검,kiểm tra máy phay,밀링기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0314,manufacturing_machine,high,밀링기 교체,thay thế máy phay,밀링기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0315,manufacturing_machine,high,밀링기 고정,cố định máy phay,밀링기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0316,manufacturing_machine,high,밀링기 분리,tháo rời máy phay,밀링기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0317,manufacturing_machine,high,드릴 작동,vận hành máy khoan,드릴를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0318,manufacturing_machine,high,드릴 정지,dừng máy khoan,드릴를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0319,manufacturing_machine,high,드릴 전원 차단,ngắt nguồn điện máy khoan,드릴를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0320,manufacturing_machine,high,드릴 청소,vệ sinh máy khoan,드릴를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0321,manufacturing_machine,high,드릴 점검,kiểm tra máy khoan,드릴를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0322,manufacturing_machine,high,드릴 교체,thay thế máy khoan,드릴를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0323,manufacturing_machine,high,드릴 고정,cố định máy khoan,드릴를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0324,manufacturing_machine,high,드릴 분리,tháo rời máy khoan,드릴를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0325,manufacturing_machine,high,그라인더 작동,vận hành máy mài,그라인더를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0326,manufacturing_machine,high,그라인더 정지,dừng máy mài,그라인더를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0327,manufacturing_machine,high,그라인더 전원 차단,ngắt nguồn điện máy mài,그라인더를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0328,manufacturing_machine,high,그라인더 청소,vệ sinh máy mài,그라인더를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0329,manufacturing_machine,high,그라인더 점검,kiểm tra máy mài,그라인더를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0330,manufacturing_machine,high,그라인더 교체,thay thế máy mài,그라인더를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0331,manufacturing_machine,high,그라인더 고정,cố định máy mài,그라인더를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0332,manufacturing_machine,high,그라인더 분리,tháo rời máy mài,그라인더를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0333,manufacturing_machine,high,용접기 작동,vận hành máy hàn,용접기를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0334,manufacturing_machine,high,용접기 정지,dừng máy hàn,용접기를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0335,manufacturing_machine,high,용접기 전원 차단,ngắt nguồn điện máy hàn,용접기를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0336,manufacturing_machine,high,용접기 청소,vệ sinh máy hàn,용접기를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0337,manufacturing_machine,high,용접기 점검,kiểm tra máy hàn,용접기를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0338,manufacturing_machine,high,용접기 교체,thay thế máy hàn,용접기를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0339,manufacturing_machine,high,용접기 고정,cố định máy hàn,용접기를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0340,manufacturing_machine,high,용접기 분리,tháo rời máy hàn,용접기를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0341,manufacturing_machine,high,에어건 작동,vận hành súng hơi,에어건를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0342,manufacturing_machine,high,에어건 정지,dừng súng hơi,에어건를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0343,manufacturing_machine,high,에어건 전원 차단,ngắt nguồn điện súng hơi,에어건를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0344,manufacturing_machine,high,에어건 청소,vệ sinh súng hơi,에어건를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0345,manufacturing_machine,high,에어건 점검,kiểm tra súng hơi,에어건를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0346,manufacturing_machine,high,에어건 교체,thay thế súng hơi,에어건를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0347,manufacturing_machine,high,에어건 고정,cố định súng hơi,에어건를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0348,manufacturing_machine,high,에어건 분리,tháo rời súng hơi,에어건를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0349,manufacturing_machine,high,콤프레서 작동,vận hành máy nén khí,콤프레서를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0350,manufacturing_machine,high,콤프레서 정지,dừng máy nén khí,콤프레서를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0351,manufacturing_machine,high,콤프레서 전원 차단,ngắt nguồn điện máy nén khí,콤프레서를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0352,manufacturing_machine,high,콤프레서 청소,vệ sinh máy nén khí,콤프레서를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0353,manufacturing_machine,high,콤프레서 점검,kiểm tra máy nén khí,콤프레서를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0354,manufacturing_machine,high,콤프레서 교체,thay thế máy nén khí,콤프레서를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0355,manufacturing_machine,high,콤프레서 고정,cố định máy nén khí,콤프레서를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0356,manufacturing_machine,high,콤프레서 분리,tháo rời máy nén khí,콤프레서를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0357,manufacturing_machine,high,지그 작동,vận hành đồ gá,지그를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0358,manufacturing_machine,high,지그 정지,dừng đồ gá,지그를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0359,manufacturing_machine,high,지그 전원 차단,ngắt nguồn điện đồ gá,지그를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0360,manufacturing_machine,high,지그 청소,vệ sinh đồ gá,지그를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0361,manufacturing_machine,high,지그 점검,kiểm tra đồ gá,지그를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0362,manufacturing_machine,high,지그 교체,thay thế đồ gá,지그를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0363,manufacturing_machine,high,지그 고정,cố định đồ gá,지그를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0364,manufacturing_machine,high,지그 분리,tháo rời đồ gá,지그를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0365,manufacturing_machine,high,금형 작동,vận hành khuôn,금형를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0366,manufacturing_machine,high,금형 정지,dừng khuôn,금형를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0367,manufacturing_machine,high,금형 전원 차단,ngắt nguồn điện khuôn,금형를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0368,manufacturing_machine,high,금형 청소,vệ sinh khuôn,금형를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0369,manufacturing_machine,high,금형 점검,kiểm tra khuôn,금형를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0370,manufacturing_machine,high,금형 교체,thay thế khuôn,금형를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0371,manufacturing_machine,high,금형 고정,cố định khuôn,금형를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0372,manufacturing_machine,high,금형 분리,tháo rời khuôn,금형를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0373,manufacturing_machine,high,로봇암 작동,vận hành cánh tay robot,로봇암를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0374,manufacturing_machine,high,로봇암 정지,dừng cánh tay robot,로봇암를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0375,manufacturing_machine,high,로봇암 전원 차단,ngắt nguồn điện cánh tay robot,로봇암를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0376,manufacturing_machine,high,로봇암 청소,vệ sinh cánh tay robot,로봇암를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0377,manufacturing_machine,high,로봇암 점검,kiểm tra cánh tay robot,로봇암를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0378,manufacturing_machine,high,로봇암 교체,thay thế cánh tay robot,로봇암를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0379,manufacturing_machine,high,로봇암 고정,cố định cánh tay robot,로봇암를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0380,manufacturing_machine,high,로봇암 분리,tháo rời cánh tay robot,로봇암를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0381,manufacturing_machine,high,CNC 작동,vận hành máy CNC,CNC를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0382,manufacturing_machine,high,CNC 정지,dừng máy CNC,CNC를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0383,manufacturing_machine,high,CNC 전원 차단,ngắt nguồn điện máy CNC,CNC를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0384,manufacturing_machine,high,CNC 청소,vệ sinh máy CNC,CNC를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0385,manufacturing_machine,high,CNC 점검,kiểm tra máy CNC,CNC를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0386,manufacturing_machine,high,CNC 교체,thay thế máy CNC,CNC를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0387,manufacturing_machine,high,CNC 고정,cố định máy CNC,CNC를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0388,manufacturing_machine,high,CNC 분리,tháo rời máy CNC,CNC를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0389,manufacturing_machine,high,호이스트 작동,vận hành pa lăng,호이스트를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0390,manufacturing_machine,high,호이스트 정지,dừng pa lăng,호이스트를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0391,manufacturing_machine,high,호이스트 전원 차단,ngắt nguồn điện pa lăng,호이스트를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0392,manufacturing_machine,high,호이스트 청소,vệ sinh pa lăng,호이스트를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0393,manufacturing_machine,high,호이스트 점검,kiểm tra pa lăng,호이스트를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0394,manufacturing_machine,high,호이스트 교체,thay thế pa lăng,호이스트를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0395,manufacturing_machine,high,호이스트 고정,cố định pa lăng,호이스트를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0396,manufacturing_machine,high,호이스트 분리,tháo rời pa lăng,호이스트를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0397,manufacturing_machine,high,전동공구 작동,vận hành dụng cụ điện,전동공구를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0398,manufacturing_machine,high,전동공구 정지,dừng dụng cụ điện,전동공구를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0399,manufacturing_machine,high,전동공구 전원 차단,ngắt nguồn điện dụng cụ điện,전동공구를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0400,manufacturing_machine,high,전동공구 청소,vệ sinh dụng cụ điện,전동공구를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0401,manufacturing_machine,high,전동공구 점검,kiểm tra dụng cụ điện,전동공구를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0402,manufacturing_machine,high,전동공구 교체,thay thế dụng cụ điện,전동공구를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0403,manufacturing_machine,high,전동공구 고정,cố định dụng cụ điện,전동공구를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0404,manufacturing_machine,high,전동공구 분리,tháo rời dụng cụ điện,전동공구를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0405,manufacturing_machine,high,작업대 작동,vận hành bàn làm việc,작업대를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0406,manufacturing_machine,high,작업대 정지,dừng bàn làm việc,작업대를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0407,manufacturing_machine,high,작업대 전원 차단,ngắt nguồn điện bàn làm việc,작업대를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0408,manufacturing_machine,high,작업대 청소,vệ sinh bàn làm việc,작업대를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0409,manufacturing_machine,high,작업대 점검,kiểm tra bàn làm việc,작업대를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0410,manufacturing_machine,high,작업대 교체,thay thế bàn làm việc,작업대를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0411,manufacturing_machine,high,작업대 고정,cố định bàn làm việc,작업대를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0412,manufacturing_machine,high,작업대 분리,tháo rời bàn làm việc,작업대를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0413,manufacturing_machine,high,공구함 작동,vận hành hộp dụng cụ,공구함를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0414,manufacturing_machine,high,공구함 정지,dừng hộp dụng cụ,공구함를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0415,manufacturing_machine,high,공구함 전원 차단,ngắt nguồn điện hộp dụng cụ,공구함를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0416,manufacturing_machine,high,공구함 청소,vệ sinh hộp dụng cụ,공구함를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0417,manufacturing_machine,high,공구함 점검,kiểm tra hộp dụng cụ,공구함를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0418,manufacturing_machine,high,공구함 교체,thay thế hộp dụng cụ,공구함를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0419,manufacturing_machine,high,공구함 고정,cố định hộp dụng cụ,공구함를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0420,manufacturing_machine,high,공구함 분리,tháo rời hộp dụng cụ,공구함를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0421,manufacturing_machine,high,톱날 작동,vận hành lưỡi cưa,톱날를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0422,manufacturing_machine,high,톱날 정지,dừng lưỡi cưa,톱날를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0423,manufacturing_machine,high,톱날 전원 차단,ngắt nguồn điện lưỡi cưa,톱날를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0424,manufacturing_machine,high,톱날 청소,vệ sinh lưỡi cưa,톱날를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0425,manufacturing_machine,high,톱날 점검,kiểm tra lưỡi cưa,톱날를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0426,manufacturing_machine,high,톱날 교체,thay thế lưỡi cưa,톱날를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0427,manufacturing_machine,high,톱날 고정,cố định lưỡi cưa,톱날를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0428,manufacturing_machine,high,톱날 분리,tháo rời lưỡi cưa,톱날를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0429,manufacturing_machine,high,칼날 작동,vận hành lưỡi dao,칼날를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0430,manufacturing_machine,high,칼날 정지,dừng lưỡi dao,칼날를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0431,manufacturing_machine,high,칼날 전원 차단,ngắt nguồn điện lưỡi dao,칼날를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0432,manufacturing_machine,high,칼날 청소,vệ sinh lưỡi dao,칼날를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0433,manufacturing_machine,high,칼날 점검,kiểm tra lưỡi dao,칼날를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0434,manufacturing_machine,high,칼날 교체,thay thế lưỡi dao,칼날를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0435,manufacturing_machine,high,칼날 고정,cố định lưỡi dao,칼날를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0436,manufacturing_machine,high,칼날 분리,tháo rời lưỡi dao,칼날를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0437,manufacturing_machine,high,드릴 비트 작동,vận hành mũi khoan,드릴 비트를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0438,manufacturing_machine,high,드릴 비트 정지,dừng mũi khoan,드릴 비트를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0439,manufacturing_machine,high,드릴 비트 전원 차단,ngắt nguồn điện mũi khoan,드릴 비트를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0440,manufacturing_machine,high,드릴 비트 청소,vệ sinh mũi khoan,드릴 비트를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0441,manufacturing_machine,high,드릴 비트 점검,kiểm tra mũi khoan,드릴 비트를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0442,manufacturing_machine,high,드릴 비트 교체,thay thế mũi khoan,드릴 비트를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0443,manufacturing_machine,high,드릴 비트 고정,cố định mũi khoan,드릴 비트를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0444,manufacturing_machine,high,드릴 비트 분리,tháo rời mũi khoan,드릴 비트를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0445,manufacturing_machine,high,기리 작동,vận hành mũi khoan,기리를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0446,manufacturing_machine,high,기리 정지,dừng mũi khoan,기리를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0447,manufacturing_machine,high,기리 전원 차단,ngắt nguồn điện mũi khoan,기리를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0448,manufacturing_machine,high,기리 청소,vệ sinh mũi khoan,기리를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0449,manufacturing_machine,high,기리 점검,kiểm tra mũi khoan,기리를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0450,manufacturing_machine,high,기리 교체,thay thế mũi khoan,기리를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0451,manufacturing_machine,high,기리 고정,cố định mũi khoan,기리를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0452,manufacturing_machine,high,기리 분리,tháo rời mũi khoan,기리를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0453,manufacturing_machine,high,방호덮개 작동,vận hành nắp che bảo vệ,방호덮개를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0454,manufacturing_machine,high,방호덮개 정지,dừng nắp che bảo vệ,방호덮개를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0455,manufacturing_machine,high,방호덮개 전원 차단,ngắt nguồn điện nắp che bảo vệ,방호덮개를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0456,manufacturing_machine,high,방호덮개 청소,vệ sinh nắp che bảo vệ,방호덮개를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0457,manufacturing_machine,high,방호덮개 점검,kiểm tra nắp che bảo vệ,방호덮개를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0458,manufacturing_machine,high,방호덮개 교체,thay thế nắp che bảo vệ,방호덮개를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0459,manufacturing_machine,high,방호덮개 고정,cố định nắp che bảo vệ,방호덮개를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0460,manufacturing_machine,high,방호덮개 분리,tháo rời nắp che bảo vệ,방호덮개를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0461,manufacturing_machine,high,인터록 작동,vận hành khóa liên động an toàn,인터록를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0462,manufacturing_machine,high,인터록 정지,dừng khóa liên động an toàn,인터록를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0463,manufacturing_machine,high,인터록 전원 차단,ngắt nguồn điện khóa liên động an toàn,인터록를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0464,manufacturing_machine,high,인터록 청소,vệ sinh khóa liên động an toàn,인터록를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0465,manufacturing_machine,high,인터록 점검,kiểm tra khóa liên động an toàn,인터록를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0466,manufacturing_machine,high,인터록 교체,thay thế khóa liên động an toàn,인터록를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0467,manufacturing_machine,high,인터록 고정,cố định khóa liên động an toàn,인터록를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0468,manufacturing_machine,high,인터록 분리,tháo rời khóa liên động an toàn,인터록를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0469,manufacturing_machine,high,센서 작동,vận hành cảm biến,센서를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0470,manufacturing_machine,high,센서 정지,dừng cảm biến,센서를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0471,manufacturing_machine,high,센서 전원 차단,ngắt nguồn điện cảm biến,센서를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0472,manufacturing_machine,high,센서 청소,vệ sinh cảm biến,센서를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0473,manufacturing_machine,high,센서 점검,kiểm tra cảm biến,센서를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0474,manufacturing_machine,high,센서 교체,thay thế cảm biến,센서를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0475,manufacturing_machine,high,센서 고정,cố định cảm biến,센서를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0476,manufacturing_machine,high,센서 분리,tháo rời cảm biến,센서를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0477,manufacturing_machine,high,비상정지버튼 작동,vận hành nút dừng khẩn cấp,비상정지버튼를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0478,manufacturing_machine,high,비상정지버튼 정지,dừng nút dừng khẩn cấp,비상정지버튼를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0479,manufacturing_machine,high,비상정지버튼 전원 차단,ngắt nguồn điện nút dừng khẩn cấp,비상정지버튼를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0480,manufacturing_machine,high,비상정지버튼 청소,vệ sinh nút dừng khẩn cấp,비상정지버튼를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0481,manufacturing_machine,high,비상정지버튼 점검,kiểm tra nút dừng khẩn cấp,비상정지버튼를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0482,manufacturing_machine,high,비상정지버튼 교체,thay thế nút dừng khẩn cấp,비상정지버튼를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0483,manufacturing_machine,high,비상정지버튼 고정,cố định nút dừng khẩn cấp,비상정지버튼를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0484,manufacturing_machine,high,비상정지버튼 분리,tháo rời nút dừng khẩn cấp,비상정지버튼를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0485,manufacturing_machine,high,회전체 작동,vận hành bộ phận quay,회전체를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0486,manufacturing_machine,high,회전체 정지,dừng bộ phận quay,회전체를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0487,manufacturing_machine,high,회전체 전원 차단,ngắt nguồn điện bộ phận quay,회전체를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0488,manufacturing_machine,high,회전체 청소,vệ sinh bộ phận quay,회전체를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0489,manufacturing_machine,high,회전체 점검,kiểm tra bộ phận quay,회전체를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0490,manufacturing_machine,high,회전체 교체,thay thế bộ phận quay,회전체를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0491,manufacturing_machine,high,회전체 고정,cố định bộ phận quay,회전체를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0492,manufacturing_machine,high,회전체 분리,tháo rời bộ phận quay,회전체를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0493,manufacturing_machine,high,동력전달부 작동,vận hành bộ phận truyền động,동력전달부를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0494,manufacturing_machine,high,동력전달부 정지,dừng bộ phận truyền động,동력전달부를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0495,manufacturing_machine,high,동력전달부 전원 차단,ngắt nguồn điện bộ phận truyền động,동력전달부를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0496,manufacturing_machine,high,동력전달부 청소,vệ sinh bộ phận truyền động,동력전달부를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0497,manufacturing_machine,high,동력전달부 점검,kiểm tra bộ phận truyền động,동력전달부를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0498,manufacturing_machine,high,동력전달부 교체,thay thế bộ phận truyền động,동력전달부를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0499,manufacturing_machine,high,동력전달부 고정,cố định bộ phận truyền động,동력전달부를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0500,manufacturing_machine,high,동력전달부 분리,tháo rời bộ phận truyền động,동력전달부를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0501,manufacturing_machine,high,끼임점 작동,vận hành điểm kẹp,끼임점를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0502,manufacturing_machine,high,끼임점 정지,dừng điểm kẹp,끼임점를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0503,manufacturing_machine,high,끼임점 전원 차단,ngắt nguồn điện điểm kẹp,끼임점를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0504,manufacturing_machine,high,끼임점 청소,vệ sinh điểm kẹp,끼임점를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0505,manufacturing_machine,high,끼임점 점검,kiểm tra điểm kẹp,끼임점를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0506,manufacturing_machine,high,끼임점 교체,thay thế điểm kẹp,끼임점를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0507,manufacturing_machine,high,끼임점 고정,cố định điểm kẹp,끼임점를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0508,manufacturing_machine,high,끼임점 분리,tháo rời điểm kẹp,끼임점를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0509,manufacturing_machine,high,공압 작동,vận hành khí nén,공압를/을 작동하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0510,manufacturing_machine,high,공압 정지,dừng khí nén,공압를/을 정지하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0511,manufacturing_machine,high,공압 전원 차단,ngắt nguồn điện khí nén,공압를/을 전원 차단하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0512,manufacturing_machine,high,공압 청소,vệ sinh khí nén,공압를/을 청소하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0513,manufacturing_machine,high,공압 점검,kiểm tra khí nén,공압를/을 점검하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0514,manufacturing_machine,high,공압 교체,thay thế khí nén,공압를/을 교체하는 작업 또는 지시,high,machine_action_phrase,seed_needs_native_field_review
+VIT0515,manufacturing_machine,high,공압 고정,cố định khí nén,공압를/을 고정하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0516,manufacturing_machine,high,공압 분리,tháo rời khí nén,공압를/을 분리하는 작업 또는 지시,normal,machine_action_phrase,seed_needs_native_field_review
+VIT0517,manufacturing_quality,high,불량 분리,phân loại riêng hàng lỗi,불량 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0518,manufacturing_quality,high,불량 표시,đánh dấu hàng lỗi,불량 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0519,manufacturing_quality,high,불량 검사,kiểm tra hàng lỗi,불량 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0520,manufacturing_quality,high,불량 재작업,làm lại hàng lỗi,불량 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0521,manufacturing_quality,high,양품 분리,phân loại riêng hàng đạt chuẩn,양품 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0522,manufacturing_quality,high,양품 표시,đánh dấu hàng đạt chuẩn,양품 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0523,manufacturing_quality,high,양품 검사,kiểm tra hàng đạt chuẩn,양품 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0524,manufacturing_quality,high,양품 재작업,làm lại hàng đạt chuẩn,양품 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0525,manufacturing_quality,high,찍힘 분리,phân loại riêng vết lõm,찍힘 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0526,manufacturing_quality,high,찍힘 표시,đánh dấu vết lõm,찍힘 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0527,manufacturing_quality,high,찍힘 검사,kiểm tra vết lõm,찍힘 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0528,manufacturing_quality,high,찍힘 재작업,làm lại vết lõm,찍힘 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0529,manufacturing_quality,high,긁힘 분리,phân loại riêng vết xước,긁힘 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0530,manufacturing_quality,high,긁힘 표시,đánh dấu vết xước,긁힘 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0531,manufacturing_quality,high,긁힘 검사,kiểm tra vết xước,긁힘 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0532,manufacturing_quality,high,긁힘 재작업,làm lại vết xước,긁힘 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0533,manufacturing_quality,high,기스 분리,phân loại riêng vết xước,기스 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0534,manufacturing_quality,high,기스 표시,đánh dấu vết xước,기스 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0535,manufacturing_quality,high,기스 검사,kiểm tra vết xước,기스 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0536,manufacturing_quality,high,기스 재작업,làm lại vết xước,기스 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0537,manufacturing_quality,high,깨짐 분리,phân loại riêng bị vỡ,깨짐 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0538,manufacturing_quality,high,깨짐 표시,đánh dấu bị vỡ,깨짐 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0539,manufacturing_quality,high,깨짐 검사,kiểm tra bị vỡ,깨짐 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0540,manufacturing_quality,high,깨짐 재작업,làm lại bị vỡ,깨짐 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0541,manufacturing_quality,high,누락 분리,phân loại riêng thiếu,누락 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0542,manufacturing_quality,high,누락 표시,đánh dấu thiếu,누락 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0543,manufacturing_quality,high,누락 검사,kiểm tra thiếu,누락 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0544,manufacturing_quality,high,누락 재작업,làm lại thiếu,누락 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0545,manufacturing_quality,high,오염 분리,phân loại riêng bị bẩn,오염 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0546,manufacturing_quality,high,오염 표시,đánh dấu bị bẩn,오염 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0547,manufacturing_quality,high,오염 검사,kiểm tra bị bẩn,오염 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0548,manufacturing_quality,high,오염 재작업,làm lại bị bẩn,오염 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0549,manufacturing_quality,high,변색 분리,phân loại riêng đổi màu,변색 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0550,manufacturing_quality,high,변색 표시,đánh dấu đổi màu,변색 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0551,manufacturing_quality,high,변색 검사,kiểm tra đổi màu,변색 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0552,manufacturing_quality,high,변색 재작업,làm lại đổi màu,변색 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0553,manufacturing_quality,high,수량부족 분리,phân loại riêng thiếu số lượng,수량부족 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0554,manufacturing_quality,high,수량부족 표시,đánh dấu thiếu số lượng,수량부족 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0555,manufacturing_quality,high,수량부족 검사,kiểm tra thiếu số lượng,수량부족 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0556,manufacturing_quality,high,수량부족 재작업,làm lại thiếu số lượng,수량부족 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0557,manufacturing_quality,high,재작업 분리,phân loại riêng làm lại,재작업 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0558,manufacturing_quality,high,재작업 표시,đánh dấu làm lại,재작업 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0559,manufacturing_quality,high,재작업 검사,kiểm tra làm lại,재작업 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0560,manufacturing_quality,high,재작업 재작업,làm lại làm lại,재작업 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0561,manufacturing_quality,high,폐기 분리,phân loại riêng loại bỏ,폐기 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0562,manufacturing_quality,high,폐기 표시,đánh dấu loại bỏ,폐기 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0563,manufacturing_quality,high,폐기 검사,kiểm tra loại bỏ,폐기 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0564,manufacturing_quality,high,폐기 재작업,làm lại loại bỏ,폐기 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0565,manufacturing_quality,high,샘플 분리,phân loại riêng mẫu,샘플 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0566,manufacturing_quality,high,샘플 표시,đánh dấu mẫu,샘플 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0567,manufacturing_quality,high,샘플 검사,kiểm tra mẫu,샘플 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0568,manufacturing_quality,high,샘플 재작업,làm lại mẫu,샘플 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0569,manufacturing_quality,high,검사 분리,phân loại riêng kiểm tra,검사 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0570,manufacturing_quality,high,검사 표시,đánh dấu kiểm tra,검사 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0571,manufacturing_quality,high,검사 검사,kiểm tra kiểm tra,검사 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0572,manufacturing_quality,high,검사 재작업,làm lại kiểm tra,검사 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0573,manufacturing_quality,high,전수검사 분리,phân loại riêng kiểm tra toàn bộ,전수검사 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0574,manufacturing_quality,high,전수검사 표시,đánh dấu kiểm tra toàn bộ,전수검사 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0575,manufacturing_quality,high,전수검사 검사,kiểm tra kiểm tra toàn bộ,전수검사 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0576,manufacturing_quality,high,전수검사 재작업,làm lại kiểm tra toàn bộ,전수검사 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0577,manufacturing_quality,high,샘플검사 분리,phân loại riêng kiểm tra mẫu,샘플검사 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0578,manufacturing_quality,high,샘플검사 표시,đánh dấu kiểm tra mẫu,샘플검사 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0579,manufacturing_quality,high,샘플검사 검사,kiểm tra kiểm tra mẫu,샘플검사 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0580,manufacturing_quality,high,샘플검사 재작업,làm lại kiểm tra mẫu,샘플검사 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0581,manufacturing_quality,high,로트번호 분리,phân loại riêng số lô,로트번호 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0582,manufacturing_quality,high,로트번호 표시,đánh dấu số lô,로트번호 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0583,manufacturing_quality,high,로트번호 검사,kiểm tra số lô,로트번호 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0584,manufacturing_quality,high,로트번호 재작업,làm lại số lô,로트번호 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0585,manufacturing_quality,high,바코드 분리,phân loại riêng mã vạch,바코드 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0586,manufacturing_quality,high,바코드 표시,đánh dấu mã vạch,바코드 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0587,manufacturing_quality,high,바코드 검사,kiểm tra mã vạch,바코드 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0588,manufacturing_quality,high,바코드 재작업,làm lại mã vạch,바코드 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0589,manufacturing_quality,high,라벨 분리,phân loại riêng nhãn,라벨 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0590,manufacturing_quality,high,라벨 표시,đánh dấu nhãn,라벨 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0591,manufacturing_quality,high,라벨 검사,kiểm tra nhãn,라벨 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0592,manufacturing_quality,high,라벨 재작업,làm lại nhãn,라벨 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0593,manufacturing_quality,high,포장방향 분리,phân loại riêng hướng đóng gói,포장방향 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0594,manufacturing_quality,high,포장방향 표시,đánh dấu hướng đóng gói,포장방향 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0595,manufacturing_quality,high,포장방향 검사,kiểm tra hướng đóng gói,포장방향 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0596,manufacturing_quality,high,포장방향 재작업,làm lại hướng đóng gói,포장방향 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0597,manufacturing_quality,high,뒤집힘 분리,phân loại riêng bị lật ngược,뒤집힘 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0598,manufacturing_quality,high,뒤집힘 표시,đánh dấu bị lật ngược,뒤집힘 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0599,manufacturing_quality,high,뒤집힘 검사,kiểm tra bị lật ngược,뒤집힘 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0600,manufacturing_quality,high,뒤집힘 재작업,làm lại bị lật ngược,뒤집힘 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0601,manufacturing_quality,high,삐뚤어짐 분리,phân loại riêng bị lệch,삐뚤어짐 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0602,manufacturing_quality,high,삐뚤어짐 표시,đánh dấu bị lệch,삐뚤어짐 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0603,manufacturing_quality,high,삐뚤어짐 검사,kiểm tra bị lệch,삐뚤어짐 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0604,manufacturing_quality,high,삐뚤어짐 재작업,làm lại bị lệch,삐뚤어짐 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0605,manufacturing_quality,high,치수불량 분리,phân loại riêng sai kích thước,치수불량 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0606,manufacturing_quality,high,치수불량 표시,đánh dấu sai kích thước,치수불량 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0607,manufacturing_quality,high,치수불량 검사,kiểm tra sai kích thước,치수불량 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0608,manufacturing_quality,high,치수불량 재작업,làm lại sai kích thước,치수불량 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0609,manufacturing_quality,high,색상불량 분리,phân loại riêng sai màu,색상불량 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0610,manufacturing_quality,high,색상불량 표시,đánh dấu sai màu,색상불량 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0611,manufacturing_quality,high,색상불량 검사,kiểm tra sai màu,색상불량 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0612,manufacturing_quality,high,색상불량 재작업,làm lại sai màu,색상불량 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0613,manufacturing_quality,high,이물질 분리,phân loại riêng dị vật,이물질 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0614,manufacturing_quality,high,이물질 표시,đánh dấu dị vật,이물질 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0615,manufacturing_quality,high,이물질 검사,kiểm tra dị vật,이물질 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0616,manufacturing_quality,high,이물질 재작업,làm lại dị vật,이물질 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0617,manufacturing_quality,high,흠집 분리,phân loại riêng vết hỏng,흠집 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0618,manufacturing_quality,high,흠집 표시,đánh dấu vết hỏng,흠집 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0619,manufacturing_quality,high,흠집 검사,kiểm tra vết hỏng,흠집 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0620,manufacturing_quality,high,흠집 재작업,làm lại vết hỏng,흠집 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0621,manufacturing_quality,high,찢어짐 분리,phân loại riêng bị rách,찢어짐 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0622,manufacturing_quality,high,찢어짐 표시,đánh dấu bị rách,찢어짐 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0623,manufacturing_quality,high,찢어짐 검사,kiểm tra bị rách,찢어짐 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0624,manufacturing_quality,high,찢어짐 재작업,làm lại bị rách,찢어짐 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0625,manufacturing_quality,high,눌림 분리,phân loại riêng bị ép lõm,눌림 상태를 분리하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0626,manufacturing_quality,high,눌림 표시,đánh dấu bị ép lõm,눌림 상태를 표시하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0627,manufacturing_quality,high,눌림 검사,kiểm tra bị ép lõm,눌림 상태를 검사하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
+VIT0628,manufacturing_quality,high,눌림 재작업,làm lại bị ép lõm,눌림 상태를 재작업하는 품질 작업,normal,quality_action_phrase,seed_needs_native_field_review
