@@ -5,6 +5,7 @@ import asyncio
 import time
 import modi_plus as modi
 import math
+from logger import printf
 
 GIGI = None
 
@@ -23,19 +24,29 @@ async def arm_ctrl(sender_token, dn_ang=135, up_ang=210):
     butoon = gigi.buttons[0]
     is_recording = False
     
-    print(f"zhao-button>>>{butoon.toggled}")
+    printf(f"{butoon.toggled}")
     
     async def record_and_send():
         try:
-            print("녹음 시작 (5초)...")
-            audio_path = await asyncio.to_thread(sob.rec, 5)
-            print("STT 변환 중...")
+            async def countdown(sec):
+                for i in range(sec, 0, -1):
+                    printf(f"{i}...")
+                    await asyncio.sleep(1)
+            printf("녹음 시작 (5초)...")
+            record_task = asyncio.to_thread(sob.rec, 5)
+            count_task = countdown(5)
+            audio_path, _ = await asyncio.gather(record_task, count_task)
+            printf("변환 중...")
             text = await asyncio.to_thread(sob.s2t, audio_path)
-            print(f"인식된 텍스트: {text}")
+            printf(f"인식된 텍스트: {text}")
+            printf(f"번역 작업을 진행하겠읍니다.")
+            text = sob.translate(text, "언어 미상", "한국어")
+            printf(f"번역 결과: {text}")
             if text:
                 await sob.send(sender_token, f"음성 메시지: \n{text}")
+                printf("아무쪼록 텍스트를 잘 보냈읍니다.")
         except Exception as e:
-            print(f"STT 처리 오류: {e}")
+            printf(f"STT 처리 오류: {e}")
             
     while True:
         if butoon.toggled:
@@ -57,19 +68,22 @@ async def arm_ctrl(sender_token, dn_ang=135, up_ang=210):
 async def check_fall(sender_token, threshold=80):
     gigi = init_gigi()
     imu = gigi.imus[0]
+    has_fall = False
     while True:
         ang = imu.angle
         ang = (ang[0], ang[1]+90)
         tmp = math.sqrt(ang[0]**2+ang[1]**2)
         if threshold < tmp:
-            await sob.send(sender_token, f"낙상 발생: @{time.time()}")
-            await asyncio.sleep(0.5)
+            if not has_fall:
+                await sob.send(sender_token, f"낙상 발생: @{time.time()}")
+                await asyncio.sleep(0.5)
+            has_fall = True
         await asyncio.sleep(0.01)
 
 async def joystick_ctrl(sender_token):
     gigi = init_gigi()
     if not gigi.joysticks:
-        print(">> 조이스틱 연결 안 됨")
+        printf("조이스틱 연결 안 됨")
         return
         
     joystick = gigi.joysticks[0]

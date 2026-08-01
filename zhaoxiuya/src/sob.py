@@ -8,6 +8,7 @@ import scipy
 import time
 import pathlib
 from telegram import Bot
+from logger import printf
 import dotenv
 import uuid
 import json
@@ -17,6 +18,12 @@ GROUP_CHAT_ID = os.environ["GROUP_CHAT_ID"]
 inputs_path = pathlib.Path("./inputs")
 outputs_path = pathlib.Path("./outputs")
 mike_path = outputs_path / "mike"
+
+bot = None
+async def init_bot(token):
+  global bot
+  bot = Bot(token)
+  await bot.initialize()
 
 def get_client():
     dotenv.load_dotenv()
@@ -33,7 +40,7 @@ def rec(sec):
     sd.wait()
     ret_path = mike_path / f"{time.time_ns()}.wav"
     scipy.io.wavfile.write(ret_path, fs, audio_data)
-    print(f">>> ret_path.absol = {ret_path.absolute()}")
+    printf("ret_path.absol = {ret_path.absolute()}")
     return ret_path
 
 def s2t(path):
@@ -132,43 +139,86 @@ def translate(text, domain_lang, codomain_lang):
     )
     return ret.output_text
 
-async def send(token, data) -> None:
-    bot = Bot(token)
-    data = {
-      "time": time.time(),
-      "id": uuid.getnode(),
-      "data": data
+async def send(token, data):
+    payload = {
+        "time": time.time(),
+        "id": uuid.getnode(),
+        "data": data,
     }
-    data = json.dumps(data, ensure_ascii=False, indent=4)
-    async with bot:
-        await bot.send_message(
-            chat_id=GROUP_CHAT_ID,
-            text=data,
-        )
 
-async def receive(token, offset=None, timeout=20):
-    bot = Bot(token)
-    async with bot:
+    await bot.send_message(
+        chat_id=GROUP_CHAT_ID,
+        text=json.dumps(payload, ensure_ascii=False),
+    )
+
+# async def receive(token, offset=None, timeout=20):
+#     bot = Bot(token)
+#     async with bot:
+#         updates = await bot.get_updates(
+#             offset=offset,
+#             timeout=timeout,
+#             allowed_updates=[],
+#         )
+#         return updates
+
+# async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
+#     init_updates = await receive(token, offset=None, timeout=0)
+#     offset = init_updates[-1].update_id + 1 if init_updates else None
+    
+#     while True:
+#         updates = await receive(token, offset=offset, timeout=20)
+#         for u in updates:
+#             if u.message and u.message.text:
+#                 print(u.message.text)
+#                 trans_text = translate(u.message.text, domain_lang, codomain_lang)
+#                 print(f"번역 >> {trans_text}")
+#                 audio = t2s(trans_text)
+#                 spr, audio = scipy.io.wavfile.read(str(audio))
+#                 sd.play(audio, spr)
+#                 sd.wait()
+#             offset = u.update_id + 1
+
+import asyncio
+import telegram
+from telegram import Bot
+
+async def receive(bot, offset=None, timeout=20):
+    try:
         updates = await bot.get_updates(
             offset=offset,
             timeout=timeout,
             allowed_updates=[],
         )
         return updates
+    except telegram.error.TimedOut:
+        return []
 
 async def listen(token, domain_lang="한국어", codomain_lang="월남어"):
-    init_updates = await receive(token, offset=None, timeout=0)
+    init_updates = await receive(bot, offset=None, timeout=0)
     offset = init_updates[-1].update_id + 1 if init_updates else None
     
+    printf("텔레그램 리스너 작동 시작...")
+    
     while True:
-        updates = await receive(token, offset=offset, timeout=20)
-        for u in updates:
-            if u.message and u.message.text:
-                print(u.message.text)
-                trans_text = translate(u.message.text, domain_lang, codomain_lang)
-                print(f"번역 >> {trans_text}")
-                audio = t2s(trans_text)
-                spr, audio = scipy.io.wavfile.read(str(audio))
-                sd.play(audio, spr)
-                sd.wait()
-            offset = u.update_id + 1
+        try:
+            updates = await receive(bot, offset=offset, timeout=20)
+            
+            if updates:
+                for u in updates:
+                    if u.message and u.message.text:
+                        print(u.message.text)
+                        trans_text = translate(u.message.text, domain_lang, codomain_lang)
+                        printf(f"번역 >> {trans_text}")
+                        audio = t2s(trans_text)
+                        spr, audio = scipy.io.wavfile.read(str(audio))
+                        sd.play(audio, spr)
+                        sd.wait()
+                
+                offset = updates[-1].update_id + 1
+                
+        except telegram.error.NetworkError:
+            printf("네트워크 일시 단절. 3초 후 재시도합니다.")
+            await asyncio.sleep(3)
+        except Exception as e:
+            printf(f"예기치 못한 에러 발생: {e}")
+            await asyncio.sleep(1)
